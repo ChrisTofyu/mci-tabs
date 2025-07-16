@@ -1,0 +1,21 @@
+$breakpoints: (
+  initial: 0,
+  xs: 520px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1280px,
+  xl: 1640px,
+);
+
+$initial-min: map-get($breakpoints, 'initial');
+$xs-min: map-get($breakpoints, 'xs');
+$sm-min: map-get($breakpoints, 'sm');
+$md-min: map-get($breakpoints, 'md');
+$lg-min: map-get($breakpoints, 'lg');
+$xl-min: map-get($breakpoints, 'xl');
+
+$initial-max: map-get($breakpoints, 'xs') - 1px;
+$xs-max: map-get($breakpoints, 'sm') - 1px;
+$sm-max: map-get($breakpoints, 'md') - 1px;
+$md-max: map-get($breakpoints, 'lg') - 1px;
+$lg-max: map-get($breakpoints, 'xl') - 1px;

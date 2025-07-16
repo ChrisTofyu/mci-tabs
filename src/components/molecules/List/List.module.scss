@@ -1,0 +1,159 @@
+@import '../../../styles/colours';
+@import '../../../styles/spacing';
+
+@mixin titleText($color, $fontSize, $fontWeight, $lineHeight) {
+  color: $color;
+  font-weight: $fontWeight;
+  font-size: var($fontSize);
+  line-height: var($lineHeight);
+}
+
+.list {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  padding-bottom: var(--spacing-lg);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  align-self: stretch;
+
+  &_inner {
+    width: 100%;
+    gap: 0px;
+  }
+}
+
+.listItem,
+.addMoreButtonBox {
+  padding: var(--spacing-sm) 0;
+  align-self: stretch;
+  border-bottom: 1px solid $color-neutral-300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+
+  .start {
+    .avatar {
+      display: flex;
+      width: 48px;
+      height: 48px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 999px;
+    }
+
+    .startInner {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--spacing-2xs);
+      align-self: stretch;
+
+      .title {
+        @include titleText(
+          $color-neutral-950,
+          --typography-font-size-2,
+          600,
+          --typography-line-height-2
+        );
+      }
+
+      .subtitle {
+        @include titleText(
+          $color-neutral-600,
+          --typography-font-size-1,
+          400,
+          --typography-line-height-1
+        );
+      }
+    }
+
+    .addButtonCaption {
+      @include titleText(
+        $color-blue-500,
+        --typography-font-size-1,
+        700,
+        --typography-line-height-1
+      );
+    }
+  }
+
+  .end {
+    @include titleText(
+      $color-neutral-950,
+      --typography-font-size-2,
+      600,
+      --typography-line-height-2
+    );
+  }
+
+  &_Flex {
+    gap: var(--spacing-sm);
+    flex: 1 0 0;
+  }
+
+  &.sizeLarge {
+    .start .startInner .title,
+    .end {
+      @include titleText(
+        $color-neutral-950,
+        --typography-font-size-3,
+        600,
+        --typography-line-height-3
+      );
+    }
+
+    .start .startInner .subtitle {
+      @include titleText(
+        $color-neutral-600,
+        --typography-font-size-2,
+        400,
+        --typography-line-height-2
+      );
+    }
+  }
+}
+
+.listItem:first-child {
+  border-top: 1px solid $color-neutral-300;
+}
+
+.loadMoreBox {
+  display: flex;
+  padding: var(--spacing-2xl) 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xs, 8px);
+  align-self: stretch;
+
+  .loadMore {
+    width: 100%;
+    font-size: var(--typography-font-size-3) !important;
+
+    @media (min-width: 1280px) {
+      // Note: We don't have 20px in spacing variables,
+      // so need to confirm it with design team
+      padding: var(--spacing-sm) 20px !important;
+    }
+  }
+}
+
+.tagBox {
+  * {
+    background-color: transparent !important;
+  }
+}
+
+.listModal {
+  .listItem,
+  .addMoreButtonBox {
+    border-bottom: 1px solid $color-neutral-100;
+  }
+
+  .listItem:first-child {
+    border-top: 1px solid $color-neutral-100;
+  }
+}

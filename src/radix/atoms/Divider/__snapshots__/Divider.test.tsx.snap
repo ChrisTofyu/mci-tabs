@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider Component matches snapshot 1`] = `
+<div
+  class="divider divider divider-horizontal divider-primary divider-size-1"
+  role="separator"
+  style="width: 16px; height: 1px;"
+/>
+`;

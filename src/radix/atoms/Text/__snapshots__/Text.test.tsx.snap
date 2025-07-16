@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Should render successfully 1`] = `
+<body>
+  <div>
+    <span
+      class="rt-Text mocked-class-name typography-font-family-default"
+      id=""
+    >
+      Text
+    </span>
+  </div>
+</body>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentForm should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="paymentFormContainer"
+    >
+      <form
+        class="form"
+      >
+        <div />
+        <div
+          class="rt-Flex rt-r-display-flex rt-r-fd-row rt-r-gap-3 buttonGroupContainer donateBtnContainer"
+        >
+          <button
+            aria-label="icon-chevron-left"
+            class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton lg outline none rt-Box buttonWrapper iconOnly"
+            data-accent-color=""
+          >
+            <div
+              class="buttonContent iconLeft iconOnly"
+            >
+              <span
+                class="icon"
+                style="border-radius: 0;"
+              >
+                <span
+                  class="icon icon-chevron-left"
+                />
+              </span>
+            </div>
+          </button>
+          <button
+            aria-label=""
+            class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton lg primary none rt-Box buttonWrapper"
+            data-accent-color=""
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+`;

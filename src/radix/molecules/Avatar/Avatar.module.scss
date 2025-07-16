@@ -1,0 +1,18 @@
+@import '../../../styles/colours';
+@import './AvatarCustomStyle';
+
+.avatarContainer {
+  cursor: pointer;
+  // size 1-5 avatar size token
+  --space-5: var(--spacing-lg) !important;
+  --space-6: 36px !important;
+  --space-7: 48px !important;
+  --space-8: var(--spacing-4xl) !important;
+  --space-9: var(--spacing-5xl) !important;
+
+  > span {
+    background-color: var(--avatarBackgroundColor) !important;
+    color: var(--avatarTextColor) !important;
+    overflow: hidden;
+  }
+}

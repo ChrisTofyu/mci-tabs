@@ -1,0 +1,63 @@
+@import '../../../../styles/colours';
+
+.container {
+  display: grid;
+  width: 100%;
+  gap: var(--spacing-lg);
+  background-color: $color-neutral-50;
+
+  .header {
+    display: flex;
+    gap: var(--spacing-xs);
+    justify-content: space-between;
+
+    .contentHeader {
+      gap: var(--spacing-2xs);
+
+      .heading {
+        font-weight: 600;
+        color: $color-neutral-950;
+        font-size: var(--typography-font-size-7);
+        line-height: var(--typography-line-height-7);
+
+        @media (max-width: 360px) {
+          font-size: var(--typography-font-size-5);
+          line-height: var(--typography-line-height-5);
+        }
+      }
+
+      .description {
+        color: $color-neutral-600;
+        font-size: var(--typography-font-size-4);
+        line-height: var(--typography-line-height-4);
+
+        @media (max-width: 360px) {
+          font-size: var(--typography-font-size-3);
+          line-height: var(--typography-line-height-3);
+        }
+      }
+    }
+
+    .navButtons {
+      align-items: center;
+      gap: var(--spacing-2xs);
+
+      .btn {
+        width: var(--spacing-xl) !important;
+        height: var(--spacing-xl) !important;
+      }
+    }
+  }
+
+  .body {
+    .contentContainer {
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-lg);
+      padding-bottom: var(--spacing-xs);
+    }
+  }
+
+  &.inverse {
+    background-color: $color-white;
+  }
+}

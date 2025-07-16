@@ -1,0 +1,148 @@
+@import '../../../../styles/colours';
+@import '../../../../styles/breakpoints';
+
+@mixin fontProperties(
+  $size,
+  $line,
+  $weight: 600,
+  $align: center,
+  $color: $color-neutral-950
+) {
+  font-size: var($size);
+  line-height: var($line);
+  font-weight: $weight;
+  text-align: $align;
+  color: $color;
+}
+
+@mixin flexProperties($align, $direction, $padding, $gap) {
+  display: flex;
+  align-items: $align;
+  align-self: stretch;
+  flex-direction: $direction;
+  justify-content: start;
+  padding: var($padding);
+  gap: var($gap);
+}
+
+.globeHeroBox {
+  @include flexProperties(
+    $align: center,
+    $direction: column,
+    $padding: --spacing-2xs,
+    $gap: --spacing-lg
+  );
+  width: 100%;
+  max-width: 872px;
+  margin: auto;
+  padding: var(--spacing-3xl) 0;
+
+  @media (max-width: $md-max) {
+    max-width: 688px;
+    padding: var(--spacing-lg) 0;
+  }
+
+  @media (max-width: $xs-max) {
+    max-width: unset;
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .header {
+    gap: var(--spacing-xs);
+
+    .caption {
+      @include fontProperties(
+        $size: --typography-font-size-10,
+        $line: --typography-line-height-10
+      );
+
+      @media (max-width: $md-max) {
+        @include fontProperties(
+          $size: --typography-font-size-8,
+          $line: --typography-line-height-8
+        );
+      }
+
+      @media (max-width: $xs-max) {
+        @include fontProperties(
+          $size: --typography-font-size-7,
+          $line: --typography-line-height-7
+        );
+      }
+    }
+
+    .headeline {
+      gap: var(--spacing-2xs);
+
+      .title {
+        color: $color-orange-600;
+      }
+
+      .subtitle {
+        color: $color-neutral-950;
+      }
+    }
+
+    .description {
+      @include fontProperties(
+        $size: --typography-font-size-3,
+        $line: --typography-line-height-3,
+        $weight: 400,
+        $color: $color-neutral-600
+      );
+    }
+  }
+
+  .body {
+    width: 100%;
+
+    .globeImage {
+      max-width: 311px;
+      width: 100%;
+      margin: auto;
+    }
+
+    &_card {
+      @include flexProperties(
+        $align: center,
+        $direction: column,
+        $padding: --spacing-md,
+        $gap: --spacing-md
+      );
+      border-radius: 16px;
+      border: 1px solid $color-neutral-100;
+      background: $color-white;
+
+      &_label {
+        @include fontProperties(
+          $size: --typography-font-size-5,
+          $line: --typography-line-height-5,
+          $color: $color-neutral-600
+        );
+      }
+
+      &_value {
+        @include fontProperties(
+          $size: --typography-font-size-5,
+          $line: --typography-line-height-5,
+          $color: $color-neutral-950
+        );
+      }
+
+      .progressBarBox {
+        width: 100%;
+
+        .progressBar {
+          border-radius: 999px;
+          margin-top: var(--spacing-xs);
+
+          div {
+            border-radius: 999px;
+            background-color: $color-orange-600 !important;
+            height: 8px;
+          }
+        }
+      }
+    }
+  }
+}

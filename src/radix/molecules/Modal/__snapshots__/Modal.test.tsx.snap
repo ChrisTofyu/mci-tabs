@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render successfully 1`] = `
+<body>
+  <div>
+    <button
+      aria-expanded="false"
+      aria-haspopup="dialog"
+      aria-label="Filter Button"
+      class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm transparent none"
+      data-accent-color=""
+      data-state="closed"
+      type="button"
+    >
+      <div
+        class="buttonContent textOnly"
+      >
+        <span>
+          Filter Button
+        </span>
+      </div>
+    </button>
+  </div>
+</body>
+`;

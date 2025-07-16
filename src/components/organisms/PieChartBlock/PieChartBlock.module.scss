@@ -1,0 +1,70 @@
+@import '../../../styles/colours';
+@import '../../../styles/typography';
+
+.container {
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xl);
+  text-align: center;
+}
+
+.headingBlock {
+  max-width: 40rem;
+  margin: var(--spacing-xl) auto 0 auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 0 var(--spacing-md);
+}
+
+.heading {
+  @extend .heading-lg;
+  @extend .typography-font-weight-bold;
+  color: $color-neutral-900;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  text-align: center;
+  max-width: 100%;
+  margin: 0; // Reset default margins
+
+  // If the heading is a div (for custom content)
+  & > * {
+    @extend .heading-lg;
+    @extend .typography-font-weight-bold;
+    color: inherit;
+    margin: 0;
+  }
+}
+
+.subheading {
+  @extend .body-md;
+  @extend .typography-font-weight-regular;
+  color: $color-neutral-600;
+  margin-top: var(--spacing-sm);
+}
+
+.chartWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+
+  &.singleChart {
+    .chartCard {
+      max-width: 300px;
+      flex: 0 0 auto;
+    }
+  }
+}
+
+/* Updated reportLink style using color variable */
+.reportLink {
+  color: $color-blue-500; /* Using predefined blue color */
+  font-weight: bold;
+  text-decoration: underline;
+}

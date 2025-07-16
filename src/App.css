@@ -1,0 +1,11 @@
+.app-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url('/girl-painting-horizon.png');
+  background-size: cover;
+  background-position: center top; /* shifts image upward */
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}

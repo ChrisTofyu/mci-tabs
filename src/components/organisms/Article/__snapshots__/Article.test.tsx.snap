@@ -1,0 +1,895 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Organism should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="articlesWrapper"
+    >
+      <div
+        class="articlesContainerWidth"
+      >
+        <div
+          class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-fw-wrap articlesBannerSection"
+        >
+          <div
+            class="rt-Flex articlesBannerSectionImageWrapper"
+          >
+            <img
+              alt="In Goma, DRC, where World Vision’s Raw Hope program is being implemented, a smiling young woman in navy blue coveralls holds a wrench, sitting on the ground between two vehicles."
+              aria-hidden="true"
+              class="rt-Skeleton imgWrapper articlesImage"
+              inert=""
+              src="/content/dam/wvc/images/multi-context-content/shared-images/education-escaping-oppression-mother-with-her-three-children.jpg"
+              style="--imgMinWidth: 100%; --imgMaxWidth: 100%;"
+              tabindex="-1"
+            />
+          </div>
+          <div
+            class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-fw-wrap articlesContentSection"
+          >
+            <h1
+              class="rt-Heading rt-r-size-6 rt-r-ta-center headingContainer mocked-class-name typography-font-family-default articlesTitle"
+              id=""
+            >
+              Meet Immaculée, Female Mechanic-in-Training
+            </h1>
+            <span
+              class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default articlesDescription"
+              id=""
+            >
+              This teenage rockstar is jumping into a male-dominated trade with no regrets—watch her explain why. 
+            </span>
+            <span
+              class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default articlesAuthorName"
+            >
+              Written by 
+              <b>
+                Katie Hackett
+              </b>
+            </span>
+            <span
+              class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default articlesAuthorName"
+            >
+              on 
+              <b>
+                Jan 11, 2025
+              </b>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="rt-Box rt-r-mt-4 container"
+    >
+      <div
+        class="rt-Flex rt-r-fd-column rt-r-fw-wrap"
+      >
+        <div>
+          <div
+            class="rt-Box rt-r-mt-4"
+          >
+            <div
+              class="rt-Flex rt-r-fd-column rt-r-ai-center"
+            >
+              <div
+                class="rt-Flex rt-r-fd-column rt-r-fw-wrap rt-r-gap-5 content"
+              >
+                
+        
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <span
+                    data-contrast="auto"
+                    lang="EN-GB"
+                  >
+                    <span>
+                      Immaculée, 18, leans against a blue jeep, one of many vehicles lined up for repair at the 
+                    </span>
+                    <span>
+                      So
+                    </span>
+                    <span>
+                      t
+                    </span>
+                    <span>
+                      ra
+                    </span>
+                    <span>
+                      k
+                    </span>
+                    <span>
+                      i
+                    </span>
+                    <span>
+                       garage in Goma, Democratic Republic of 
+                    </span>
+                    <span>
+                      the Congo
+                    </span>
+                    <span>
+                      . 
+                    </span>
+                    <span>
+                      She’s
+                    </span>
+                    <span>
+                       in training here, well on her way to becoming a mechanic, and 
+                    </span>
+                    <span>
+                      she’s
+                    </span>
+                    <span>
+                       the only girl in sight.
+                    </span>
+                  </span>
+                   
+                  <span
+                    data-ccp-props="{}"
+                  >
+                     
+                  </span>
+                </p>
+                 
+        
+                
+        
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <span
+                    data-contrast="auto"
+                    lang="EN-GB"
+                  >
+                    <span>
+                      Longstanding conflict in the DRC has created a displacement crisis with massive implications for the country’s young people as they ponder their careers and livelihoods. How do you 
+                    </span>
+                    <span>
+                      plan for the future
+                    </span>
+                    <span>
+                       when the present is so unsure? Through Raw 
+                    </span>
+                    <span>
+                      Hope,*
+                    </span>
+                    <span>
+                       World Vision has 
+                    </span>
+                    <span>
+                      established
+                    </span>
+                    <span>
+                       a social reintegration program in eastern DRC, equipping 90 displaced young people with skills in small business and trades. 
+                    </span>
+                  </span>
+                  <span
+                    data-ccp-props="{}"
+                  >
+                     
+                  </span>
+                </p>
+                <div
+                  class="r0-media-container fullSizeMedia media"
+                >
+                  <div
+                    class="rt-Box rt-r-px-4 sm:rt-r-px-4 md:rt-r-px-7 lg:rt-r-px-7 xl:rt-r-px rt-r-py-7 sm:rt-r-py-7 md:rt-r-py-8 lg:rt-r-py-9 xl:rt-r-py-7 videoContainer media r0-media video tertiary none-layout"
+                    style="--pr-xl: 80px; --pl-xl: 80px;"
+                  >
+                    <div
+                      class="rt-Flex rt-r-fd-column rt-r-ai-center"
+                    >
+                      <div
+                        class="rt-Flex rt-r-fd-column rt-r-ai-start"
+                      >
+                        <div
+                          class="rt-Box rt-r-pb-4 sm:rt-r-pb-4 md:rt-r-pb-5 lg:rt-r-pb-5 xl:rt-r-pb-7 videoTitleBox"
+                        >
+                          <div
+                            class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default title"
+                            id=""
+                          >
+                            Watch now:
+                          </div>
+                        </div>
+                        <div
+                          class="rt-Box sm:rt-r-w md:rt-r-w lg:rt-r-w xl:rt-r-w sm:rt-r-h md:rt-r-h lg:rt-r-h xl:rt-r-h"
+                          style="--width-xl: 1130px; --width-lg: 944px; --width-md: 688px; --width-sm: 328px; --height-xl: 637px; --height-lg: 532px; --height-md: 388px; --height-sm: 198px;"
+                        >
+                          <div
+                            class="videoContainer"
+                            style="--videoWidth: inherit; --videoHeight: inherit;"
+                          >
+                            <div
+                              class="imageContainer"
+                            >
+                              <button
+                                class="buttonContainer"
+                              >
+                                <img
+                                  alt="Play Button"
+                                  aria-hidden="true"
+                                  class="rt-Skeleton imgWrapper playButton button"
+                                  inert=""
+                                  src="SvgrURL"
+                                  tabindex="-1"
+                                />
+                                <img
+                                  alt="Video Player"
+                                  aria-hidden="true"
+                                  class="rt-Skeleton imgWrapper videoPlaceholder none screenContainerClassName"
+                                  inert=""
+                                  src="https://stg-aem.worldvision.ca/content/dam/wvc/images/multi-context-content/shared-images/world-vision-canada-lente-and-peninah-thumbnail.jpg"
+                                  style="width: inherit; height: inherit;"
+                                  tabindex="-1"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+        
+                
+        
+                <ul>
+                  <li>
+                    <p
+                      class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                    >
+                      <p
+                        class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                      >
+                        <span
+                          data-contrast="auto"
+                          lang="EN-GB"
+                        >
+                          <span>
+                            A
+                          </span>
+                        </span>
+                      </p>
+                    </p>
+                  </li>
+                  <li>
+                    <p
+                      class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                    >
+                      <p
+                        class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                      >
+                        <span
+                          data-contrast="auto"
+                          lang="EN-GB"
+                        >
+                          <span>
+                            B
+                          </span>
+                        </span>
+                      </p>
+                    </p>
+                  </li>
+                </ul>
+                
+        
+                <ol>
+                  <li>
+                    <p
+                      class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                    >
+                      <p
+                        class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                      >
+                        <span
+                          data-contrast="auto"
+                          lang="EN-GB"
+                        >
+                          <span>
+                            1
+                          </span>
+                        </span>
+                      </p>
+                    </p>
+                  </li>
+                  <li>
+                    <p
+                      class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                    >
+                      <p
+                        class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                      >
+                        <span
+                          data-contrast="auto"
+                          lang="EN-GB"
+                        >
+                          <span>
+                            2
+                          </span>
+                        </span>
+                      </p>
+                    </p>
+                  </li>
+                </ol>
+                
+      
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="rt-Box rt-r-mt-4"
+          >
+            <div
+              class="rt-Flex rt-r-fd-column rt-r-ai-center"
+            >
+              <div
+                class="rt-Flex rt-r-fd-column rt-r-fw-wrap rt-r-gap-5 content"
+              >
+                
+        
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <span
+                    data-contrast="auto"
+                    lang="EN-GB"
+                  >
+                    <span>
+                      Some of Immaculée’s peers have been internally displaced for a year, but most have been away from their homes for two years or more. 
+                    </span>
+                  </span>
+                  <a
+                    class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                    data-accent-color=""
+                    href="https://www.unocha.org/publications/report/democratic-republic-congo/democratic-republic-congo-internally-displaced-persons-and-returnees-april-2024#:~:text=Since%20the%20beginning%20of%202024,to%20armed%20attacks%20and%20clashes."
+                    rel="noreferrer noopener"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    <span
+                      data-contrast="none"
+                      lang="EN-GB"
+                    >
+                      <span
+                        data-ccp-charstyle="Hyperlink"
+                      >
+                        According to OCHA
+                      </span>
+                    </span>
+                  </a>
+                  <span
+                    data-contrast="auto"
+                    lang="EN-GB"
+                  >
+                    <span>
+                      , since the start of 2024, an 
+                    </span>
+                    <span>
+                      additional
+                    </span>
+                    <span>
+                       940,000 people have become newly displaced in the DRC, bringing the total to approximately 7.3 million. Among the displaced, 
+                    </span>
+                  </span>
+                  <span
+                    data-contrast="auto"
+                    lang="EN-CA"
+                  >
+                    <span>
+                      51 per cent are women, and 80 per cent of the displacements are because of armed attacks and clashes.
+                    </span>
+                  </span>
+                  <span
+                    data-ccp-props="{}"
+                  >
+                     
+                  </span>
+                  <span
+                    data-ccp-props="{}"
+                  >
+                     
+                  </span>
+                </p>
+                
+        
+                
+        
+                
+          
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <span
+                    data-contrast="auto"
+                    lang="EN-GB"
+                  >
+                    <span>
+                      It was a night spent in fear of such violence that led Immaculée to her current career path.
+                    </span>
+                  </span>
+                </p>
+                <div
+                  class="r0-media-container media"
+                >
+                  <img
+                    alt="Immaculée acknowledges that mechanics are traditionally men, “yet here I am,” she says. “I have not followed this theory, and I stand out in my work.”"
+                    aria-hidden="true"
+                    class="rt-Skeleton imgWrapper media r0-media"
+                    inert=""
+                    src="/content/dam/wvc/images/multi-context-content/shared-images/education-escaping-oppression-boy-in-a-soccer-shirt.jpg"
+                    style="--imgMinWidth: 100%; --imgMaxWidth: 100%;"
+                    tabindex="-1"
+                    title=""
+                  />
+                </div>
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <strong>
+                    <span
+                      data-ccp-props="{}"
+                    >
+                      <span
+                        data-contrast="auto"
+                        lang="EN-GB"
+                      >
+                        <span>
+                          “I chose to become a car mechanic because, one day, my family, 
+                        </span>
+                        <span>
+                          myself
+                        </span>
+                        <span>
+                           and other passengers were forced to spend the night in the middle of the park because of a breakdown,” she recounts. “We were exposed to wild animals and feared being raped or killed by armed people in the area.”
+                        </span>
+                      </span>
+                    </span>
+                  </strong>
+                </p>
+                
+        
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <span
+                    data-contrast="auto"
+                    lang="EN-GB"
+                  >
+                    <span>
+                      The incident left a deep impression on the teen. She recalled the helplessness of not being able to fix the 
+                    </span>
+                    <span>
+                      vehicle that night and, when presented with training options that included more traditional skills for women—like hairdressing and dressmaking—she chose mechanics instead. 
+                    </span>
+                  </span>
+                  <span
+                    data-ccp-props="{}"
+                  >
+                     
+                  </span>
+                </p>
+                <div
+                  class="r0-media-container media"
+                >
+                  <img
+                    alt="Immaculée smiles at the auto mechanic garage where her training is taking place."
+                    aria-hidden="true"
+                    class="rt-Skeleton imgWrapper media r0-media"
+                    inert=""
+                    src="/content/dam/wvc/images/multi-context-content/shared-images/education-escaping-oppression-boy-wearing-a-soccer-jersey.jpg"
+                    style="--imgMinWidth: 100%; --imgMaxWidth: 100%;"
+                    tabindex="-1"
+                    title="immaculee-smiles-raw-hope-mechanic-garage-poster"
+                  />
+                </div>
+                
+        
+                
+        
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <span
+                    data-contrast="auto"
+                    lang="EN-GB"
+                  >
+                    <span>
+                      Whatever the paths 
+                    </span>
+                    <span>
+                      they’ve
+                    </span>
+                    <span>
+                       chosen for themselves, Immaculée’s cohort of budding mechanics, hairdressers, 
+                    </span>
+                    <span>
+                      dressmakers
+                    </span>
+                    <span>
+                       and shopkeepers are 
+                    </span>
+                    <span>
+                      demonstrating
+                    </span>
+                    <span>
+                       immense courage. As they apply themselves to building skills and setting goals, 
+                    </span>
+                    <span>
+                      they’re
+                    </span>
+                    <span>
+                       showing that 
+                    </span>
+                    <span>
+                      it’s
+                    </span>
+                    <span>
+                       possible to work for your dreams, even when the context is unfavourable.
+                    </span>
+                  </span>
+                  <span
+                    data-ccp-props="{}"
+                  >
+                     
+                  </span>
+                </p>
+                
+        
+                
+        
+                
+          
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <em>
+                    <span
+                      data-contrast="auto"
+                      lang="EN-GB"
+                    >
+                      <span>
+                        *
+                      </span>
+                    </span>
+                    <span
+                      data-contrast="auto"
+                      lang="EN-GB"
+                    >
+                      <span>
+                        World Vision’s Raw Hope program is also known internationally as Childhood Rescue
+                      </span>
+                    </span>
+                  </em>
+                </p>
+                <div
+                  class="r0-media-container media"
+                >
+                  <img
+                    alt="Immaculée is one of 90 young people who are preparing for professional life in the midst of long-lasting conflict in the DRC."
+                    aria-hidden="true"
+                    class="rt-Skeleton imgWrapper media r0-media"
+                    inert=""
+                    src="/content/dam/wvc/images/multi-context-content/shared-images/education-escaping-oppression-girl-writing-in-a-book-1.jpg"
+                    style="--imgMinWidth: 100%; --imgMaxWidth: 100%;"
+                    tabindex="-1"
+                    title="immaculee-mechainic-raw-hope-fixes-car"
+                  />
+                </div>
+                
+        
+                
+        
+                
+      
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="rt-Box rt-r-mt-4"
+          >
+            <div
+              class="rt-Flex rt-r-fd-column rt-r-ai-center"
+            >
+              <div
+                class="rt-Flex rt-r-fd-column rt-r-fw-wrap rt-r-gap-5 content"
+              >
+                <h1
+                  class="rt-Heading rt-r-size-6 rt-r-tw-wrap headingContainer mocked-class-name typography-font-family-default heading"
+                  id=""
+                >
+                  Forced from home by drought
+                </h1>
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  When asked what makes her happy, Udugow responds like every matriarch I’ve ever known.
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “When my children are happy that makes me happy. Their happiness is my happiness.” 
+                </p>
+                <div
+                  class="r0-media-container media"
+                >
+                  <div
+                    class="rt-Box quoteBlockContainer media r0-media"
+                    style="--borderColor: #E86100; --textColor: #000;"
+                  >
+                    <span
+                      class="rt-Text mocked-class-name typography-font-family-default"
+                      id=""
+                    >
+                      <p
+                        class="rt-Text mocked-class-name typography-font-family-default"
+                      >
+                        We stand by the belief that if we have the ability to help, we have the responsibility to act. This ethos shapes our organization’s approach to humanitarian work, emphasizing not just charity, but sustainable development, empowerment, and advocacy.
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  And what makes her afraid? “The opposite—when I cannot meet my family’s needs.”
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  She says this while cradling her grandson, Sadak, in her arms, sitting on a low wooden stool in her makeshift shelter at the Awal Barwaago settlement for internally displaced people. When 
+                  <a
+                    class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                    data-accent-color=""
+                    href="https://www.un.org/en/observances/womens-day"
+                    rel="noopener"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    International Women’s Day
+                  </a>
+                   rolls around, it’s women like Udugow that I think about. Women rising to face challenges they never would have wished for. 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <strong>
+                    Forced from home by drought
+                  </strong>
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “As I recall, growing up, we didn’t have this many frequent dry seasons and wells drying up,” Udugow says.
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  It’s a hot, dry and windy day—typical for January in Baidoa, Somalia. For six years, 45-year-old Udugow and her family have been living in the camp. Severe drought drove them from their home in the Wajid district, about 90 kilometres away. 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “By the time we decided to leave, the wells had dried, the farms were dry with no crops,” she says. “There was nothing for us to eat.” 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <strong>
+                    Building a new life in limbo
+                  </strong>
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Udugow and her husband Ibrahim have two adult daughters, aged 20 and 18, and a five-year-old son. Ibrahim earns money wherever he can, usually as a donkey cart transporter. Udugow collects and sells firewood once a week, travelling two hours by foot to the outskirts of Baidoa.  
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “It’s not much, what I get after all the struggle,” she admits, “but that’s what am relying on for now to put food on the table.”  
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Udugow has another specific worry that weighs on her heart: her daughter, Faduma. Since Faduma’s husband abandoned her and her children, they now live with Udugow and Ibrahim. 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “You can see I have grandchildren. They are young. They have many needs,” Udugow says. “As a mother, I cannot bear to see my daughter go through this alone.”  
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  The weight of caring for her children and grandchildren pulls on Udugow’s shoulders, and the rough living conditions make everything harder: “You can also see the housing situation here and understand for yourself that things are difficult.” 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Even with these heavy burdens, Udugow prefers this life to the one they left behind. 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “Life here is better,” she says firmly, “even though it is away from home, and I miss home, at least here we get assistance.” 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <strong>
+                    Support from World Vision and Global Affairs Canada 
+                  </strong>
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Udugow remembers arriving at the camp six years ago. World Vision was the first organization she encountered. At that time, she recalls receiving food, medication and water.  
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  A water collection point 100 metres from her home, funded by Global Affairs Canada, has provided a constant flow of water ever since they’ve lived here. Udugow says she collects six 20-litre containers every day. 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Her two grandchildren attend a child-friendly space, also supported by Global Affairs Canada, where they learn and play and get snacks. (According to the World Vision facilitator, this could be the only food some children get all day.) 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Through a World Vision project, Udugow’s daughter Faduma has also received skills training, learning tie-dye techniques and henna makeup application. She hopes this will provide another income source in the future. 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <strong>
+                    Motivated by her family and her faith 
+                  </strong>
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Udugow credits her faith as a major source of strength. Whenever she is afraid or facing difficulty, she prays.  
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “Life hasn’t been easy on us but I still find hope and inspiration when I look at my children and my grandchildren,” she says.  
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  Will they ever return home? Udugow is unsure. 
+                </p>
+                
+
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  “The problems that made us leave in the first place, are still there,” she says. “Maybe one day, I can consider going back if that all goes away.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="rt-Box rt-r-mt-4"
+          >
+            <div
+              class="rt-Flex rt-r-fd-column rt-r-ai-center"
+            >
+              <div
+                class="rt-Flex rt-r-fd-column rt-r-fw-wrap rt-r-gap-5 content"
+              >
+                <p
+                  class="rt-Text rt-r-tw-wrap mocked-class-name typography-font-family-default r0-content"
+                >
+                  <span
+                    data-teams="true"
+                  >
+                    <span
+                      dir="ltr"
+                    >
+                      Like this story? Explore more 
+                      <a
+                        aria-label="Link stories of impact"
+                        class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                        data-accent-color=""
+                        href="https://beta.worldvision.ca/en/learn/latest-stories.html"
+                        tabindex="0"
+                        title="https://beta.worldvision.ca/en/learn/latest-stories.html"
+                      >
+                        stories of impact
+                      </a>
+                       in the communities we serve.
+                    </span>
+                  </span>
+                </p>
+                
+
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="display: none;"
+    />
+  </div>
+</body>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftDetail should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+    >
+      <div
+        class="childDetails"
+      >
+        <div
+          class="imageContainer"
+        >
+          <img
+            alt="Gift Image"
+            class="imgWrapper imgStyle"
+            src="https://s3-alpha-sig.figma.com/img/5dde/a548/b4bd3ee0b9db2ca002f11f8868399260?Expires=1748822400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=E2cuCFo0fsFFPa1fyTqZ3w9cNIEA5bGQYWYjS5flghG6-N9blzHYU-CjH2sHbATqZOR8EN6HTt1rrG0cHQQ9aO~AKdojKKcKk1852ZJTl2HMpAngvP1aaT7e3xztAky53aUsbhz7ifQg0Lm3uKdkQBX2yQ0lj1RBLhpVe~mg8y5URAb2u96PnRvNGZUtLeaumITLo9nfoajPDVk8h979REixSZZz5qXbrniYmMQN~~OxYxXzK3Zyf5cfnelq-QFE86gLdh8gIp47nFiVSxlhg7T97aeTWupuPdjRx33YfNAjVQmvD-GJGavslpJr4K2LdCH0YyWA1U2ndT37rhGdMw__"
+          />
+        </div>
+        <div
+          class="details"
+        >
+          <div
+            class="personalDetails"
+          >
+            <div
+              class="names"
+            >
+              <span
+                class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default"
+                id=""
+              >
+                Goats, Hens and Roosters
+              </span>
+              <span
+                class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default dollar"
+                id=""
+              >
+                $150
+              </span>
+            </div>
+            <div
+              class="about"
+            >
+              <div>
+                <div
+                  class="content"
+                  style="max-height: none; overflow: hidden; transition: max-height 0.3s ease; display: block;"
+                >
+                  The crack of an egg. The first tiny chirp of a newborn chick. These small delights bring joy to children and families who receive hens and a rooster. Better yet, these wonderful birds provide an ongoing source of income, food rich in protein, vitamins and nutrients, and health for growing girls and boys—so their dreams can take flight.
+                </div>
+              </div>
+            </div>
+            <button
+              aria-label="Buy this gift"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl secondary none BuyGiftButton"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent textOnly"
+              >
+                <span>
+                  Buy this gift
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,27 @@
+@import '../../../../styles/colours';
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: var(--spacing-5xl);
+  background-color: $color-neutral-100;
+  box-shadow: 0px 1px 3px 0px $color-box-shadow;
+
+  --card-border-width: 0;
+  --card-border-radius: var(--spacing-xl);
+  --card-background-color: none;
+
+  &.size-2 {
+    padding: var(--spacing-2xl);
+    --card-border-radius: var(--spacing-xl);
+  }
+
+  &.size-3 {
+    padding: var(--spacing-md);
+    --card-border-radius: var(--spacing-md);
+  }
+
+  &.inverse {
+    background-color: $color-white;
+  }
+}

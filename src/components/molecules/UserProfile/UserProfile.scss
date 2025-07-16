@@ -1,0 +1,46 @@
+@import '../../../styles/colours';
+
+@mixin apply-text-styles(
+  $fontSize,
+  $lineHeight,
+  $fontWeight: --typography-font-weight-semibold,
+  $color: $color-neutral-950
+) {
+  color: $color !important;
+  font-weight: var($fontWeight) !important;
+  font-size: var($fontSize) !important;
+  line-height: var($lineHeight) !important;
+}
+
+.userProfileEditBtn {
+  width: 100%;
+  border-radius: var(--spacing-sm) !important;
+  padding-block: 10px !important;
+  padding-inline: var(--spacing-md) 20px !important;
+
+  font-size: var(--spacing-md) !important;
+  line-height: 20px !important;
+  font-weight: var(--typography-font-weight-semibold);
+
+  div {
+    gap: var(--spacing-xs) !important;
+    span {
+      margin: 0 !important;
+    }
+  }
+
+  div:last-child:not(.textOnly) {
+    span:last-child {
+      width: 24px !important;
+      height: 24px !important;
+    }
+  }
+}
+
+.cancelAndSaveBtn {
+  border-radius: var(--spacing-sm) !important;
+  padding: var(--spacing-sm) 20px !important;
+  font-size: var(--typography-font-size-3) !important;
+  line-height: var(--typography-line-height-3) !important;
+  font-weight: var(--typography-font-weight-semibold) !important;
+}

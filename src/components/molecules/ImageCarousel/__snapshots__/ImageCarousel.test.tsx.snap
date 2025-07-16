@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageSlide should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+    >
+      <div
+        class="previous"
+      >
+        <button
+          aria-label="Carousel Previous Button"
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl tertiary none"
+          data-accent-color=""
+        >
+          <div
+            class="buttonContent iconLeft iconOnly"
+          >
+            <span
+              class="icon"
+              style="border-radius: 0;"
+            >
+              <span
+                class="icon icon-previous"
+              />
+            </span>
+          </div>
+        </button>
+      </div>
+      <div
+        class="slider"
+      >
+        <div
+          class="slides"
+        >
+          <div
+            class="slide"
+            id="slide-0"
+            style="--slide-image: url(https://dummyimage.com/872x470/300/fff&text=5+Image);"
+          />
+          <div
+            class="tooltip"
+          >
+            <button
+              aria-label="Carousel Tooltip"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft iconOnly"
+              >
+                <span
+                  class="icon"
+                  style="border-radius: 0;"
+                >
+                  <span
+                    class="icon icon-info"
+                  />
+                </span>
+              </div>
+            </button>
+            <div
+              class="tooltipText"
+            >
+              <h5>
+                5
+              </h5>
+              <p>
+                Tooltip 5
+              </p>
+            </div>
+          </div>
+          <div
+            class="slide"
+            id="slide-1"
+            style="--slide-image: url(https://dummyimage.com/872x470/000/fff&text=1+Image);"
+          />
+          <div
+            class="tooltip"
+          >
+            <button
+              aria-label="Carousel Tooltip"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft iconOnly"
+              >
+                <span
+                  class="icon"
+                  style="border-radius: 0;"
+                >
+                  <span
+                    class="icon icon-info"
+                  />
+                </span>
+              </div>
+            </button>
+            <div
+              class="tooltipText"
+            >
+              <h5>
+                1
+              </h5>
+              <p>
+                Tooltip 1
+              </p>
+            </div>
+          </div>
+          <div
+            class="slide"
+            id="slide-2"
+            style="--slide-image: url(https://dummyimage.com/872x470/122/fff&text=2+Image);"
+          />
+          <div
+            class="tooltip"
+          >
+            <button
+              aria-label="Carousel Tooltip"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft iconOnly"
+              >
+                <span
+                  class="icon"
+                  style="border-radius: 0;"
+                >
+                  <span
+                    class="icon icon-info"
+                  />
+                </span>
+              </div>
+            </button>
+            <div
+              class="tooltipText"
+            >
+              <h5>
+                2
+              </h5>
+              <p>
+                Tooltip 2
+              </p>
+            </div>
+          </div>
+          <div
+            class="slide"
+            id="slide-3"
+            style="--slide-image: url(https://dummyimage.com/872x470/222/fff&text=3+Image);"
+          />
+          <div
+            class="tooltip"
+          >
+            <button
+              aria-label="Carousel Tooltip"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft iconOnly"
+              >
+                <span
+                  class="icon"
+                  style="border-radius: 0;"
+                >
+                  <span
+                    class="icon icon-info"
+                  />
+                </span>
+              </div>
+            </button>
+            <div
+              class="tooltipText"
+            >
+              <h5>
+                3
+              </h5>
+              <p>
+                Tooltip 3
+              </p>
+            </div>
+          </div>
+          <div
+            class="slide"
+            id="slide-4"
+            style="--slide-image: url(https://dummyimage.com/872x470/999/fff&text=4+Image);"
+          />
+          <div
+            class="tooltip"
+          >
+            <button
+              aria-label="Carousel Tooltip"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft iconOnly"
+              >
+                <span
+                  class="icon"
+                  style="border-radius: 0;"
+                >
+                  <span
+                    class="icon icon-info"
+                  />
+                </span>
+              </div>
+            </button>
+            <div
+              class="tooltipText"
+            >
+              <h5>
+                4
+              </h5>
+              <p>
+                Tooltip 4
+              </p>
+            </div>
+          </div>
+          <div
+            class="slide"
+            id="slide-5"
+            style="--slide-image: url(https://dummyimage.com/872x470/300/fff&text=5+Image);"
+          />
+          <div
+            class="tooltip"
+          >
+            <button
+              aria-label="Carousel Tooltip"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft iconOnly"
+              >
+                <span
+                  class="icon"
+                  style="border-radius: 0;"
+                >
+                  <span
+                    class="icon icon-info"
+                  />
+                </span>
+              </div>
+            </button>
+            <div
+              class="tooltipText"
+            >
+              <h5>
+                5
+              </h5>
+              <p>
+                Tooltip 5
+              </p>
+            </div>
+          </div>
+          <div
+            class="slide"
+            id="slide-6"
+            style="--slide-image: url(https://dummyimage.com/872x470/000/fff&text=1+Image);"
+          />
+          <div
+            class="tooltip"
+          >
+            <button
+              aria-label="Carousel Tooltip"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft iconOnly"
+              >
+                <span
+                  class="icon"
+                  style="border-radius: 0;"
+                >
+                  <span
+                    class="icon icon-info"
+                  />
+                </span>
+              </div>
+            </button>
+            <div
+              class="tooltipText"
+            >
+              <h5>
+                1
+              </h5>
+              <p>
+                Tooltip 1
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="next"
+      >
+        <button
+          aria-label="Carousel Next Button"
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl tertiary none"
+          data-accent-color=""
+        >
+          <div
+            class="buttonContent iconLeft iconOnly"
+          >
+            <span
+              class="icon"
+              style="border-radius: 0;"
+            >
+              <span
+                class="icon icon-next"
+              />
+            </span>
+          </div>
+        </button>
+      </div>
+      <div
+        class="page"
+      >
+        1
+        /
+        5
+      </div>
+    </div>
+  </div>
+</body>
+`;

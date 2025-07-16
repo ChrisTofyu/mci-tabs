@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Data Card Should Primary mode with size 1 render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface container size-1 primary"
+    >
+      <span
+        class="rt-Text mocked-class-name typography-font-family-default"
+        id=""
+      >
+        World Vision Canada is a Christian relief, development, and advocacy organization working to create lasting change in the lives of children and families. (To accommodate up to five lines of text).
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Data Card Should inverse mode with Size 2 render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface container size-2 inverse"
+    >
+      <span
+        class="rt-Text mocked-class-name typography-font-family-default"
+        id=""
+      >
+        World Vision Canada is a Christian relief, development, and advocacy organization working to create lasting change in the lives of children and families. (To accommodate up to five lines of text).
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Small Card Should Primary mode with size 1 render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface container size-1 primary"
+    >
+      <span
+        class="rt-Text mocked-class-name typography-font-family-default"
+        id=""
+      >
+        World Vision Canada is a Christian relief, development, and advocacy organization working to create lasting change in the lives of children and families. (To accommodate up to five lines of text).
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Small Card Should inverse mode with Size 2 render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface container size-2 inverse"
+    >
+      <span
+        class="rt-Text mocked-class-name typography-font-family-default"
+        id=""
+      >
+        World Vision Canada is a Christian relief, development, and advocacy organization working to create lasting change in the lives of children and families. (To accommodate up to five lines of text).
+      </span>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,26 @@
+@import '../UserProfile.scss';
+
+.container {
+  display: grid;
+  gap: var(--spacing-sm);
+
+  .description {
+    @include apply-text-styles(
+      --typography-font-size-3,
+      --typography-line-height-3,
+      --typography-font-weight-regular,
+      $color-neutral-600
+    );
+
+    padding-block: var(--spacing-xs);
+  }
+
+  .commonGap {
+    display: flex;
+    gap: var(--spacing-sm);
+
+    .input {
+      width: 100%;
+    }
+  }
+}

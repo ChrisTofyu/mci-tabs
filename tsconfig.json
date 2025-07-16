@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      /** sync the path with jest.config.js (moduleNameMapper) and rollup.config.js (aliasConfig) as required */
+      "@utils/*": ["src/utils/*"],
+      "@assets/*": ["src/assets/*"],
+      "@internal/types/*": ["src/types/*"],
+      "@components/atoms/*": ["src/components/atoms/*"],
+      "@components/molecules/*": ["src/components/molecules/*"],
+      "@components/organisms/*": ["src/components/organisms/*"],
+      "@radix-styles/atoms/*": ["src/radix/atoms/*"],
+      "@radix-styles/molecules/*": ["src/radix/molecules/*"],
+      "@radix-styles/organisms/*": ["src/radix/organisms/*"]
+    },
+    "importHelpers": true
+  },
+  "include": ["src"]
+}

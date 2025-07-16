@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should render successfully 1`] = `
+<body>
+  <div>
+    <span
+      class="rt-reset rt-AvatarRoot rt-r-size-2 rt-variant-soft avatarContainer avatarContainer"
+      data-accent-color=""
+      data-radius="full"
+      style="--avatarBackgroundColor: #F4F5F7; --avatarTextColor: #65676B;"
+    />
+  </div>
+</body>
+`;

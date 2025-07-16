@@ -1,0 +1,376 @@
+@import '../../../styles/breakpoints.scss';
+@import '../../../styles/colours';
+
+@mixin icon-size($iconSize) {
+  div:last-child:not(.textOnly) {
+    span:last-child {
+      width: $iconSize;
+      height: $iconSize;
+      min-height: 16px;
+      min-width: 16px;
+    }
+  }
+}
+
+/* Button Size */
+@mixin button-size($fontSize, $padding, $iconSize) {
+  font-size: $fontSize;
+  padding: $padding;
+
+  @include icon-size($iconSize);
+}
+
+@mixin rounded-icon-size($padding, $iconSize) {
+  padding: $padding;
+
+  div:last-child {
+    font-size: unset;
+
+    span:last-child {
+      width: $iconSize;
+      height: $iconSize;
+    }
+  }
+}
+
+@mixin sm {
+  @include button-size(12px, 4px, 16px);
+
+  &.rounded {
+    @include rounded-icon-size(4px, 16px);
+  }
+}
+
+@mixin md {
+  @include button-size(14px, 6px 12px, 16px);
+  &.special {
+    @include icon-size(24px);
+  }
+
+  &.rounded {
+    @include rounded-icon-size(8px, 16px);
+  }
+}
+
+@mixin lg {
+  @include button-size(16px, 12px 20px, 24px);
+
+  &.special {
+    @include icon-size(40px);
+  }
+
+  &.rounded {
+    @include rounded-icon-size(10px, 24px);
+  }
+}
+
+@mixin xl {
+  @include button-size(18px, 16px 24px, 24px);
+
+  &.rounded {
+    @include rounded-icon-size(16px, 24px);
+  }
+}
+
+@mixin xxl {
+  @include button-size(21px, 21px 28px, 28px);
+
+  &.rounded {
+    @include rounded-icon-size(20px, 24px);
+  }
+}
+
+@mixin xxxl {
+  @include button-size(24px, 24px 32px, 32px);
+
+  &.rounded {
+    @include rounded-icon-size(20px, 40px);
+  }
+}
+
+/* Button Mode */
+@mixin button-mode(
+  $color,
+  $background-color,
+  $hover-background-color,
+  $active-background-color,
+  $border: none,
+  $shadow: 0px 0px 0px 4px $color-button-shadow
+) {
+  &:not(:disabled) {
+    background-color: $background-color;
+    box-shadow: none;
+    border: $border;
+    color: $color;
+
+    &:hover {
+      background-color: $hover-background-color;
+    }
+
+    &:focus:not(:hover) {
+      box-shadow: $shadow;
+    }
+
+    &:active {
+      background-color: $active-background-color;
+    }
+  }
+}
+
+.wvButton {
+  font-family:
+    Hanken Grotesk,
+    Lato,
+    sans-serif;
+  font-style: normal;
+  border-radius: 12px;
+  font-weight: 600;
+
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  height: auto !important;
+
+  /* Text and Icon Styles */
+  .buttonContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.iconLeft {
+      span:first-child {
+        order: 1 !important;
+      }
+
+      span {
+        order: 0;
+        margin-right: 10px;
+      }
+    }
+
+    &.iconRight {
+      span:first-child {
+        order: 0 !important;
+      }
+
+      span {
+        order: 1;
+        margin-left: 10px;
+
+        &:not(.icon) {
+          margin: 0px;
+        }
+      }
+    }
+
+    &.iconOnly {
+      font-size: unset;
+
+      span {
+        margin: 0;
+      }
+    }
+  }
+
+  /* Apply Modes */
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &.primary {
+    @include button-mode(
+      $color-white,
+      $color-blue-500,
+      $color-blue-400,
+      $color-blue-700
+    );
+  }
+
+  &.secondary {
+    @include button-mode(
+      $color-neutral-950,
+      $color-neutral-100,
+      $color-neutral-50,
+      $color-neutral-200
+    );
+  }
+
+  &.tertiary {
+    @include button-mode(
+      $color-white,
+      $color-neutral-950,
+      $color-neutral-850,
+      $color-neutral-950
+    );
+  }
+
+  &.inverse {
+    @include button-mode(
+      $color-neutral-950,
+      $color-white,
+      $color-neutral-100,
+      $color-neutral-100
+    );
+  }
+
+  &.outline {
+    @include button-mode(
+      $color-neutral-950,
+      $color-transparent,
+      $color-transparent,
+      $color-transparent,
+      1px solid $color-neutral-300
+    );
+
+    &:not(:disabled) {
+      &:hover:not(:active) {
+        border-color: $color-neutral-300 !important;
+        background-color: $color-neutral-100;
+      }
+
+      &:focus {
+        border: 2px solid $color-neutral-300;
+        background-color: $color-white;
+      }
+
+      &:active {
+        border: 1px solid $color-neutral-300 !important;
+      }
+    }
+
+    &:disabled {
+      background-color: $color-transparent;
+      border: 1px solid $color-neutral-200;
+      color: $color-neutral-200;
+    }
+  }
+
+  &.transparent {
+    @include button-mode(
+      $color-neutral-950,
+      $color-transparent,
+      $color-transparent,
+      $color-transparent
+    );
+  }
+
+  &.brand {
+    @include button-mode(
+      $color-white,
+      $color-orange-600,
+      $brand-hover-background-color,
+      $color-orange-700,
+      none,
+      0px 0px 0px 4px $brand-color-button-shadow
+    );
+  }
+
+  /* Apply Size */
+  &:not(.none-size) {
+    &.sm {
+      @include sm;
+    }
+
+    &.md {
+      @include md;
+    }
+
+    &.lg {
+      @include lg;
+    }
+
+    &.xl {
+      @include xl;
+    }
+
+    &.xxl {
+      @include xxl;
+    }
+
+    &.xxxl {
+      @include xxxl;
+    }
+  }
+
+  /* Effects */
+  &.special {
+    border-radius: 60px;
+  }
+
+  &.slider {
+    border-radius: 16px 16px 0px 0px;
+    padding: 10px 126px 10px;
+    display: inline-block;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    .sliderBar {
+      width: 70%;
+      height: 4px;
+      background-color: $color-white;
+      position: relative;
+      left: 15%;
+      top: 0px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &.rounded {
+    border-radius: 50px;
+
+    > div {
+      > span:last-child:not([class^='icon-']) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+/* Apply Button Size based on screen resolution */
+
+/* Triple Extra Large (XXXL) */
+@media (min-width: $xl-min) {
+  .wvButton.none-size {
+    @include xxxl;
+  }
+}
+
+/* Double Extra Large (XXL) */
+@media (min-width: $lg-min) and (max-width: $lg-max) {
+  .wvButton.none-size {
+    @include xxl;
+  }
+}
+
+/* Extra Large (XL) */
+@media (min-width: $lg-min) and (max-width: $md-max) {
+  .wvButton.none-size {
+    @include xl;
+  }
+}
+
+/* Large (LG) */
+@media (min-width: $md-min) and (max-width: $md-max) {
+  .wvButton.none-size {
+    @include lg;
+  }
+}
+
+/* Medium (MD) */
+@media (min-width: $sm-min) and (max-width: $sm-max) {
+  .wvButton.none-size {
+    @include md;
+  }
+}
+
+/* Small (SM) */
+@media (max-width: $xs-max) {
+  .wvButton.none-size {
+    @include sm;
+  }
+}

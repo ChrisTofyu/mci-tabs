@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render outline button successfully 1`] = `
+<body>
+  <div>
+    <button
+      aria-label="Button"
+      class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl outline none"
+      data-accent-color=""
+    >
+      <div
+        class="buttonContent textOnly"
+      >
+        <span>
+          Button
+        </span>
+      </div>
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render successfully 1`] = `
+<body>
+  <div>
+    <button
+      aria-label="Button"
+      class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl primary none"
+      data-accent-color=""
+    >
+      <div
+        class="buttonContent textOnly"
+      >
+        <span>
+          Button
+        </span>
+      </div>
+    </button>
+  </div>
+</body>
+`;

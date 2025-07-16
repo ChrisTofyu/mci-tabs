@@ -1,0 +1,43 @@
+@import '../../../styles/breakpoints';
+@import '../../../styles/_spacing';
+
+.container {
+  padding: var(--spacing-2xl) 0;
+
+  div:not(.content > .fullSizeMedia, [class~='media']) {
+    width: 100% !important;
+  }
+
+  .content > * {
+    &:not(.fullSizeMedia) {
+      width: 45.139% !important;
+      margin: auto;
+      box-sizing: border-box;
+
+      @media (max-width: $md_min) {
+        width: 76.563% !important;
+      }
+
+      @media (max-width: $sm_min) {
+        width: 89.584% !important;
+      }
+
+      @media (max-width: $xs_min) {
+        width: 91.114% !important;
+      }
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 16px;
+  }
+
+  img {
+    border-radius: 16px;
+  }
+}

@@ -1,0 +1,8 @@
+.container {
+  position: relative;
+  overflow: hidden;
+
+  -webkit-line-clamp: var(--truncateLineLimit);
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

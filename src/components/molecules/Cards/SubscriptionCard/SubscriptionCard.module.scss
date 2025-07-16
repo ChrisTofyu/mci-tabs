@@ -1,0 +1,87 @@
+@import '../../../../styles/colours';
+@import '../../UserProfile/UserProfile.scss';
+
+.cardContainer {
+  width: 248px;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: $color-white;
+  box-shadow: 0 1px 3px 0 $color-box-shadow;
+  border: 1px solid $color-neutral-100;
+
+  --card-border-width: 0;
+  --card-padding: 0;
+  --card-border-radius: var(--spacing-xl);
+  --card-background-color: unset;
+
+  &.enabledClick {
+    cursor: pointer;
+  }
+
+  .imageBlock {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .profileBlock {
+    display: grid;
+    gap: var(--spacing-md);
+    width: 100%;
+    padding: var(--spacing-sm) var(--spacing-md);
+
+    .head {
+      display: grid;
+      gap: var(--spacing-2xs);
+
+      .childName {
+        @include apply-text-styles(
+          --typography-font-size-5,
+          --typography-line-height-5
+        );
+      }
+
+      .since {
+        @include apply-text-styles(
+          --typography-font-size-2,
+          --typography-line-height-2,
+          --typography-font-weight-regular,
+          $color-neutral-600
+        );
+      }
+    }
+
+    .foot {
+      display: grid;
+      gap: var(--spacing-xs);
+
+      .location {
+        display: flex;
+        gap: var(--spacing-xs);
+
+        .content {
+          @include apply-text-styles(
+            --typography-font-size-2,
+            --typography-line-height-2,
+            --typography-font-weight-regular
+          );
+        }
+      }
+
+      .birthDate {
+        display: flex;
+        gap: var(--spacing-xs);
+
+        .content {
+          @include apply-text-styles(
+            --typography-font-size-2,
+            --typography-line-height-2,
+            --typography-font-weight-regular
+          );
+        }
+      }
+    }
+  }
+}

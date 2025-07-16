@@ -1,0 +1,51 @@
+@import '../../../styles/breakpoints';
+
+@mixin background-style($bg-color, $text-color) {
+  background-color: $bg-color;
+
+  .title {
+    color: $text-color;
+    font-weight: var(--typography-font-weight-semibold);
+    font-size: var(--typography-font-size-8);
+    line-height: var(--typography-line-height-8);
+
+    @media (max-width: $xs-min) {
+      font-size: var(--typography-font-size-5);
+      line-height: var(--typography-line-height-5);
+    }
+  }
+}
+
+.videoContainer {
+  position: relative;
+  background-color: #17191f;
+
+  .videoFlexible {
+    all: inherit;
+  }
+
+  .videoTitleBox {
+    max-width: 85%;
+  }
+
+  &.fixed {
+    width: fit-content;
+  }
+
+  .screenContainerClassName {
+    width: inherit !important;
+    height: inherit !important;
+  }
+
+  &.primary {
+    @include background-style(#f4f5f7, #17191f);
+  }
+
+  &.secondary {
+    @include background-style(#eaebee, #17191f);
+  }
+
+  &.tertiary {
+    @include background-style(#17191f, #ffffff);
+  }
+}

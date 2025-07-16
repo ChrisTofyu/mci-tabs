@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media Card Article Card should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface card article size-2"
+      id="sample-678"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex container"
+      >
+        <div
+          class="rt-Box mediaContainer size-2"
+        >
+          <div
+            data-radix-aspect-ratio-wrapper=""
+            style="position: relative; width: 100%; padding-bottom: 100%;"
+          >
+            <div
+              style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px;"
+            >
+              <img
+                alt="Media Card"
+                class="imgWrapper imagePlaceholder"
+                src="https://images.pexels.com/photos/2113709/pexels-photo-2113709.jpeg"
+                style="--imgWidth: 100%; --imgHeight: 100%;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-Box boxContainer article size-2"
+        >
+          <div
+            class="rt-Box contentContainer"
+          >
+            <p
+              class="rt-Text mocked-class-name typography-font-family-default date"
+              id=""
+            >
+              Mar 4, 2025
+            </p>
+            <div
+              class="rt-Box contents"
+            >
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default title article size-2"
+                id=""
+              >
+                Video: Burundi schools serve up success one plate at a time
+              </p>
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default subHead article size-2"
+                id=""
+              >
+                Proin congue lorem sit amet augue feugiat, eu placerat odio interdum. Mauris tincidunt arcu ut justo sollicitudin, eget volutpat magna ultrices. Nam tempus dapibus vehicula. Morbi blandit molestie metus vitae rhoncus. In in turpis sed ante euismod congue. Duis eu risus a nisl dapibus ultricies. Sed ultrices auctor lorem a finibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Media Card Image Media Card should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface card"
+      id="sample-456"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex container"
+      >
+        <div
+          class="rt-Box mediaContainer"
+        >
+          <img
+            alt="Media Card"
+            class="imgWrapper imagePlaceholder"
+            src="https://images.pexels.com/photos/2113709/pexels-photo-2113709.jpeg"
+          />
+        </div>
+        <div
+          class="rt-Box boxContainer"
+        >
+          <div
+            class="rt-Box contentContainer"
+          >
+            <p
+              class="rt-Text mocked-class-name typography-font-family-default date"
+              id=""
+            >
+              Mar 4, 2025
+            </p>
+            <div
+              class="rt-Box contents"
+            >
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default title"
+                id=""
+              >
+                Video: Burundi schools serve up success one plate at a time
+              </p>
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default subHead"
+                id=""
+              >
+                Proin congue lorem sit amet augue feugiat, eu placerat odio interdum. Mauris tincidunt arcu ut justo sollicitudin, eget volutpat magna ultrices. Nam tempus dapibus vehicula. Morbi blandit molestie metus vitae rhoncus. In in turpis sed ante euismod congue. Duis eu risus a nisl dapibus ultricies. Sed ultrices auctor lorem a finibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Media Card Video Media Card should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface card"
+      id="sample-123"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex container"
+      >
+        <div
+          class="rt-Box mediaContainer"
+        >
+          <div
+            class="videoContainer videoContainer"
+          >
+            <div
+              class="imageContainer"
+            >
+              <button
+                class="buttonContainer"
+              >
+                <img
+                  alt="Play Button"
+                  class="imgWrapper playButton button none"
+                  src="SvgrURL"
+                />
+                <img
+                  alt="Video Player"
+                  class="imgWrapper videoPlaceholder none videoPlaceholder"
+                  src="https://images.pexels.com/photos/2113709/pexels-photo-2113709.jpeg"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-Box boxContainer"
+        >
+          <div
+            class="rt-Box contentContainer"
+          >
+            <p
+              class="rt-Text mocked-class-name typography-font-family-default date"
+              id=""
+            >
+              Mar 4, 2025
+            </p>
+            <div
+              class="rt-Box contents"
+            >
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default title"
+                id=""
+              >
+                Video: Burundi schools serve up success one plate at a time
+              </p>
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default subHead"
+                id=""
+              >
+                Proin congue lorem sit amet augue feugiat, eu placerat odio interdum. Mauris tincidunt arcu ut justo sollicitudin, eget volutpat magna ultrices. Nam tempus dapibus vehicula. Morbi blandit molestie metus vitae rhoncus. In in turpis sed ante euismod congue. Duis eu risus a nisl dapibus ultricies. Sed ultrices auctor lorem a finibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

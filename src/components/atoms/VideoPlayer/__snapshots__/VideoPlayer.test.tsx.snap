@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPlayer should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="videoContainer"
+    >
+      <div
+        class="imageContainer"
+      >
+        <button
+          class="buttonContainer"
+        >
+          <img
+            alt="Play Button"
+            aria-hidden="true"
+            class="rt-Skeleton imgWrapper playButton button none"
+            inert=""
+            src="SvgrURL"
+            tabindex="-1"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;

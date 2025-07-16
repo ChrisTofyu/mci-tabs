@@ -1,0 +1,29 @@
+@import '../../../styles/breakpoints';
+
+.greetings {
+  display: grid;
+  gap: 4px;
+
+  &.cardContainer {
+    @media (min-width: $sm-min) {
+      min-width: 360px;
+    }
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: var(--typography-font-size-8);
+    line-height: var(--typography-line-height-8);
+    font-family: var(--typography-default-font-family);
+
+    @media (max-width: 767px) {
+      font-size: var(--typography-font-size-7);
+      line-height: var(--typography-line-height-7);
+    }
+  }
+
+  .message {
+    text-align: center;
+    padding-block: var(--spacing-xs);
+  }
+}

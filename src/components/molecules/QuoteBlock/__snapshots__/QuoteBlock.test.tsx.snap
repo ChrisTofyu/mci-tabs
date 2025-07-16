@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteBlock should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Box quoteBlockContainer"
+      style="--borderColor: #E86100; --textColor: #000;"
+    >
+      <span
+        class="rt-Text mocked-class-name typography-font-family-default"
+        id=""
+      >
+        Quote Block text
+      </span>
+    </div>
+  </div>
+</body>
+`;

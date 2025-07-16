@@ -1,0 +1,47 @@
+@import '../../../styles/colours';
+
+.divider {
+  margin: 0;
+  padding: 0;
+
+  // Horizontal divider styles
+  &-horizontal {
+    height: 1px;
+  }
+
+  // Vertical divider styles
+  &-vertical {
+    width: 1px;
+  }
+
+  // Size 1 (16px)
+  &-size-1 {
+    width: 16px;
+    height: 16px;
+  }
+
+  // Size 2 (32px)
+  &-size-2 {
+    width: 32px;
+    height: 32px;
+  }
+
+  // Size 3 (64px)
+  &-size-3 {
+    width: 64px;
+    height: 64px;
+  }
+
+  // Color variants
+  &-primary {
+    background-color: $color-neutral-300;
+  }
+
+  &-secondary {
+    background-color: $color-neutral-100;
+  }
+
+  &-inverse {
+    background-color: $color-white;
+  }
+}

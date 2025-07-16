@@ -1,0 +1,49 @@
+@import '../../../styles/breakpoints';
+
+.iconStatementWrapper {
+  font-family: var(--typography-default-font-family);
+  .iconStatementLeft {
+    .iconStatementLeftSpan {
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .iconStatementRight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    h4 {
+      width: 100%;
+      font-size: var(--typography-font-size-5);
+      font-weight: var(--typography-font-weight-bold);
+      line-height: var(--typography-line-height-5);
+      color: #17191f;
+      margin: 0;
+    }
+
+    p {
+      width: 100%;
+      font-size: var(--typography-font-size-4);
+      font-weight: var(--typography-font-weight-regular);
+      line-height: var(--typography-line-height-4);
+      color: #65676b;
+      margin: 2px 0 0 0;
+    }
+  }
+}
+
+@media (max-width: $initial-max) {
+  .iconStatementRight {
+    h4 {
+      font-size: var(--typography-font-size-4) !important;
+    }
+
+    p {
+      font-size: var(--typography-font-size-3) !important;
+    }
+  }
+}

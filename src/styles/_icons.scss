@@ -1,0 +1,1495 @@
+@import '../styles/icons-variables.scss';
+
+@mixin apply-icon($image_path, $width: auto, $height: auto) {
+  mask-image: url($image_path);
+  mask-repeat: no-repeat;
+  width: $width;
+  height: $height;
+  mask-size: contain;
+  background-color: currentColor;
+}
+
+@mixin apply-image($image_path, $width: auto, $height: auto) {
+  background-image: url($image_path);
+  background-repeat: no-repeat;
+  width: $width;
+  height: $height;
+  background-size: contain;
+}
+
+@mixin apply-image-as-content($image_path, $width: auto, $height: auto) {
+  content: url($image_path);
+  background-repeat: no-repeat;
+  width: $width;
+  height: $height;
+  background-size: contain;
+}
+
+.icon {
+  display: inline-block;
+
+  &.icon-plus {
+    @include apply-icon($icon-plus, 40px, 40px);
+  }
+
+  &.icon-menu {
+    @include apply-icon($icon-menu, 40px, 40px);
+  }
+
+  &.icon-info {
+    @include apply-icon($icon-info, 40px, 40px);
+  }
+
+  &.icon-arrow {
+    @include apply-icon($icon-arrow, 40px, 40px);
+  }
+
+  &.icon-arrow-left {
+    @include apply-icon($icon-arrow, 40px, 40px);
+    rotate: 180deg;
+  }
+
+  &.icon-next {
+    @include apply-icon($icon-next, 40px, 40px);
+  }
+
+  &.icon-previous {
+    @include apply-icon($icon-next, 40px, 40px);
+    rotate: 180deg;
+  }
+
+  &.icon-search {
+    @include apply-icon($icon-search, 40px, 40px);
+  }
+
+  &.icon-new-tab {
+    @include apply-image($icon-new-tab, 40px, 40px);
+  }
+
+  &.icon-global-language {
+    @include apply-icon($icon-global-language, 40px, 40px);
+  }
+
+  &.icon-login-user {
+    @include apply-icon($icon-login-user, 40px, 40px);
+  }
+
+  &.icon-tick {
+    @include apply-image($icon-tick, 40px, 40px);
+  }
+
+  &.icon-gender-boy {
+    @include apply-image($icon-gender-boy, 40px, 40px);
+  }
+
+  &.icon-gender-girl {
+    @include apply-image($icon-gender-girl, 40px, 40px);
+  }
+
+  &.icon-book {
+    @include apply-image($icon-book, 40px, 40px);
+  }
+
+  &.icon-campaign {
+    @include apply-icon($icon-campaign, 40px, 40px);
+  }
+
+  &.icon-chat-circle {
+    @include apply-icon($icon-chat-circle, 40px, 40px);
+  }
+
+  &.icon-check {
+    @include apply-icon($icon-check, 40px, 40px);
+  }
+
+  &.icon-chevron {
+    @include apply-icon($icon-chevron-up, 40px, 40px);
+  }
+
+  &.icon-chevron-right {
+    @include apply-icon($icon-chevron-up, 40px, 40px);
+    rotate: 90deg;
+  }
+
+  &.icon-chevron-down {
+    @include apply-icon($icon-chevron-up, 40px, 40px);
+    rotate: 180deg;
+  }
+
+  &.icon-chevron-left {
+    @include apply-icon($icon-chevron-up, 40px, 40px);
+    rotate: -90deg;
+  }
+
+  &.icon-circle-check {
+    @include apply-icon($icon-circle-check, 40px, 40px);
+  }
+
+  &.icon-close {
+    @include apply-icon($icon-close, 16px, 16px);
+
+    &-lg {
+      @include apply-icon($icon-close, 28px, 28px);
+    }
+
+    &-xl {
+      @include apply-icon($icon-close, 40px, 40px);
+    }
+  }
+
+  &.icon-download {
+    @include apply-icon($icon-download, 40px, 40px);
+  }
+
+  &.icon-edit {
+    @include apply-icon($icon-edit, 40px, 40px);
+  }
+
+  &.icon-home {
+    @include apply-icon($icon-home, 40px, 40px);
+  }
+
+  &.icon-link {
+    @include apply-icon($icon-link, 40px, 40px);
+  }
+
+  &.icon-mail {
+    @include apply-icon($icon-mail, 40px, 40px);
+  }
+
+  &.icon-mark {
+    @include apply-icon($icon-mark, 40px, 40px);
+  }
+
+  &.icon-medal {
+    @include apply-icon($icon-medal, 40px, 40px);
+  }
+
+  &.icon-news {
+    @include apply-icon($icon-news, 40px, 40px);
+  }
+
+  &.icon-options {
+    @include apply-icon($icon-options, 40px, 40px);
+  }
+
+  &.icon-phone {
+    @include apply-icon($icon-phone, 40px, 40px);
+  }
+
+  &.icon-circle-plus {
+    @include apply-icon($icon-circle-plus, 40px, 40px);
+  }
+
+  &.icon-question-circle {
+    @include apply-icon($icon-question-circle, 40px, 40px);
+  }
+
+  &.icon-thumbs-up {
+    @include apply-icon($icon-thumbs-up, 40px, 40px);
+  }
+
+  &.icon-user-empty {
+    @include apply-icon($icon-user-empty, 40px, 40px);
+  }
+
+  &.icon-exit {
+    @include apply-icon($icon-exit, 40px, 40px);
+  }
+
+  &.icon-eye {
+    @include apply-icon($icon-eye, 40px, 40px);
+  }
+
+  &.icon-eye-off {
+    @include apply-icon($icon-eye-off, 40px, 40px);
+  }
+
+  &.icon-error {
+    @include apply-icon($icon-error, 40px, 40px);
+  }
+
+  &.icon-show-support {
+    @include apply-icon($icon-show-support, 40px, 40px);
+  }
+
+  &.icon-social-facebook {
+    @include apply-icon($icon-social-facebook, 40px, 40px);
+  }
+
+  &.icon-social-youtube {
+    @include apply-icon($icon-social-youtube, 40px, 40px);
+  }
+
+  &.icon-social-twitter {
+    @include apply-icon($icon-social-twitter, 40px, 40px);
+  }
+
+  &.icon-social-instagram {
+    @include apply-icon($icon-social-instagram, 40px, 40px);
+  }
+
+  &.icon-child-protection {
+    @include apply-icon($icon-child-protection, 40px, 40px);
+  }
+
+  &.icon-clean-water {
+    @include apply-icon($icon-clean-water, 40px, 40px);
+  }
+
+  &.icon-climate-change {
+    @include apply-icon($icon-climate-change, 40px, 40px);
+  }
+
+  &.icon-clothing {
+    @include apply-icon($icon-clothing, 40px, 40px);
+  }
+
+  &.icon-disability-inclusion {
+    @include apply-icon($icon-disability-inclusion, 40px, 40px);
+  }
+
+  &.icon-disaster-relief {
+    @include apply-icon($icon-disaster-relief, 40px, 40px);
+  }
+
+  &.icon-economic {
+    @include apply-icon($icon-economic, 40px, 40px);
+  }
+
+  &.icon-education {
+    @include apply-icon($icon-education, 40px, 40px);
+  }
+
+  &.icon-environmental {
+    @include apply-icon($icon-environmental, 40px, 40px);
+  }
+
+  &.icon-food {
+    @include apply-icon($icon-food, 40px, 40px);
+  }
+
+  &.icon-gender-equality {
+    @include apply-icon($icon-gender-equality, 40px, 40px);
+  }
+
+  &.icon-health {
+    @include apply-icon($icon-health, 40px, 40px);
+  }
+
+  &.icon-healthy-food {
+    @include apply-icon($icon-healthy-food, 40px, 40px);
+  }
+
+  &.icon-human-rights {
+    @include apply-icon($icon-human-rights, 40px, 40px);
+  }
+
+  &.icon-international-development {
+    @include apply-icon($icon-international-development, 40px, 40px);
+  }
+
+  &.icon-livelihoods {
+    @include apply-icon($icon-livelihoods, 40px, 40px);
+  }
+
+  &.icon-medicines {
+    @include apply-icon($icon-medicines, 40px, 40px);
+  }
+
+  &.icon-poverty {
+    @include apply-icon($icon-poverty, 40px, 40px);
+  }
+
+  &.icon-refugees {
+    @include apply-icon($icon-refugees, 40px, 40px);
+  }
+
+  &.icon-sanitation {
+    @include apply-icon($icon-sanitation, 40px, 40px);
+  }
+
+  &.icon-social-justice {
+    @include apply-icon($icon-social-justice, 40px, 40px);
+  }
+
+  &.icon-training {
+    @include apply-icon($icon-training, 40px, 40px);
+  }
+
+  &.icon-water {
+    @include apply-icon($icon-water, 40px, 40px);
+  }
+
+  &.icon-womens-health {
+    @include apply-icon($icon-womens-health, 40px, 40px);
+  }
+
+  &.icon-logo-dark {
+    @include apply-image($icon-logo-dark, 40px, 40px);
+  }
+
+  &.icon-logo-light {
+    @include apply-image($icon-logo-light, 40px, 40px);
+  }
+
+  &.icon-logo-light-small {
+    @include apply-image($icon-logo-light-small, 40px, 40px);
+  }
+
+  &.icon-paypal {
+    @include apply-image($icon-paypal, 40px, 40px);
+  }
+
+  &.icon-visa {
+    @include apply-image($icon-visa, 40px, 40px);
+  }
+
+  &.icon-master-card {
+    @include apply-image($icon-master-card, 40px, 40px);
+  }
+
+  &.icon-amex {
+    @include apply-image($icon-amex, 40px, 40px);
+  }
+
+  &.icon-accredited-member {
+    @include apply-icon($icon-accredited-member, 40px, 40px);
+  }
+
+  &.icon-imagine-canada {
+    @include apply-icon($icon-imagine-canada, 40px, 40px);
+  }
+
+  &.icon-imagine-canada-dark {
+    @include apply-icon($icon-imagine-canada-dark, 40px, 40px);
+  }
+
+  &.icon-humanitarian-coalition-member {
+    @include apply-icon($icon-humanitarian-coalition-member, 40px, 40px);
+  }
+
+  &.icon-bbb {
+    @include apply-icon($icon-bbb, 40px, 40px);
+  }
+
+  &.icon-hc {
+    @include apply-icon($icon-hc, 40px, 40px);
+  }
+
+  &.icon-charity-intelligence {
+    @include apply-icon($icon-charity-intelligence, 40px, 40px);
+  }
+
+  &.icon-calendar {
+    @include apply-icon($icon-calendar, 40px, 40px);
+  }
+
+  &.icon-logout {
+    @include apply-icon($icon-logout, 40px, 40px);
+  }
+
+  &.icon-highlight-off {
+    @include apply-image($icon-highlight-off, 40px, 40px);
+  }
+
+  &.icon-highlight-on {
+    @include apply-image($icon-highlight-on, 40px, 40px);
+  }
+
+  &.icon-map-pin {
+    @include apply-icon($icon-map-pin, 40px, 40px);
+  }
+
+  &.icon-gift {
+    @include apply-icon($icon-gift, 40px, 40px);
+  }
+
+  &.icon-location {
+    @include apply-icon($icon-location, 40px, 40px);
+  }
+
+  &.icon-age {
+    @include apply-image($icon-age, 40px, 40px);
+  }
+
+  &.icon-emblem {
+    @include apply-image($icon-emblem, 40px, 40px);
+  }
+
+  &.icon-logo {
+    @include apply-image($icon-logo, 40px, 40px);
+  }
+
+  &.icon-mini-logo {
+    @include apply-image($icon-mini-logo, 40px, 40px);
+  }
+
+  &.icon-play {
+    @include apply-image($icon-play, 40px, 40px);
+  }
+
+  &.icon-user {
+    @include apply-icon($icon-user, 40px, 40px);
+  }
+
+  &.icon-abkhazia {
+    @include apply-image($icon-abkhazia, 40px, 40px);
+  }
+
+  &.icon-afghanistan {
+    @include apply-image($icon-afghanistan, 40px, 40px);
+  }
+
+  &.icon-aland-islands {
+    @include apply-image($icon-aland-islands, 40px, 40px);
+  }
+
+  &.icon-albania {
+    @include apply-image($icon-albania, 40px, 40px);
+  }
+
+  &.icon-algeria {
+    @include apply-image($icon-algeria, 40px, 40px);
+  }
+
+  &.icon-american-samoa {
+    @include apply-image($icon-american-samoa, 40px, 40px);
+  }
+
+  &.icon-andorra {
+    @include apply-image($icon-andorra, 40px, 40px);
+  }
+
+  &.icon-angola {
+    @include apply-image($icon-angola, 40px, 40px);
+  }
+
+  &.icon-anguilla {
+    @include apply-image($icon-anguilla, 40px, 40px);
+  }
+
+  &.icon-antigua-and-barbuda {
+    @include apply-image($icon-antigua-and-barbuda, 40px, 40px);
+  }
+
+  &.icon-argentina {
+    @include apply-image($icon-argentina, 40px, 40px);
+  }
+
+  &.icon-armenia {
+    @include apply-image($icon-armenia, 40px, 40px);
+  }
+
+  &.icon-aruba {
+    @include apply-image($icon-aruba, 40px, 40px);
+  }
+
+  &.icon-australia {
+    @include apply-image($icon-australia, 40px, 40px);
+  }
+
+  &.icon-austria {
+    @include apply-image($icon-austria, 40px, 40px);
+  }
+
+  &.icon-azerbaijan {
+    @include apply-image($icon-azerbaijan, 40px, 40px);
+  }
+
+  &.icon-azores-islands {
+    @include apply-image($icon-azores-islands, 40px, 40px);
+  }
+
+  &.icon-bahamas {
+    @include apply-image($icon-bahamas, 40px, 40px);
+  }
+
+  &.icon-bahrain {
+    @include apply-image($icon-bahrain, 40px, 40px);
+  }
+
+  &.icon-balearic-islands {
+    @include apply-image($icon-balearic-islands, 40px, 40px);
+  }
+
+  &.icon-bangladesh {
+    @include apply-image($icon-bangladesh, 40px, 40px);
+  }
+
+  &.icon-barbados {
+    @include apply-image($icon-barbados, 40px, 40px);
+  }
+
+  &.icon-basque-country {
+    @include apply-image($icon-basque-country, 40px, 40px);
+  }
+
+  &.icon-belarus {
+    @include apply-image($icon-belarus, 40px, 40px);
+  }
+
+  &.icon-belgium {
+    @include apply-image($icon-belgium, 40px, 40px);
+  }
+
+  &.icon-belize {
+    @include apply-image($icon-belize, 40px, 40px);
+  }
+
+  &.icon-benin {
+    @include apply-image($icon-benin, 40px, 40px);
+  }
+
+  &.icon-bermuda {
+    @include apply-image($icon-bermuda, 40px, 40px);
+  }
+
+  &.icon-bhutan {
+    @include apply-image($icon-bhutan, 40px, 40px);
+  }
+
+  &.icon-bolivia {
+    @include apply-image($icon-bolivia, 40px, 40px);
+  }
+
+  &.icon-bonaire {
+    @include apply-image($icon-bonaire, 40px, 40px);
+  }
+
+  &.icon-bosnia-and-herzegovina {
+    @include apply-image($icon-bosnia-and-herzegovina, 40px, 40px);
+  }
+
+  &.icon-botswana {
+    @include apply-image($icon-botswana, 40px, 40px);
+  }
+
+  &.icon-brazil {
+    @include apply-image($icon-brazil, 40px, 40px);
+  }
+
+  &.icon-british-columbia {
+    @include apply-image($icon-british-columbia, 40px, 40px);
+  }
+
+  &.icon-british-indian-ocean-territory {
+    @include apply-image($icon-british-indian-ocean-territory, 40px, 40px);
+  }
+
+  &.icon-british-virgin-islands {
+    @include apply-image($icon-british-virgin-islands, 40px, 40px);
+  }
+
+  &.icon-brunei {
+    @include apply-image($icon-brunei, 40px, 40px);
+  }
+
+  &.icon-bulgaria {
+    @include apply-image($icon-bulgaria, 40px, 40px);
+  }
+
+  &.icon-burkina-faso {
+    @include apply-image($icon-burkina-faso, 40px, 40px);
+  }
+
+  &.icon-burundi {
+    @include apply-image($icon-burundi, 40px, 40px);
+  }
+
+  &.icon-cambodia {
+    @include apply-image($icon-cambodia, 40px, 40px);
+  }
+
+  &.icon-cameroon {
+    @include apply-image($icon-cameroon, 40px, 40px);
+  }
+
+  &.icon-canada {
+    @include apply-image($icon-canada, 40px, 40px);
+  }
+
+  &.icon-canary-islands {
+    @include apply-image($icon-canary-islands, 40px, 40px);
+  }
+
+  &.icon-cape-verde {
+    @include apply-image($icon-cape-verde, 40px, 40px);
+  }
+
+  &.icon-cayman-islands {
+    @include apply-image($icon-cayman-islands, 40px, 40px);
+  }
+
+  &.icon-central-african-republic {
+    @include apply-image($icon-central-african-republic, 40px, 40px);
+  }
+
+  &.icon-ceuta {
+    @include apply-image($icon-ceuta, 40px, 40px);
+  }
+
+  &.icon-chad {
+    @include apply-image($icon-chad, 40px, 40px);
+  }
+
+  &.icon-chile {
+    @include apply-image($icon-chile, 40px, 40px);
+  }
+
+  &.icon-china {
+    @include apply-image($icon-china, 40px, 40px);
+  }
+
+  &.icon-cocos-island {
+    @include apply-image($icon-cocos-island, 40px, 40px);
+  }
+
+  &.icon-colombia {
+    @include apply-image($icon-colombia, 40px, 40px);
+  }
+
+  &.icon-comoros {
+    @include apply-image($icon-comoros, 40px, 40px);
+  }
+
+  &.icon-cook-islands {
+    @include apply-image($icon-cook-islands, 40px, 40px);
+  }
+
+  &.icon-corsica {
+    @include apply-image($icon-corsica, 40px, 40px);
+  }
+
+  &.icon-costa-rica {
+    @include apply-image($icon-costa-rica, 40px, 40px);
+  }
+
+  &.icon-croatia {
+    @include apply-image($icon-croatia, 40px, 40px);
+  }
+
+  &.icon-cuba {
+    @include apply-image($icon-cuba, 40px, 40px);
+  }
+
+  &.icon-curacao {
+    @include apply-image($icon-curacao, 40px, 40px);
+  }
+
+  &.icon-cyprus {
+    @include apply-image($icon-cyprus, 40px, 40px);
+  }
+
+  &.icon-czech-republic {
+    @include apply-image($icon-czech-republic, 40px, 40px);
+  }
+
+  &.icon-democratic-republic-of-congo {
+    @include apply-image($icon-democratic-republic-of-congo, 40px, 40px);
+  }
+
+  &.icon-denmark {
+    @include apply-image($icon-denmark, 40px, 40px);
+  }
+
+  &.icon-djibouti {
+    @include apply-image($icon-djibouti, 40px, 40px);
+  }
+
+  &.icon-dominica {
+    @include apply-image($icon-dominica, 40px, 40px);
+  }
+
+  &.icon-dominican-republic {
+    @include apply-image($icon-dominican-republic, 40px, 40px);
+  }
+
+  &.icon-east-timor {
+    @include apply-image($icon-east-timor, 40px, 40px);
+  }
+
+  &.icon-ecuador {
+    @include apply-image($icon-ecuador, 40px, 40px);
+  }
+
+  &.icon-egypt {
+    @include apply-image($icon-egypt, 40px, 40px);
+  }
+
+  &.icon-el-salvador {
+    @include apply-image($icon-el-salvador, 40px, 40px);
+  }
+
+  &.icon-england {
+    @include apply-image($icon-england, 40px, 40px);
+  }
+
+  &.icon-equatorial-guinea {
+    @include apply-image($icon-equatorial-guinea, 40px, 40px);
+  }
+
+  &.icon-eritrea {
+    @include apply-image($icon-eritrea, 40px, 40px);
+  }
+
+  &.icon-estonia {
+    @include apply-image($icon-estonia, 40px, 40px);
+  }
+
+  &.icon-ethiopia {
+    @include apply-image($icon-ethiopia, 40px, 40px);
+  }
+
+  &.icon-european-union {
+    @include apply-image($icon-european-union, 40px, 40px);
+  }
+
+  &.icon-falkland-islands {
+    @include apply-image($icon-falkland-islands, 40px, 40px);
+  }
+
+  &.icon-faroe-islands {
+    @include apply-image($icon-faroe-islands, 40px, 40px);
+  }
+
+  &.icon-fiji {
+    @include apply-image($icon-fiji, 40px, 40px);
+  }
+
+  &.icon-finland {
+    @include apply-image($icon-finland, 40px, 40px);
+  }
+
+  &.icon-france {
+    @include apply-image($icon-france, 40px, 40px);
+  }
+
+  &.icon-french-polynesia {
+    @include apply-image($icon-french-polynesia, 40px, 40px);
+  }
+
+  &.icon-gabon {
+    @include apply-image($icon-gabon, 40px, 40px);
+  }
+
+  &.icon-galapagos-islands {
+    @include apply-image($icon-galapagos-islands, 40px, 40px);
+  }
+
+  &.icon-gambia {
+    @include apply-image($icon-gambia, 40px, 40px);
+  }
+
+  &.icon-georgia {
+    @include apply-image($icon-georgia, 40px, 40px);
+  }
+
+  &.icon-germany {
+    @include apply-image($icon-germany, 40px, 40px);
+  }
+
+  &.icon-ghana {
+    @include apply-image($icon-ghana, 40px, 40px);
+  }
+
+  &.icon-gibraltar {
+    @include apply-image($icon-gibraltar, 40px, 40px);
+  }
+
+  &.icon-greece {
+    @include apply-image($icon-greece, 40px, 40px);
+  }
+
+  &.icon-greenland {
+    @include apply-image($icon-greenland, 40px, 40px);
+  }
+
+  &.icon-grenada {
+    @include apply-image($icon-grenada, 40px, 40px);
+  }
+
+  &.icon-guam {
+    @include apply-image($icon-guam, 40px, 40px);
+  }
+
+  &.icon-guatemala {
+    @include apply-image($icon-guatemala, 40px, 40px);
+  }
+
+  &.icon-guernsey {
+    @include apply-image($icon-guernsey, 40px, 40px);
+  }
+
+  &.icon-guinea {
+    @include apply-image($icon-guinea, 40px, 40px);
+  }
+
+  &.icon-guinea-bissau {
+    @include apply-image($icon-guinea-bissau, 40px, 40px);
+  }
+
+  &.icon-guyana {
+    @include apply-image($icon-guyana, 40px, 40px);
+  }
+
+  &.icon-haiti {
+    @include apply-image($icon-haiti, 40px, 40px);
+  }
+
+  &.icon-hawaii {
+    @include apply-image($icon-hawaii, 40px, 40px);
+  }
+
+  &.icon-honduras {
+    @include apply-image($icon-honduras, 40px, 40px);
+  }
+
+  &.icon-hong-kong {
+    @include apply-image($icon-hong-kong, 40px, 40px);
+  }
+
+  &.icon-hungary {
+    @include apply-image($icon-hungary, 40px, 40px);
+  }
+
+  &.icon-iceland {
+    @include apply-image($icon-iceland, 40px, 40px);
+  }
+
+  &.icon-india {
+    @include apply-image($icon-india, 40px, 40px);
+  }
+
+  &.icon-indonesia {
+    @include apply-image($icon-indonesia, 40px, 40px);
+  }
+
+  &.icon-iran {
+    @include apply-image($icon-iran, 40px, 40px);
+  }
+
+  &.icon-iraq {
+    @include apply-image($icon-iraq, 40px, 40px);
+  }
+
+  &.icon-ireland {
+    @include apply-image($icon-ireland, 40px, 40px);
+  }
+
+  &.icon-isle-of-man {
+    @include apply-image($icon-isle-of-man, 40px, 40px);
+  }
+
+  &.icon-israel {
+    @include apply-image($icon-israel, 40px, 40px);
+  }
+
+  &.icon-italy {
+    @include apply-image($icon-italy, 40px, 40px);
+  }
+
+  &.icon-ivory-coast {
+    @include apply-image($icon-ivory-coast, 40px, 40px);
+  }
+
+  &.icon-jamaica {
+    @include apply-image($icon-jamaica, 40px, 40px);
+  }
+
+  &.icon-japan {
+    @include apply-image($icon-japan, 40px, 40px);
+  }
+
+  &.icon-jersey {
+    @include apply-image($icon-jersey, 40px, 40px);
+  }
+
+  &.icon-jordan {
+    @include apply-image($icon-jordan, 40px, 40px);
+  }
+
+  &.icon-kazakhstan {
+    @include apply-image($icon-kazakhstan, 40px, 40px);
+  }
+
+  &.icon-kenya {
+    @include apply-image($icon-kenya, 40px, 40px);
+  }
+
+  &.icon-kiribati {
+    @include apply-image($icon-kiribati, 40px, 40px);
+  }
+
+  &.icon-kosovo {
+    @include apply-image($icon-kosovo, 40px, 40px);
+  }
+
+  &.icon-kuwait {
+    @include apply-image($icon-kuwait, 40px, 40px);
+  }
+
+  &.icon-kyrgyzstan {
+    @include apply-image($icon-kyrgyzstan, 40px, 40px);
+  }
+
+  &.icon-laos {
+    @include apply-image($icon-laos, 40px, 40px);
+  }
+
+  &.icon-latvia {
+    @include apply-image($icon-latvia, 40px, 40px);
+  }
+
+  &.icon-lebanon {
+    @include apply-image($icon-lebanon, 40px, 40px);
+  }
+
+  &.icon-lesotho {
+    @include apply-image($icon-lesotho, 40px, 40px);
+  }
+
+  &.icon-liberia {
+    @include apply-image($icon-liberia, 40px, 40px);
+  }
+
+  &.icon-libya {
+    @include apply-image($icon-libya, 40px, 40px);
+  }
+
+  &.icon-liechtenstein {
+    @include apply-image($icon-liechtenstein, 40px, 40px);
+  }
+
+  &.icon-lithuania {
+    @include apply-image($icon-lithuania, 40px, 40px);
+  }
+
+  &.icon-luxembourg {
+    @include apply-image($icon-luxembourg, 40px, 40px);
+  }
+
+  &.icon-macao {
+    @include apply-image($icon-macao, 40px, 40px);
+  }
+
+  &.icon-madagascar {
+    @include apply-image($icon-madagascar, 40px, 40px);
+  }
+
+  &.icon-madeira {
+    @include apply-image($icon-madeira, 40px, 40px);
+  }
+
+  &.icon-malawi {
+    @include apply-image($icon-malawi, 40px, 40px);
+  }
+
+  &.icon-malaysia {
+    @include apply-image($icon-malaysia, 40px, 40px);
+  }
+
+  &.icon-maldives {
+    @include apply-image($icon-maldives, 40px, 40px);
+  }
+
+  &.icon-mali {
+    @include apply-image($icon-mali, 40px, 40px);
+  }
+
+  &.icon-malta {
+    @include apply-image($icon-malta, 40px, 40px);
+  }
+
+  &.icon-marshall-island {
+    @include apply-image($icon-marshall-island, 40px, 40px);
+  }
+
+  &.icon-martinique {
+    @include apply-image($icon-martinique, 40px, 40px);
+  }
+
+  &.icon-mauritania {
+    @include apply-image($icon-mauritania, 40px, 40px);
+  }
+
+  &.icon-mauritius {
+    @include apply-image($icon-mauritius, 40px, 40px);
+  }
+
+  &.icon-melilla {
+    @include apply-image($icon-melilla, 40px, 40px);
+  }
+
+  &.icon-mexico {
+    @include apply-image($icon-mexico, 40px, 40px);
+  }
+
+  &.icon-micronesia {
+    @include apply-image($icon-micronesia, 40px, 40px);
+  }
+
+  &.icon-moldova {
+    @include apply-image($icon-moldova, 40px, 40px);
+  }
+
+  &.icon-monaco {
+    @include apply-image($icon-monaco, 40px, 40px);
+  }
+
+  &.icon-mongolia {
+    @include apply-image($icon-mongolia, 40px, 40px);
+  }
+
+  &.icon-montenegro {
+    @include apply-image($icon-montenegro, 40px, 40px);
+  }
+
+  &.icon-montserrat {
+    @include apply-image($icon-montserrat, 40px, 40px);
+  }
+
+  &.icon-morocco {
+    @include apply-image($icon-morocco, 40px, 40px);
+  }
+
+  &.icon-mozambique {
+    @include apply-image($icon-mozambique, 40px, 40px);
+  }
+
+  &.icon-myanmar {
+    @include apply-image($icon-myanmar, 40px, 40px);
+  }
+
+  &.icon-namibia {
+    @include apply-image($icon-namibia, 40px, 40px);
+  }
+
+  &.icon-nauru {
+    @include apply-image($icon-nauru, 40px, 40px);
+  }
+
+  &.icon-nepal {
+    @include apply-image($icon-nepal, 40px, 40px);
+  }
+
+  &.icon-netherlands {
+    @include apply-image($icon-netherlands, 40px, 40px);
+  }
+
+  &.icon-new-zealand {
+    @include apply-image($icon-new-zealand, 40px, 40px);
+  }
+
+  &.icon-nicaragua {
+    @include apply-image($icon-nicaragua, 40px, 40px);
+  }
+
+  &.icon-niger {
+    @include apply-image($icon-niger, 40px, 40px);
+  }
+
+  &.icon-nigeria {
+    @include apply-image($icon-nigeria, 40px, 40px);
+  }
+
+  &.icon-niue {
+    @include apply-image($icon-niue, 40px, 40px);
+  }
+
+  &.icon-norfolk-island {
+    @include apply-image($icon-norfolk-island, 40px, 40px);
+  }
+
+  &.icon-north-korea {
+    @include apply-image($icon-north-korea, 40px, 40px);
+  }
+
+  &.icon-northern-cyprus {
+    @include apply-image($icon-northern-cyprus, 40px, 40px);
+  }
+
+  &.icon-northern-marianas-islands {
+    @include apply-image($icon-northern-marianas-islands, 40px, 40px);
+  }
+
+  &.icon-norway {
+    @include apply-image($icon-norway, 40px, 40px);
+  }
+
+  &.icon-oman {
+    @include apply-image($icon-oman, 40px, 40px);
+  }
+
+  &.icon-orkney-islands {
+    @include apply-image($icon-orkney-islands, 40px, 40px);
+  }
+
+  &.icon-ossetia {
+    @include apply-image($icon-ossetia, 40px, 40px);
+  }
+
+  &.icon-pakistan {
+    @include apply-image($icon-pakistan, 40px, 40px);
+  }
+
+  &.icon-palau {
+    @include apply-image($icon-palau, 40px, 40px);
+  }
+
+  &.icon-palestine {
+    @include apply-image($icon-palestine, 40px, 40px);
+  }
+
+  &.icon-panama {
+    @include apply-image($icon-panama, 40px, 40px);
+  }
+
+  &.icon-papua-new-guinea {
+    @include apply-image($icon-papua-new-guinea, 40px, 40px);
+  }
+
+  &.icon-paraguay {
+    @include apply-image($icon-paraguay, 40px, 40px);
+  }
+
+  &.icon-peru {
+    @include apply-image($icon-peru, 40px, 40px);
+  }
+
+  &.icon-philippines {
+    @include apply-image($icon-philippines, 40px, 40px);
+  }
+
+  &.icon-pitcairn-islands {
+    @include apply-image($icon-pitcairn-islands, 40px, 40px);
+  }
+
+  &.icon-poland {
+    @include apply-image($icon-poland, 40px, 40px);
+  }
+
+  &.icon-portugal {
+    @include apply-image($icon-portugal, 40px, 40px);
+  }
+
+  &.icon-puerto-rico {
+    @include apply-image($icon-puerto-rico, 40px, 40px);
+  }
+
+  &.icon-qatar {
+    @include apply-image($icon-qatar, 40px, 40px);
+  }
+
+  &.icon-rapa-nui {
+    @include apply-image($icon-rapa-nui, 40px, 40px);
+  }
+
+  &.icon-republic-of-macedonia {
+    @include apply-image($icon-republic-of-macedonia, 40px, 40px);
+  }
+
+  &.icon-republic-of-the-congo {
+    @include apply-image($icon-republic-of-the-congo, 40px, 40px);
+  }
+
+  &.icon-romania {
+    @include apply-image($icon-romania, 40px, 40px);
+  }
+
+  &.icon-russia {
+    @include apply-image($icon-russia, 40px, 40px);
+  }
+
+  &.icon-rwanda {
+    @include apply-image($icon-rwanda, 40px, 40px);
+  }
+
+  &.icon-saba-island {
+    @include apply-image($icon-saba-island, 40px, 40px);
+  }
+
+  &.icon-sahrawi-arab-democratic-republic {
+    @include apply-image($icon-sahrawi-arab-democratic-republic, 40px, 40px);
+  }
+
+  &.icon-samoa {
+    @include apply-image($icon-samoa, 40px, 40px);
+  }
+
+  &.icon-san-marino {
+    @include apply-image($icon-san-marino, 40px, 40px);
+  }
+
+  &.icon-sao-tome-and-prince {
+    @include apply-image($icon-sao-tome-and-prince, 40px, 40px);
+  }
+
+  &.icon-sardinia {
+    @include apply-image($icon-sardinia, 40px, 40px);
+  }
+
+  &.icon-saudi-arabia {
+    @include apply-image($icon-saudi-arabia, 40px, 40px);
+  }
+
+  &.icon-scotland {
+    @include apply-image($icon-scotland, 40px, 40px);
+  }
+
+  &.icon-senegal {
+    @include apply-image($icon-senegal, 40px, 40px);
+  }
+
+  &.icon-serbia {
+    @include apply-image($icon-serbia, 40px, 40px);
+  }
+
+  &.icon-seychelles {
+    @include apply-image($icon-seychelles, 40px, 40px);
+  }
+
+  &.icon-sierra-leone {
+    @include apply-image($icon-sierra-leone, 40px, 40px);
+  }
+
+  &.icon-singapore {
+    @include apply-image($icon-singapore, 40px, 40px);
+  }
+
+  &.icon-sint-eustatius {
+    @include apply-image($icon-sint-eustatius, 40px, 40px);
+  }
+
+  &.icon-sint-maarten {
+    @include apply-image($icon-sint-maarten, 40px, 40px);
+  }
+
+  &.icon-slovakia {
+    @include apply-image($icon-slovakia, 40px, 40px);
+  }
+
+  &.icon-slovenia {
+    @include apply-image($icon-slovenia, 40px, 40px);
+  }
+
+  &.icon-solomon-islands {
+    @include apply-image($icon-solomon-islands, 40px, 40px);
+  }
+
+  &.icon-somalia {
+    @include apply-image($icon-somalia, 40px, 40px);
+  }
+
+  &.icon-somaliland {
+    @include apply-image($icon-somaliland, 40px, 40px);
+  }
+
+  &.icon-south-africa {
+    @include apply-image($icon-south-africa, 40px, 40px);
+  }
+
+  &.icon-south-korea {
+    @include apply-image($icon-south-korea, 40px, 40px);
+  }
+
+  &.icon-south-sudan {
+    @include apply-image($icon-south-sudan, 40px, 40px);
+  }
+
+  &.icon-spain {
+    @include apply-image($icon-spain, 40px, 40px);
+  }
+
+  &.icon-sri-lanka {
+    @include apply-image($icon-sri-lanka, 40px, 40px);
+  }
+
+  &.icon-st-barts {
+    @include apply-image($icon-st-barts, 40px, 40px);
+  }
+
+  &.icon-st-lucia {
+    @include apply-image($icon-st-lucia, 40px, 40px);
+  }
+
+  &.icon-st-vincent-and-the-grenadines {
+    @include apply-image($icon-st-vincent-and-the-grenadines, 40px, 40px);
+  }
+
+  &.icon-sudan {
+    @include apply-image($icon-sudan, 40px, 40px);
+  }
+
+  &.icon-suriname {
+    @include apply-image($icon-suriname, 40px, 40px);
+  }
+
+  &.icon-swaziland {
+    @include apply-image($icon-swaziland, 40px, 40px);
+  }
+
+  &.icon-sweden {
+    @include apply-image($icon-sweden, 40px, 40px);
+  }
+
+  &.icon-switzerland {
+    @include apply-image($icon-switzerland, 40px, 40px);
+  }
+
+  &.icon-syria {
+    @include apply-image($icon-syria, 40px, 40px);
+  }
+
+  &.icon-taiwan {
+    @include apply-image($icon-taiwan, 40px, 40px);
+  }
+
+  &.icon-tajikistan {
+    @include apply-image($icon-tajikistan, 40px, 40px);
+  }
+
+  &.icon-tanzania {
+    @include apply-image($icon-tanzania, 40px, 40px);
+  }
+
+  &.icon-thailand {
+    @include apply-image($icon-thailand, 40px, 40px);
+  }
+
+  &.icon-tibet {
+    @include apply-image($icon-tibet, 40px, 40px);
+  }
+
+  &.icon-togo {
+    @include apply-image($icon-togo, 40px, 40px);
+  }
+
+  &.icon-tokelau {
+    @include apply-image($icon-tokelau, 40px, 40px);
+  }
+
+  &.icon-tonga {
+    @include apply-image($icon-tonga, 40px, 40px);
+  }
+
+  &.icon-transnistria {
+    @include apply-image($icon-transnistria, 40px, 40px);
+  }
+
+  &.icon-trinidad-and-tobago {
+    @include apply-image($icon-trinidad-and-tobago, 40px, 40px);
+  }
+
+  &.icon-tunisia {
+    @include apply-image($icon-tunisia, 40px, 40px);
+  }
+
+  &.icon-turkey {
+    @include apply-image($icon-turkey, 40px, 40px);
+  }
+
+  &.icon-turkmenistan {
+    @include apply-image($icon-turkmenistan, 40px, 40px);
+  }
+
+  &.icon-turks-and-caicos {
+    @include apply-image($icon-turks-and-caicos, 40px, 40px);
+  }
+
+  &.icon-tuvalu {
+    @include apply-image($icon-tuvalu, 40px, 40px);
+  }
+
+  &.icon-uganda {
+    @include apply-image($icon-uganda, 40px, 40px);
+  }
+
+  &.icon-ukraine {
+    @include apply-image($icon-ukraine, 40px, 40px);
+  }
+
+  &.icon-united-arab-emirates {
+    @include apply-image($icon-united-arab-emirates, 40px, 40px);
+  }
+
+  &.icon-united-kingdom {
+    @include apply-image($icon-united-kingdom, 40px, 40px);
+  }
+
+  &.icon-united-nations {
+    @include apply-image($icon-united-nations, 40px, 40px);
+  }
+
+  &.icon-usa {
+    @include apply-image($icon-usa, 40px, 40px);
+  }
+
+  &.icon-united-states {
+    @include apply-image($icon-united-states, 40px, 40px);
+  }
+
+  &.icon-uruguay {
+    @include apply-image($icon-uruguay, 40px, 40px);
+  }
+
+  &.icon-uzbekistan {
+    @include apply-image($icon-uzbekistan, 40px, 40px);
+  }
+
+  &.icon-vanuatu {
+    @include apply-image($icon-vanuatu, 40px, 40px);
+  }
+
+  &.icon-vatican-city {
+    @include apply-image($icon-vatican-city, 40px, 40px);
+  }
+
+  &.icon-vector {
+    @include apply-image($icon-vector, 40px, 40px);
+  }
+
+  &.icon-venezuela {
+    @include apply-image($icon-venezuela, 40px, 40px);
+  }
+
+  &.icon-vietnam {
+    @include apply-image($icon-vietnam, 40px, 40px);
+  }
+
+  &.icon-virgin-islands {
+    @include apply-image($icon-virgin-islands, 40px, 40px);
+  }
+
+  &.icon-wales {
+    @include apply-image($icon-wales, 40px, 40px);
+  }
+
+  &.icon-yemen {
+    @include apply-image($icon-yemen, 40px, 40px);
+  }
+
+  &.icon-zambia {
+    @include apply-image($icon-zambia, 40px, 40px);
+  }
+
+  &.icon-zimbabwe {
+    @include apply-image($icon-zimbabwe, 40px, 40px);
+  }
+
+  &.icon-content-accredited-member {
+    @include apply-image-as-content($icon-accredited-member);
+  }
+
+  &.icon-content-bbb {
+    @include apply-image-as-content($icon-bbb);
+  }
+
+  &.icon-content-imagine-canada {
+    @include apply-image-as-content($icon-imagine-canada);
+  }
+
+  &.icon-content-hc {
+    @include apply-image-as-content($icon-hc);
+  }
+}

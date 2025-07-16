@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Header Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="headerWrapper"
+    >
+      <div
+        class="headerInner"
+      >
+        <div
+          class="hamburgerMenu"
+        >
+          <span
+            class="hamburgerMenuIcon"
+            style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+          >
+            <span
+              class="icon icon-menu"
+              style="width: 24px; height: 24px;"
+            />
+          </span>
+        </div>
+        <nav
+          class="navLinksSection"
+        >
+          <ul
+            aria-label="Main menu"
+            role="menu"
+          />
+        </nav>
+        <div
+          class="logoSection"
+        >
+          <img
+            alt="logo"
+            aria-hidden="true"
+            class="rt-Skeleton imgWrapper logo"
+            inert=""
+            src="SvgrURL"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Navigation Header Should render successfully with nav data 1`] = `
+<body>
+  <div>
+    <div
+      class="headerWrapper"
+    >
+      <div
+        class="headerInner"
+      >
+        <div
+          class="hamburgerMenu"
+        >
+          <span
+            class="hamburgerMenuIcon"
+            style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+          >
+            <span
+              class="icon icon-menu"
+              style="width: 24px; height: 24px;"
+            />
+          </span>
+        </div>
+        <nav
+          class="navLinksSection"
+        >
+          <ul
+            aria-label="Main menu"
+            role="menu"
+          >
+            <li
+              class="activeNavLink"
+              role="menuitem"
+            >
+              <a
+                class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                data-accent-color=""
+                href="/en/home"
+                tabindex="0"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class=""
+              role="menuitem"
+            >
+              <a
+                class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                data-accent-color=""
+                href="/en/give"
+                tabindex="0"
+              >
+                Ways to Give
+              </a>
+            </li>
+            <li
+              class=""
+              role="menuitem"
+            >
+              <a
+                class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                data-accent-color=""
+                href="/en/learn"
+                tabindex="0"
+              >
+                Learn
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="logoSection"
+        >
+          <img
+            alt="logo"
+            aria-hidden="true"
+            class="rt-Skeleton imgWrapper logo"
+            inert=""
+            src="SvgrURL"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Navigation Header Should render successfully with nav data and button data 1`] = `
+<body>
+  <div>
+    <div
+      class="headerWrapper"
+    >
+      <div
+        class="headerInner"
+      >
+        <div
+          class="hamburgerMenu"
+        >
+          <span
+            class="hamburgerMenuIcon"
+            style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+          >
+            <span
+              class="icon icon-menu"
+              style="width: 24px; height: 24px;"
+            />
+          </span>
+        </div>
+        <nav
+          class="navLinksSection"
+        >
+          <ul
+            aria-label="Main menu"
+            role="menu"
+          >
+            <li
+              class="activeNavLink"
+              role="menuitem"
+            >
+              <a
+                class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                data-accent-color=""
+                href="/en/home"
+                tabindex="0"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class=""
+              role="menuitem"
+            >
+              <a
+                class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                data-accent-color=""
+                href="/en/give"
+                tabindex="0"
+              >
+                Ways to Give
+              </a>
+            </li>
+            <li
+              class=""
+              role="menuitem"
+            >
+              <a
+                class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+                data-accent-color=""
+                href="/en/learn"
+                tabindex="0"
+              >
+                Learn
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="logoSection"
+        >
+          <img
+            alt="logo"
+            aria-hidden="true"
+            class="rt-Skeleton imgWrapper logo"
+            inert=""
+            src="SvgrURL"
+            tabindex="-1"
+          />
+        </div>
+        <div
+          class="navCtaSection"
+        >
+          <div
+            class="navCtaSectionInner"
+          >
+            <div
+              class="rt-Flex rt-r-display-flex rt-r-fd-row rt-r-gap-3 buttonGroupContainer"
+            >
+              <button
+                aria-label="Sign Up"
+                class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm primary none rt-Box buttonWrapper"
+                data-accent-color=""
+              >
+                <div
+                  class="buttonContent textOnly"
+                >
+                  <span>
+                    Sign Up
+                  </span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

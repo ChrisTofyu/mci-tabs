@@ -1,0 +1,39 @@
+@import '../../../styles/breakpoints';
+@import '../../../styles/colours';
+
+.heroFixedWidthContainer {
+  .heroFixedWidthContainerCtaSection {
+    width: 100%;
+    left: 0;
+    bottom: var(--spacing-lg);
+    z-index: 3000;
+  }
+  .heroDescription {
+    color: $color-neutral-600;
+  }
+  .heroCTAButton {
+    font-size: var(--typography-font-size-3) !important;
+    padding: var(--spacing-sm) var(--spacing-lg) !important;
+  }
+}
+
+@media (max-width: $md-min) {
+  .heroFixedWidthContainer {
+    .heroIcon {
+      width: 40px !important;
+      height: 40px !important;
+      span {
+        width: 24px !important;
+        height: 24px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: $xs-min) {
+  .heroFixedWidthContainer {
+    .heroCTAButton {
+      width: 95%;
+    }
+  }
+}

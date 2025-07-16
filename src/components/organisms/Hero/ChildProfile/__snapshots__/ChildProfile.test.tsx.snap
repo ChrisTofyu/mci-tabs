@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChildProfile should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+    >
+      <div
+        class="childDetails"
+      >
+        <div
+          class="imageContainer"
+        >
+          <div
+            class="greetings"
+          >
+            <p>
+              Meet
+            </p>
+            <span
+              class="name"
+            >
+              Child 1
+            </span>
+          </div>
+          <div
+            class="videoContainer videoContainer"
+            style="--videoWidth: 537; --videoHeight: 537;"
+          >
+            <div
+              class="imageContainer videoThumbnailContainer"
+            >
+              <button
+                class="buttonContainer"
+              >
+                <img
+                  alt="Play Button"
+                  aria-hidden="true"
+                  class="rt-Skeleton imgWrapper playButton button none"
+                  inert=""
+                  src="SvgrURL"
+                  tabindex="-1"
+                />
+                <img
+                  alt="Video Player"
+                  aria-hidden="true"
+                  class="rt-Skeleton imgWrapper videoPlaceholder none"
+                  inert=""
+                  src="https://images.pexels.com/photos/2113709/pexels-photo-2113709.jpeg"
+                  tabindex="-1"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="details"
+        >
+          <div
+            class="personalDetails"
+          >
+            <div
+              class="names"
+            >
+              <p>
+                Meet
+              </p>
+              <span
+                class="name"
+              >
+                Child 1
+              </span>
+              <div>
+                <span
+                  class="country"
+                >
+                  <span
+                    style="border-radius: 0; display: grid; align-items: center; justify-content: center; margin: 0px;"
+                  >
+                    <span
+                      class="icon icon-usa"
+                      style="width: 24px; height: 24px;"
+                    />
+                  </span>
+                  <span>
+                    USA
+                  </span>
+                </span>
+                <span
+                  class="gender"
+                >
+                  <span
+                    style="border-radius: 0; display: grid; align-items: center; justify-content: center; margin: 0px;"
+                  >
+                    <span
+                      class="icon icon-gender-girl"
+                      style="width: 24px; height: 24px;"
+                    />
+                  </span>
+                  <span
+                    class="genderName"
+                  >
+                    Boy
+                  </span>
+                </span>
+                <span
+                  class="age"
+                >
+                  <img
+                    alt="icon"
+                    class="ageIcon"
+                    src="SvgrURL"
+                  />
+                  <span>
+                    12 years old
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="about"
+            >
+              <div>
+                <div
+                  class="content"
+                  style="max-height: none; overflow: hidden; transition: max-height 0.3s ease; display: block;"
+                >
+                  My name is Ashraful Siam. I live with my parents. I have 2 brothers and one sister. I am in Grade 4. I am currently enrolled in primary school and my favourite subject is my national language. I like to play cricket. I am in good health.
+                </div>
+              </div>
+            </div>
+            <button
+              aria-label="Sponsor Child 1"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl primary none sponsorButton"
+              data-accent-color=""
+              type="button"
+            >
+              <div
+                class="buttonContent textOnly"
+              >
+                <span>
+                  Sponsor Child 1
+                </span>
+              </div>
+            </button>
+            <button
+              aria-label="Find another child"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl secondary none findAnother"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent textOnly"
+              >
+                <span>
+                  Find another child
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="countryInfo"
+      >
+        <h2
+          class="title"
+        >
+          Child 1's needs in USA
+        </h2>
+        <span
+          class="info"
+        >
+          <div>
+            <div
+              style="max-height: none; overflow: hidden; transition: max-height 0.3s ease; display: block;"
+            >
+              Despite the recent strengthening of child protection laws, children in Bolivia continue to face abuse and exploitation. Domestic violence and school bullying are widespread in the country. Women and girls are especially at risk of violence and sexual assault.
+              Bolivia has the seventh highest income inequality in the world and nearly half of Bolivians live in poverty. More than one million children work instead of going to school and are often exploited. An estimated one quarter of Bolivian children under the age of five suffer from stunting.
+              In Bolivia, 1 in 3 children are engaged in child labor. Child labor is most prevalent in rural areas, where children work in agriculture, mining, and domestic service. Children are also exploited in the commercial.
+              Bolivia has the highest rate of child labor in South America. Child labor is most prevalent in rural areas, where children work in agriculture, mining, and domestic service. Children are also exploited in the commercial.
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;

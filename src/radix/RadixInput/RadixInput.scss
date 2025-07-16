@@ -1,0 +1,133 @@
+@import '../../styles/mixins';
+@import '../../styles/colours';
+@import '../../styles/icons';
+
+.formInput {
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-neutral-600;
+    user-select: none;
+    margin-bottom: 12px;
+    font-family:
+        Hanken Grotesk,
+        Lato,
+        sans-serif;
+    font-style: normal;
+    border-radius: 12px;
+    font-weight: 600;
+
+    input {
+        font-size: 18px;
+        outline: none;
+        position: relative;
+        height: 60px;
+        border: 1px solid $color-neutral-300;
+        border-radius: 9pt;
+        box-sizing: border-box;
+        margin-top: 0;
+        padding: 1.5rem 1rem .5rem;
+        width: 100%;
+        max-width: none !important;
+
+        &::placeholder {
+            color: transparent;
+        }
+
+        &::-webkit-contacts-auto-fill-button {
+            visibility: hidden;
+            pointer-events: none;
+            position: absolute;
+        }
+
+        &:disabled {
+            background-color: $color-white !important;
+        }
+
+        &:focus {
+            &::placeholder {
+                color: $color-neutral-500 !important;
+            }
+        }
+
+    }
+
+    .togglePassword {
+        right: 10px !important;
+    }
+
+    &:has(select option:checked:not([value=""])) {
+        label {
+            display: none;
+        }
+    }
+
+    label {
+        position: absolute;
+        top: 16px;
+        left: 18px;
+        pointer-events: none;
+        transform-origin: left center;
+        transition: transform 250ms;
+        z-index: 1;
+    }
+
+    &:has(input:focus) label,
+    &:has(input:not(:placeholder-shown)) label,
+    &:has(textarea:focus) label,
+    &:has(textarea:not(:placeholder-shown)) label {
+        transform: translateY(-100%) scale(0.75);
+        top: 25px;
+    }
+
+    &:has(.errorMessage) {
+        input {
+            border-color: $color-red-700;
+        }
+
+        label {
+            color: $color-red-700;
+
+        }
+    }
+
+}
+
+.togglePassword {
+    display: none;
+}
+
+.showPassword {
+    margin: 1px;
+
+    .togglePassword {
+        width: 40px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 11px;
+        right: 0;
+        cursor: pointer;
+        user-select: none;
+        display: block;
+    }
+
+    &:has(input[type='password']) {
+        .togglePassword {
+            // background-image: url($icon-Eye_Off);
+        }
+    }
+
+    &:has(input[type='text']) {
+        .togglePassword {
+            // background-image: url($icon-Eye);
+        }
+    }
+}
+
+.errorMessage {
+    color: $color-red-700;
+    font-size: 14px;
+    margin: 0;
+}

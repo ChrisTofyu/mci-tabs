@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm Should render successfully 1`] = `
+<body>
+  <div>
+    <form
+      class="form"
+    >
+      <div
+        class="formInput"
+      >
+        <label
+          for="email"
+        >
+          Email Address
+        </label>
+        <input
+          id="email"
+          name="email"
+          placeholder=""
+          type="text"
+        />
+        <div
+          class=""
+        />
+      </div>
+      <div
+        class="formInput showPassword"
+      >
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          id="password"
+          name="password"
+          placeholder=""
+          type="password"
+        />
+        <div
+          class="togglePassword"
+        />
+      </div>
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-jc-end"
+      >
+        <a
+          class="rt-Text rt-reset rt-Link rt-underline-auto link body-md forgotPass"
+          data-accent-color=""
+          tabindex="0"
+        >
+          Forgot your password?
+        </a>
+      </div>
+      <button
+        aria-label="Sign In"
+        class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl primary none loginBtn"
+        data-accent-color=""
+      >
+        <div
+          class="buttonContent textOnly"
+        >
+          <span>
+            Sign In
+          </span>
+        </div>
+      </button>
+    </form>
+  </div>
+</body>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroBasic Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-jc-center rt-r-fw-wrap rt-r-gap-5 heroFixedWidthContainer"
+    >
+      <div
+        class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-jc-center rt-r-fw-wrap rt-r-gap-4"
+      >
+        <h1
+          class="rt-Heading rt-r-size-6 rt-r-ta-center headingContainer mocked-class-name typography-font-family-default heroTitle"
+          id=""
+        />
+        <span
+          class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default heroDescription"
+          id=""
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

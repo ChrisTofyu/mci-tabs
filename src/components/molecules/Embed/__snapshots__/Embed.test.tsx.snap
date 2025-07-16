@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Embed should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Flex rt-r-display-flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h wrapper"
+      style="--width: 100%; --height: 100%;"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-ai-center rt-r-jc-center rt-r-w card"
+        style="--width: 100%; --cardPadding: 80px; --cardBorderRadius: 32px;"
+      >
+        <div
+          class="rt-Flex rt-r-display-flex rt-r-ai-center rt-r-jc-center rt-r-w innerBox"
+          style="--width: 100%;"
+        >
+          <iframe
+            aria-hidden="true"
+            class="rt-Skeleton rt-r-w rt-r-h"
+            inert=""
+            loading="lazy"
+            src="https://widget.tagembed.com/2169076"
+            style="--width: 100%; --height: 100%; width: 100%; height: 100%;"
+            tabindex="-1"
+            title="tagembed"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

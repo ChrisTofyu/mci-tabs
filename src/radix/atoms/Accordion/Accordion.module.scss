@@ -1,0 +1,115 @@
+@import '../../../styles/breakpoints.scss';
+@import '../../../styles/colours.scss';
+
+.accordionContainer {
+  background-color: var(--backgroundColor);
+  &.accordionPadding {
+    padding: var(--spacing-lg);
+    box-sizing: border-box;
+  }
+  &.accordionPaddingRounded {
+    border-radius: 16px;
+  }
+  .accordionTitleWrapper {
+    margin: 0;
+    .accordionTitle {
+      width: 100%;
+      padding: 0px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &[data-state='closed'] .accordionToggleIcon {
+        transform: rotate(180deg);
+        transform-origin: center;
+        transition: all 0.3s ease;
+      }
+      &[data-state='open'] {
+        margin-bottom: var(--spacing-md);
+        transition: all 0.3s ease;
+      }
+      .accordionTitleName {
+        font-size: var(--typography-font-size-4);
+        line-height: var(--typography-font-size-6);
+        font-weight: 600;
+        color: $color-neutral-950;
+        text-align: left;
+      }
+      .accordionToggleIconScetion {
+        .accordionToggleIcon {
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+  .accordionContentWrapper {
+    width: calc(100% - 32px); // This 32px is toggle icon size
+    overflow: hidden;
+    transition: all 0.3s ease;
+    &[data-state='open'] {
+      animation: accordion-down 0.3s ease;
+    }
+    &[data-state='closed'] {
+      animation: accordion-up 0.3s ease;
+    }
+    .accordionContent {
+      font-size: var(--typography-font-size-3);
+      line-height: var(--typography-font-size-5);
+      font-weight: 400;
+      color: $color-neutral-600;
+    }
+  }
+  .divider {
+    width: 100% !important;
+    margin: var(--spacing-md) 0 !important;
+    border: 1px solid $color-neutral-300;
+  }
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+@media (max-width: $md-min) {
+  .accordionContainer {
+    &.accordionPadding {
+      padding: var(--spacing-md);
+    }
+    .accordionTitleWrapper {
+      .accordionTitle {
+        .accordionTitleName {
+          font-size: var(--typography-font-size-2);
+          line-height: var(--typography-font-size-3);
+        }
+      }
+    }
+    .accordionContentWrapper {
+      .accordionContent {
+        font-size: var(--typography-font-size-2);
+        line-height: var(--typography-font-size-3);
+      }
+    }
+  }
+}

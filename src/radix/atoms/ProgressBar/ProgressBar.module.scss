@@ -1,0 +1,8 @@
+.progressBarContainer {
+  width: 100%;
+  max-height: 8px !important;
+
+  div {
+    background-color: var(--progressBarColor) !important;
+  }
+}

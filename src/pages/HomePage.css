@@ -1,0 +1,24 @@
+.app-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1; /* ensures it's behind content */
+}
+
+/* Add a mirrored background using a ::before pseudo-element */
+.app-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/girl-painting-horizon.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  transform: scaleX(-1); /* <--- Flip horizontally */
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  background-color: transparent;
+
+  .card {
+    border-radius: var(--cardBorderRadius);
+    padding: var(--cardPadding);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 100%;
+
+    .innerBox {
+      height: 100%;
+      overflow: hidden;
+
+      > * {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    }
+  }
+}

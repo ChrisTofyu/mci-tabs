@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Component renders list items based on data 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Box list"
+    >
+      <dl
+        class="rt-Text rt-DataListRoot rt-r-orientation-horizontal rt-r-size-2 list_inner"
+      >
+        <div
+          class="rt-DataListItem rt-r-ai-center listItem"
+        >
+          <div
+            class="rt-Flex rt-r-display-flex rt-r-ai-center rt-r-gap start"
+            style="--gap: 11px;"
+          >
+            <div
+              class="rt-Box startInner"
+            >
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default title"
+                id=""
+              >
+                Raw Hope monthly pledge
+              </p>
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default subtitle"
+                id=""
+              >
+                Dec 28, 2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="rt-Box end"
+          >
+            <p
+              class="rt-Text mocked-class-name typography-font-family-default"
+            >
+              $
+              59
+            </p>
+          </div>
+        </div>
+        <div
+          class="rt-DataListItem rt-r-ai-center listItem"
+        >
+          <div
+            class="rt-Flex rt-r-display-flex rt-r-ai-center rt-r-gap start"
+            style="--gap: 11px;"
+          >
+            <div
+              class="rt-Box startInner"
+            >
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default title"
+                id=""
+              >
+                Water Appeal Christmas Donation
+              </p>
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default subtitle"
+                id=""
+              >
+                Nov 28, 2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="rt-Box end"
+          >
+            <p
+              class="rt-Text mocked-class-name typography-font-family-default"
+            >
+              $
+              49
+            </p>
+          </div>
+        </div>
+        <div
+          class="rt-DataListItem rt-r-ai-center listItem"
+        >
+          <div
+            class="rt-Flex rt-r-display-flex rt-r-ai-center rt-r-gap start"
+            style="--gap: 11px;"
+          >
+            <div
+              class="rt-Box startInner"
+            >
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default title"
+                id=""
+              >
+                Monthly gift
+              </p>
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default subtitle"
+                id=""
+              >
+                Aug 28, 2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="rt-Box end"
+          >
+            <p
+              class="rt-Text mocked-class-name typography-font-family-default"
+            >
+              $
+              59
+            </p>
+          </div>
+        </div>
+        <div
+          class="rt-DataListItem rt-r-ai-center listItem"
+        >
+          <div
+            class="rt-Flex rt-r-display-flex rt-r-ai-center rt-r-gap start"
+            style="--gap: 11px;"
+          >
+            <div
+              class="rt-Box startInner"
+            >
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default title"
+                id=""
+              >
+                One time gift
+              </p>
+              <p
+                class="rt-Text mocked-class-name typography-font-family-default subtitle"
+                id=""
+              >
+                Aug 28, 2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="rt-Box end"
+          >
+            <p
+              class="rt-Text mocked-class-name typography-font-family-default"
+            >
+              $
+              120
+            </p>
+          </div>
+        </div>
+      </dl>
+    </div>
+  </div>
+</body>
+`;

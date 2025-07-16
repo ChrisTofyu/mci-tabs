@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextCaption should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="textCaption error"
+    >
+      <span
+        class="rt-Text mocked-class-name typography-font-family-default"
+      >
+        Has Error
+        <br />
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`TextCaption should return empty container when passing the empty data 1`] = `
+<body>
+  <div />
+</body>
+`;
+
+exports[`TextCaption should support multiple errors 1`] = `
+<body>
+  <div>
+    <div
+      class="textCaption error"
+    >
+      <span
+        class="rt-Text mocked-class-name typography-font-family-default"
+      >
+        Has Error
+        <br />
+      </span>
+    </div>
+  </div>
+</body>
+`;

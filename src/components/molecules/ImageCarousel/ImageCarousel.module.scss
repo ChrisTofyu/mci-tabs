@@ -1,0 +1,173 @@
+@import '../../../styles/breakpoints.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &:has(> .thumbnailMode) {
+    margin-block: 0px;
+  }
+
+  > div {
+    display: flex;
+  }
+
+  .thumbnailMode {
+    &.next,
+    &.previous {
+      width: 20px;
+      height: 100%;
+
+      button {
+        visibility: hidden;
+        padding: 20px !important;
+      }
+
+      &:hover {
+        button {
+          visibility: visible !important;
+        }
+      }
+    }
+
+    &.previous button {
+      margin-left: -35px;
+    }
+  }
+
+  .next,
+  .previous {
+    position: absolute;
+    z-index: 10;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  .previous {
+    left: 10px;
+  }
+
+  @media (max-width: $xs-max) {
+    .next {
+      right: 0px;
+    }
+
+    .previous {
+      left: 0px;
+    }
+
+    .next,
+    .previous {
+      height: 80vh;
+
+      button {
+        padding: 15vh !important;
+        background-color: transparent !important;
+        color: transparent !important;
+      }
+
+      button:active,
+      button:focus {
+        background-color: transparent !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .page {
+      bottom: 5%;
+    }
+  }
+
+  .slider {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .slides {
+    display: flex;
+
+    > div.slide {
+      margin-right: 15px;
+      background-image: var(--slide-image);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 120.5vh;
+      height: 80.2vh;
+      border-radius: 24px;
+
+      &.thumbnailMode {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+      }
+    }
+
+    .tooltip {
+      position: relative;
+      z-index: 15;
+
+      .tooltipText {
+        visibility: hidden;
+        align-self: stretch;
+        background-color: #ffffff;
+        color: #171923;
+        font-family: var(--typography-default-font-family);
+        font-size: var(--typography-font-size-2);
+        font-style: normal;
+        font-weight: var(--typography-font-weight-regular);
+        line-height: var(--typography-line-height-2);
+        padding: 0;
+        margin: 0;
+        border-radius: 6px;
+        position: absolute;
+        width: 120px;
+        bottom: 55px;
+        right: 20px;
+      }
+
+      button {
+        position: absolute;
+        right: 25px;
+        bottom: 15px;
+
+        @media (max-width: $xs-max) {
+          padding: var(--spacing-2xs) !important;
+        }
+      }
+
+      button:focus ~ .tooltipText {
+        visibility: visible;
+      }
+    }
+  }
+
+  .page {
+    cursor: pointer;
+    background: #17191f;
+    text-decoration: none;
+    border-radius: 15px;
+    padding-block: 1vh;
+    padding-inline: 2vh;
+    display: inline-flex;
+    position: absolute;
+    bottom: 9%;
+    font-family: var(--typography-default-font-family);
+    font-style: normal;
+    font-weight: var(--typography-font-weight-regular);
+    font-size: var(--typography-font-size-2);
+    line-height: var(--typography-line-height-1);
+    text-align: center;
+    color: #ffffff;
+
+    @media (max-width: $xs-max) {
+      bottom: 4%;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@import '../../../../styles/colours';
+@import '../UserProfile.scss';
+
+.container {
+  display: grid;
+
+  .heading {
+    @include apply-text-styles(
+      --typography-font-size-4,
+      --typography-line-height-4,
+      --typography-font-weight-semibold,
+      $color-neutral-950
+    );
+  }
+
+  .commonGaps {
+    display: grid;
+    gap: var(--spacing-lg);
+  }
+
+  .btnGroup {
+    @extend .cancelAndSaveBtn;
+  }
+
+  .withMode {
+    display: grid;
+    gap: var(--spacing-sm);
+
+    .autoFill {
+      display: grid;
+      gap: var(--spacing-sm);
+
+      .description {
+        padding-block: var(--spacing-xs);
+      }
+    }
+
+    .switchMode {
+      padding-block: var(--spacing-xs);
+    }
+  }
+
+  .addressContainer {
+    .addressPreview {
+      padding-bottom: var(--spacing-lg);
+
+      .address {
+        @include apply-text-styles(
+          --typography-font-size-4,
+          --typography-line-height-4,
+          --typography-font-weight-regular,
+          $color-neutral-950
+        );
+      }
+    }
+
+    .editBtn {
+      @extend .userProfileEditBtn;
+    }
+  }
+}

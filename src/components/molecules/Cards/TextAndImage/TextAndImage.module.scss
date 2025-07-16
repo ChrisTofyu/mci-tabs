@@ -1,0 +1,147 @@
+@import '../../../../styles/breakpoints';
+@import '../../../../styles/_spacing.scss';
+
+.container {
+  width: 348px;
+  height: 464px;
+  border-radius: 32px;
+  padding: var(--spacing-2xl);
+  box-shadow: 0px 1px 3px 0px #0000001a;
+  background-color: #fff;
+  overflow: hidden;
+
+  &.cursor {
+    cursor: pointer;
+  }
+
+  &.surface {
+    border: 1px solid var(--Border-secondary, #eaebee);
+  }
+
+  &.size {
+    &-1 {
+      width: 348px;
+      height: 464px;
+    }
+
+    &-2 {
+      width: 160px;
+      height: 214px;
+    }
+  }
+
+  .textSection {
+    min-width: 268px;
+    min-height: 320px;
+    width: 268px;
+    height: 320px;
+    text-align: left;
+    margin-bottom: var(--spacing-md) !important;
+
+    .heading {
+      color: #17191f;
+    }
+
+    .description {
+      color: #65676b;
+    }
+  }
+
+  &.showImage {
+    .textSection {
+      min-width: 348px;
+      min-height: 232px;
+      width: 348px;
+      // height: 232px;
+    }
+  }
+
+  .icon {
+    align-items: start !important;
+    justify-content: start !important;
+
+    > span[class~='icon'] {
+      width: 64px !important;
+      height: 64px !important;
+    }
+  }
+
+  .image {
+    width: 100%;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    object-fit: cover;
+    max-height: 196px;
+  }
+
+  &.showImageOnly,
+  &.showImage {
+    padding: 0px !important;
+
+    .textSection {
+      padding: var(--spacing-2xl);
+    }
+  }
+
+  &.showImageOnly {
+    .image {
+      max-height: 100% !important;
+      height: 100% !important;
+      margin-top: 0px !important;
+      border-top-left-radius: 32px;
+      border-top-right-radius: 32px;
+    }
+  }
+
+  .heading {
+    padding-bottom: var(--spacing-xs);
+  }
+
+  @media (max-width: $sm-max) {
+    width: 160px;
+    height: 214px;
+    border-radius: 16px;
+    padding: var(--spacing-md) !important;
+
+    .icon {
+      > span[class~='icon'] {
+        width: 40px !important;
+        height: 40px !important;
+      }
+    }
+
+    .image {
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+    }
+
+    .textSection {
+      min-width: 128px !important;
+      min-height: 142px !important;
+      width: auto !important;
+      margin-bottom: var(--spacing-xs) !important;
+    }
+
+    &.showImage {
+      padding: 0px !important;
+      margin-top: var(--spacing-xs) !important;
+
+      .textSection {
+        min-height: 75px !important;
+        padding: var(--spacing-md) !important;
+      }
+
+      img {
+        width: 161px;
+        height: 90px;
+      }
+    }
+
+    &.showImageOnly {
+      .image {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+      }
+    }
+  }
+}

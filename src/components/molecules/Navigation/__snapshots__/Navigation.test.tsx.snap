@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="headerWrapper"
+    >
+      <div>
+        <img
+          alt="logo"
+          aria-hidden="true"
+          class="rt-Skeleton imgWrapper logo"
+          inert=""
+          src="SvgrURL"
+          tabindex="-1"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

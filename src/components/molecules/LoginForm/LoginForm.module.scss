@@ -1,0 +1,17 @@
+.form {
+  display: inline-grid;
+  gap: 12px;
+  width: 100%;
+
+  .forgotPass {
+    line-height: var(--typography-line-height-3);
+    font-size: var(--typography-font-size-3);
+  }
+
+  .loginBtn {
+    margin-top: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-lg) !important;
+    font-size: var(--typography-font-size-4) !important;
+    line-height: var(--typography-line-height-4) !important;
+  }
+}

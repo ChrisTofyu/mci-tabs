@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-fw-wrap quoteContainer"
+    >
+      <span
+        class="rt-Text rt-r-ta-center typography-font-size-8 typography-font-weight-regular typography-line-height-8 typography-font-family-default quoteTextCls textCommonWidth"
+      >
+        Quote text
+      </span>
+      <span
+        class="rt-Text rt-r-ta-center typography-font-size-4 typography-font-weight-regular typography-line-height-4 typography-font-family-default signatureTextCls textCommonWidth"
+      />
+    </div>
+  </div>
+</body>
+`;

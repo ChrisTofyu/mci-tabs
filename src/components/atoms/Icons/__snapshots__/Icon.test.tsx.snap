@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render successfully 1`] = `
+<body>
+  <div>
+    <span
+      style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+    >
+      <span
+        class="icon icon-eye"
+      />
+    </span>
+  </div>
+</body>
+`;

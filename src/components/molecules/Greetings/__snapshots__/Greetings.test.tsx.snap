@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Greetings Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="greetings"
+    >
+      <h1
+        class="rt-Heading rt-r-size-6 rt-r-ta-left heading"
+      >
+        Welcome back!
+      </h1>
+      <p
+        class="rt-Text typography-font-size-3 typography-font-weight-regular typography-line-height-3 typography-font-family-default message"
+      />
+    </div>
+  </div>
+</body>
+`;

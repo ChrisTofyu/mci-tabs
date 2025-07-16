@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastMolecule should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="toast toast-x-center toast-y-top"
+    >
+      <div
+        class="rt-CalloutRoot rt-r-size-2 rt-variant-soft rt-Flex rt-r-ai-stretch rt-r-jc-center calloutRoot info toast_inner isToast"
+        data-accent-color=""
+      >
+        <div
+          class="rt-Box callout"
+        >
+          <div
+            class="rt-Box contentbox"
+          >
+            <p
+              class="rt-Text rt-r-size-2 rt-CalloutText title body-md typography-font-weight-semibold"
+            >
+              We're excited to see you again!
+            </p>
+            <div
+              class="rt-Box body-sm typography-font-weight-regular"
+            >
+              Access your personalized dashboard, manage your preferences, and explore all the features we have to offer.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

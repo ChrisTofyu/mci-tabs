@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageGroup should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="imageGroupContainer"
+    >
+      <a
+        class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+        data-accent-color=""
+        href="https://www.google.com/"
+        tabindex="0"
+        target="_blank"
+      >
+        <img
+          alt="p1"
+          aria-hidden="true"
+          class="rt-Skeleton imgWrapper"
+          inert=""
+          src="SvgrURL"
+          style="--imgWidth: 126px; --imgHeight: 40px;"
+          tabindex="-1"
+        />
+      </a>
+      <a
+        class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+        data-accent-color=""
+        href="https://www.google.com/"
+        tabindex="0"
+        target="_blank"
+      >
+        <img
+          alt="p2"
+          aria-hidden="true"
+          class="rt-Skeleton imgWrapper"
+          inert=""
+          src="SvgrURL"
+          style="--imgWidth: 102px; --imgHeight: 40px;"
+          tabindex="-1"
+        />
+      </a>
+      <a
+        class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+        data-accent-color=""
+        href="https://www.google.com/"
+        tabindex="0"
+        target="_blank"
+      >
+        <img
+          alt="p3"
+          aria-hidden="true"
+          class="rt-Skeleton imgWrapper"
+          inert=""
+          src="SvgrURL"
+          style="--imgWidth: 40px; --imgHeight: 40px;"
+          tabindex="-1"
+        />
+      </a>
+      <a
+        class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+        data-accent-color=""
+        href="https://www.google.com/"
+        tabindex="0"
+        target="_blank"
+      >
+        <img
+          alt="p4"
+          aria-hidden="true"
+          class="rt-Skeleton imgWrapper"
+          inert=""
+          src="SvgrURL"
+          style="--imgWidth: 135px; --imgHeight: 40px;"
+          tabindex="-1"
+        />
+      </a>
+    </div>
+  </div>
+</body>
+`;

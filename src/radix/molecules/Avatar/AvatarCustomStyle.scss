@@ -1,0 +1,688 @@
+@import '../../../styles/breakpoints';
+@import '../../../styles/spacing';
+
+.avatarContainer {
+  &.rt-r-size-1 {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-1);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-md);
+        height: var(--spacing-md);
+      }
+    }
+  }
+  &.rt-r-size-2 {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-2);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg);
+        height: var(--spacing-lg);
+      }
+    }
+  }
+  &.rt-r-size-3 {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-4);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg);
+        height: var(--spacing-lg);
+      }
+    }
+  }
+  &.rt-r-size-4 {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-6);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg);
+        height: var(--spacing-lg);
+      }
+    }
+  }
+  &.rt-r-size-5 {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-7);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg);
+        height: var(--spacing-lg);
+      }
+    }
+  }
+  &.rt-r-size-6 {
+    --avatar-size: 96px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg);
+        height: var(--spacing-lg);
+      }
+    }
+  }
+  &.rt-r-size-7 {
+    --avatar-size: 112px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl);
+        height: var(--spacing-2xl);
+      }
+    }
+  }
+  &.rt-r-size-8 {
+    --avatar-size: 144px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8);
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl);
+        height: var(--spacing-2xl);
+      }
+    }
+  }
+  &.rt-r-size-9 {
+    --avatar-size: 160px;
+    .rt-AvatarFallback {
+      font-size: 40px;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-3xl);
+        height: var(--spacing-3xl);
+      }
+    }
+  }
+}
+
+// xs 1-9
+
+@media (min-width: $xs-min) {
+  .avatarContainer:where(.xs\:rt-r-size-1) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-1) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-md) !important;
+        height: var(--spacing-md) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-2) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-2) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-3) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-4) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-4) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-6) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-5) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-7) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-6) {
+    --avatar-size: 96px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-7) {
+    --avatar-size: 112px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-8) {
+    --avatar-size: 144px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xs\:rt-r-size-9) {
+    --avatar-size: 160px;
+    .rt-AvatarFallback {
+      font-size: 40px !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-3xl) !important;
+        height: var(--spacing-3xl) !important;
+      }
+    }
+  }
+}
+
+// sm 1-9
+
+@media (min-width: $sm-min) {
+  .avatarContainer:where(.sm\:rt-r-size-1) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-1) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-md) !important;
+        height: var(--spacing-md) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-2) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-2) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-3) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-4) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-4) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-6) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-5) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-7) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-6) {
+    --avatar-size: 96px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-7) {
+    --avatar-size: 112px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-8) {
+    --avatar-size: 144px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.sm\:rt-r-size-9) {
+    --avatar-size: 160px;
+    .rt-AvatarFallback {
+      font-size: 40px !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-3xl) !important;
+        height: var(--spacing-3xl) !important;
+      }
+    }
+  }
+}
+
+// md 1-9
+
+@media (min-width: $md-min) {
+  .avatarContainer:where(.md\:rt-r-size-1) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-1) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-md) !important;
+        height: var(--spacing-md) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-2) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-2) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-3) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-4) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-4) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-6) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-5) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-7) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-6) {
+    --avatar-size: 96px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-7) {
+    --avatar-size: 112px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-8) {
+    --avatar-size: 144px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.md\:rt-r-size-9) {
+    --avatar-size: 160px;
+    .rt-AvatarFallback {
+      font-size: 40px !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-3xl) !important;
+        height: var(--spacing-3xl) !important;
+      }
+    }
+  }
+}
+
+// lg 1-9
+
+@media (min-width: $lg-min) {
+  .avatarContainer:where(.lg\:rt-r-size-1) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-1) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-md) !important;
+        height: var(--spacing-md) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-2) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-2) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-3) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-4) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-4) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-6) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-5) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-7) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-6) {
+    --avatar-size: 96px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-7) {
+    --avatar-size: 112px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-8) {
+    --avatar-size: 144px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.lg\:rt-r-size-9) {
+    --avatar-size: 160px;
+    .rt-AvatarFallback {
+      font-size: 40px !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-3xl) !important;
+        height: var(--spacing-3xl) !important;
+      }
+    }
+  }
+}
+
+// xl 1-9
+
+@media (min-width: $xl-min) {
+  .avatarContainer:where(.xl\:rt-r-size-1) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-1) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-md) !important;
+        height: var(--spacing-md) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-2) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-2) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-3) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-4) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-4) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-6) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-5) {
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-7) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-6) {
+    --avatar-size: 96px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-lg) !important;
+        height: var(--spacing-lg) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-7) {
+    --avatar-size: 112px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-8) {
+    --avatar-size: 144px;
+    .rt-AvatarFallback {
+      font-size: var(--typography-font-size-8) !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-2xl) !important;
+        height: var(--spacing-2xl) !important;
+      }
+    }
+  }
+
+  .avatarContainer:where(.xl\:rt-r-size-9) {
+    --avatar-size: 160px;
+    .rt-AvatarFallback {
+      font-size: 40px !important;
+    }
+    .avatarIcon {
+      .icon {
+        width: var(--spacing-3xl) !important;
+        height: var(--spacing-3xl) !important;
+      }
+    }
+  }
+}

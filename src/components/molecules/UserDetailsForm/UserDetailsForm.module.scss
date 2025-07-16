@@ -1,0 +1,44 @@
+@import '../../../styles/spacing.scss';
+@import '../../../styles/breakpoints';
+
+.userDetailsForm {
+  width: 100%;
+
+  .nextBtnContainer {
+    margin-top: 156px;
+    height: 56px !important;
+    button {
+      &:first-child {
+        width: 56px !important;
+        height: 56px !important;
+      }
+      &:last-child {
+        height: 56px !important;
+      }
+    }
+    @media (min-width: $sm-min) {
+      margin-top: var(--spacing-xs);
+    }
+  }
+
+  .bottomPadding {
+    margin-bottom: var(--spacing-md);
+  }
+}
+
+.signupForm {
+  display: inline-grid;
+  gap: var(--spacing-sm);
+  width: 100%;
+
+  .nextBtnContainer {
+    padding-top: var(--spacing-sm);
+  }
+
+  .signUpBtn {
+    margin-top: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-lg) !important;
+    font-size: var(--typography-font-size-4) !important;
+    line-height: var(--typography-line-height-4) !important;
+  }
+}

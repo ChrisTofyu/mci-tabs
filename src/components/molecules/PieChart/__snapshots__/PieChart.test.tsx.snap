@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart component matches snapshot for size2 1`] = `
+<div
+  class="chartWrapper size2"
+>
+  <div
+    class="chartCircleWrapper"
+  >
+    <svg
+      height="100%"
+      viewBox="0 0 140 140"
+      width="100%"
+    >
+      <circle
+        cx="70"
+        cy="70"
+        fill="none"
+        r="50"
+        stroke="#eee"
+        stroke-width="25"
+      />
+      <circle
+        cx="70"
+        cy="70"
+        fill="none"
+        r="50"
+        stroke="#ff6347"
+        stroke-dasharray="314.1592653589793"
+        stroke-dashoffset="78.53981633974483"
+        stroke-linecap="butt"
+        stroke-width="25"
+        transform="rotate(-90 70 70)"
+      />
+    </svg>
+    <div
+      class="chartLabel size2"
+    >
+      <div>
+        <strong>
+          75
+          %
+        </strong>
+      </div>
+      <p>
+        This is a test description to check the…
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PieChart Default 1`] = `
+<div
+  class="chartWrapper size1"
+>
+  <div
+    class="chartCircleWrapper"
+  >
+    <svg
+      height="100%"
+      viewBox="0 0 140 140"
+      width="100%"
+    >
+      <circle
+        cx="70"
+        cy="70"
+        fill="none"
+        r="50"
+        stroke="#eee"
+        stroke-width="25"
+      />
+      <circle
+        cx="70"
+        cy="70"
+        fill="none"
+        r="50"
+        stroke="#ec6707"
+        stroke-dasharray="314.1592653589793"
+        stroke-dashoffset="47.344022806988865"
+        stroke-linecap="butt"
+        stroke-width="25"
+        transform="rotate(-90 70 70)"
+      />
+    </svg>
+    <div
+      class="chartLabel size1"
+    >
+      <div>
+        <strong>
+          84.9%
+        </strong>
+      </div>
+      <p>
+        Field programs and advocacy
+      </p>
+    </div>
+  </div>
+</div>
+`;

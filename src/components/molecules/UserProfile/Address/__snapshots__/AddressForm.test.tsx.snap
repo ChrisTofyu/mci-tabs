@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address Form Should Address Form render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface container size-3 inverse"
+    >
+      <div
+        class="rt-Box container"
+        style="gap: 16px;"
+      >
+        <p
+          class="rt-Text mocked-class-name typography-font-family-default heading"
+        >
+          Address
+        </p>
+        <div
+          class="rt-Box addressContainer"
+        >
+          <div
+            class="rt-Flex rt-r-display-flex rt-r-fd-column"
+          >
+            <div
+              class="rt-Box addressPreview"
+            >
+              <div
+                class="rt-Flex rt-r-display-flex rt-r-fd-column"
+              >
+                <span
+                  class="rt-Text mocked-class-name typography-font-family-default address"
+                >
+                  56A-142 ASHTON CRES West
+                </span>
+                <span
+                  class="rt-Text mocked-class-name typography-font-family-default"
+                >
+                  BRAMPTON ON L6S3J9
+                </span>
+                <span
+                  class="rt-Text mocked-class-name typography-font-family-default"
+                >
+                  Canada
+                </span>
+              </div>
+            </div>
+            <button
+              aria-label="Edit"
+              class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton lg secondary none"
+              data-accent-color=""
+            >
+              <div
+                class="buttonContent iconLeft"
+              >
+                <span>
+                  Edit
+                </span>
+                <span
+                  class="icon"
+                  style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+                >
+                  <span
+                    class="icon icon-edit"
+                  />
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

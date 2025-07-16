@@ -1,0 +1,84 @@
+@import '../../../styles/breakpoints';
+
+.filterButton {
+  span {
+    text-decoration: underline;
+    color: #1049a9;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: transparent;
+  }
+
+  button {
+    background-color: transparent;
+  }
+}
+
+.filterContainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  .header {
+    .crossIcon {
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+
+      img {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+      }
+    }
+    .title {
+      font-size: 20px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+  .selectTrigger {
+    padding: 10px 15px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    &:focus {
+      border: 1.5px solid black;
+    }
+  }
+  .actionContainer {
+    padding: 10px 0;
+    button {
+      width: 100%;
+      padding: 20px 20px;
+      font-size: 12pt;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+
+      &.clearFilter {
+        color: black;
+        background-color: #eaebee;
+        border: none;
+        margin-top: 10px;
+      }
+
+      &.searchFilter {
+        color: #fff;
+        background-color: #1049a9;
+        border: none;
+      }
+    }
+  }
+}

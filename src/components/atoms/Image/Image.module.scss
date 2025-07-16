@@ -1,0 +1,18 @@
+.imgWrapper {
+  width: var(--imgWidth) !important;
+  height: var(--imgHeight) !important;
+  min-height: var(--imgMinHeight);
+  min-width: var(--imgMinWidth);
+  max-height: var(--imgMaxHeight);
+  max-width: var(--imgMaxWidth);
+
+  &.roundLight {
+    border-radius: 10px !important;
+  }
+  &.roundMedium {
+    border-radius: 20px !important;
+  }
+  &.roundFull {
+    border-radius: 50% !important;
+  }
+}

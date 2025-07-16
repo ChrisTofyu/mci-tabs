@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Impact Hero Organism Impact Hero Organism should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface ImpactHeroBox"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-fd-column header"
+      >
+        <div
+          class="rt-Flex rt-r-display-flex rt-r-fd-column headeline"
+        >
+          <span
+            class="rt-Text mocked-class-name typography-font-family-default caption title"
+          >
+            7.6 Million
+          </span>
+          <span
+            class="rt-Text mocked-class-name typography-font-family-default caption subtitle"
+          >
+            People Reached Globally
+          </span>
+        </div>
+        <span
+          class="rt-Text mocked-class-name typography-font-family-default description"
+        >
+           
+          Your support is transforming lives around the world.
+           
+        </span>
+      </div>
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-fd-column body"
+      >
+        <img
+          alt="Impact Hero Image"
+          aria-hidden="true"
+          class="rt-Skeleton imgWrapper impactImage"
+          inert=""
+          src="SvgrURL"
+          tabindex="-1"
+        />
+        <div
+          class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface body_card"
+        >
+          <div
+            class="rt-Flex rt-r-display-flex rt-r-fd-column"
+          >
+            <span
+              class="rt-Text mocked-class-name typography-font-family-default body_card_label"
+            >
+              Our 2025 Goal=
+            </span>
+            <span
+              class="rt-Text mocked-class-name typography-font-family-default body_card_value"
+            >
+              Reach 7 Million Lives
+               
+            </span>
+          </div>
+          <div
+            class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface progressBarBox"
+          >
+            <div
+              class="rt-Flex rt-r-display-flex rt-r-fd-row rt-r-jc-space-between"
+            >
+              <span
+                class="rt-Text mocked-class-name typography-font-family-default"
+              >
+                Overall Progress
+              </span>
+              <span
+                class="rt-Text mocked-class-name typography-font-family-default"
+              >
+                3.01 million lives
+              </span>
+            </div>
+            <div
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="33"
+              aria-valuetext="33%"
+              class="rt-ProgressRoot rt-r-size-3 rt-variant-surface progressBarContainer progressBar"
+              data-max="100"
+              data-state="loading"
+              data-value="33"
+              role="progressbar"
+              style="--progress-value: 33;"
+            >
+              <div
+                class="rt-ProgressIndicator"
+                data-max="100"
+                data-state="loading"
+                data-value="33"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

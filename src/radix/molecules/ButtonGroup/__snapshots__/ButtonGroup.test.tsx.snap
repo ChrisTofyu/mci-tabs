@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Flex rt-r-display-flex rt-r-fd-row rt-r-gap-3 buttonGroupContainer"
+    >
+      <button
+        aria-label="Button "
+        class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl primary none rt-Box buttonWrapper"
+        data-accent-color=""
+      >
+        <div
+          class="buttonContent iconLeft"
+        >
+          <span>
+            Button 
+          </span>
+          <span
+            class="icon"
+            style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+          >
+            <span
+              class="icon +"
+            />
+          </span>
+        </div>
+      </button>
+      <button
+        aria-label="+"
+        class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl primary none rt-Box buttonWrapper iconOnly"
+        data-accent-color=""
+      >
+        <div
+          class="buttonContent iconLeft iconOnly"
+        >
+          <span
+            class="icon"
+            style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+          >
+            <span
+              class="icon +"
+            />
+          </span>
+        </div>
+      </button>
+      <button
+        aria-label="Only Button"
+        class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl primary none rt-Box buttonWrapper"
+        data-accent-color=""
+      >
+        <div
+          class="buttonContent textOnly"
+        >
+          <span>
+            Only Button
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+</body>
+`;

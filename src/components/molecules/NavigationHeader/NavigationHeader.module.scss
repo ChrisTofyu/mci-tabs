@@ -1,0 +1,223 @@
+@import '../../../styles/breakpoints';
+@import '../../../styles/colours';
+
+.headerWrapper {
+  min-height: 56px;
+  padding: 0px 60px;
+  box-sizing: border-box;
+  background-color: $color-white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+
+  .headerInner {
+    max-width: 1319.6px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    .hamburgerMenu {
+      display: none;
+    }
+
+    .logoSection {
+      width: 20%;
+      text-align: center;
+
+      .logo {
+        width: 159.5px !important;
+        height: 33px !important;
+
+        &.clickable {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .navCtaSection {
+      width: 40%;
+      display: flex;
+      justify-content: end;
+
+      .navCtaSectionInner {
+        button {
+          font-size: var(--spacing-md);
+          padding: 11.67px 20.67px;
+        }
+      }
+    }
+  }
+}
+
+.navLinksSection {
+  width: 40%;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    li {
+      a {
+        float: left;
+        padding: 29px var(--spacing-md);
+        box-sizing: border-box;
+        font-size: var(--spacing-md);
+        font-weight: 600;
+        color: $color-neutral-600;
+        cursor: pointer;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none !important;
+        outline: none !important;
+
+        &:hover {
+          color: $color-neutral-950;
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+
+      &.activeNavLink {
+        a {
+          color: $color-neutral-950;
+          border-color: $color-orange-600;
+        }
+      }
+    }
+  }
+
+  &.fullWidth {
+    width: 100%;
+
+    ul li a {
+      padding: 19px var(--spacing-md);
+    }
+  }
+
+  &.tabCentered ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width: $sm-min) {
+  .headerWrapper {
+    padding: 0 var(--spacing-2xl);
+
+    .headerInner {
+      justify-content: left;
+      min-height: 56px;
+
+      .navLinksSection {
+        width: 100%;
+        position: fixed;
+        z-index: 4000;
+        left: -100%;
+        opacity: 0;
+        top: 59px;
+        height: 100%;
+        background-color: $color-white;
+        transition: all 0.3s ease;
+
+        &.navLinksSlideIn {
+          left: 0;
+          opacity: 1;
+          transition: all 0.3s ease;
+        }
+
+        ul {
+          flex-direction: column;
+          overflow: auto;
+          height: calc(100vh - 170px);
+          padding-top: var(--spacing-sm);
+
+          li {
+            a {
+              border: none;
+              padding: 12px var(--spacing-2xl);
+            }
+          }
+        }
+      }
+
+      .hamburgerMenu {
+        display: block;
+        width: 38%;
+
+        .hamburgerMenuIcon {
+          justify-content: left !important;
+          width: 24px;
+
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .logoSection {
+        .logo {
+          width: 116px !important;
+          height: 24px !important;
+        }
+      }
+
+      .navCtaSection {
+        justify-content: left;
+        position: fixed;
+        z-index: 4000;
+        bottom: 0px;
+        width: 100%;
+        left: -100%;
+        opacity: 0;
+        padding: 24px var(--spacing-2xl);
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+        background-color: $color-white;
+        border-top: 1px solid $color-neutral-300;
+
+        &.navLinksSlideIn {
+          left: 0;
+          opacity: 1;
+          transition: all 0.3s ease;
+        }
+
+        .navCtaSectionInner {
+          width: 100%;
+
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $xs-min) {
+  .headerWrapper {
+    padding: 0 var(--spacing-md);
+
+    .headerInner {
+      .navLinksSection {
+        top: 56px;
+
+        ul {
+          li {
+            a {
+              padding: 12px var(--spacing-md);
+            }
+          }
+        }
+      }
+
+      .hamburgerMenu {
+        width: 35%;
+      }
+
+      .navCtaSection {
+        padding: 24px var(--spacing-md);
+      }
+    }
+  }
+}

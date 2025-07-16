@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap');
+
+.calendar {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #222;
+  overflow: hidden;
+  width: 250px;
+  color: white;
+  padding: 2rem;
+  padding-bottom: 6rem;
+  font-family: 'Hanken Grotesk', sans-serif;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    .btn {
+      width: 20px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+        color: orange;
+      }
+    }
+
+    #month-year {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+  }
+
+  .weekdays,
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .days {
+    height: 16vh;
+  }
+
+  .weekdays div,
+  .days div {
+    width: 14.28%;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+  }
+
+  .days div {
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: white;
+      color: orangered;
+    }
+
+    &.today {
+      background-color: orangered;
+      color: white;
+    }
+
+    &.fade {
+      color: #555;
+    }
+  }
+}

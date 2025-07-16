@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="articlesWrapper"
+    >
+      <div
+        class="articlesContainerWidth"
+      >
+        <div
+          class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-fw-wrap articlesBannerSection"
+        >
+          <div
+            class="rt-Flex articlesBannerSectionImageWrapper"
+          >
+            <img
+              alt="dummy alt"
+              aria-hidden="true"
+              class="rt-Skeleton imgWrapper articlesImage"
+              inert=""
+              src="https://stg-beta.worldvision.ca/adobe/dynamicmedia/deliver/dm-aid--3a8bc598-805b-426b-aad6-d88cfe303ebb/childsponsorship.jpeg"
+              style="--imgMinWidth: 100%; --imgMaxWidth: 100%;"
+              tabindex="-1"
+            />
+          </div>
+          <div
+            class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-fw-wrap articlesContentSection"
+          >
+            <h1
+              class="rt-Heading rt-r-size-6 rt-r-ta-center headingContainer mocked-class-name typography-font-family-default articlesTitle"
+              id=""
+            >
+              An education interrupted: A Venezuelan’s story of escaping oppression
+            </h1>
+            <span
+              class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default articlesDescription"
+              id=""
+            >
+              In 2023, we helped 16.5+ million of the world’s most vulnerable children and families overcome poverty.
+            </span>
+            <span
+              class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default articlesAuthorName"
+            >
+              Written by 
+              <b>
+                Melanie Ramos
+              </b>
+            </span>
+            <span
+              class="rt-Text rt-r-ta-center mocked-class-name typography-font-family-default articlesAuthorName"
+            >
+              on 
+              <b>
+                Jan 11, 2025
+              </b>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

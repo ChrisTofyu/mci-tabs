@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Truncate should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Box rt-r-w rt-r-h container"
+      style="--width: 110px; --height: 100px; --truncateBackgroundColor: white; --truncateLineLimit: 0;"
+    >
+      <div
+        class="rt-Box truncateContent"
+      >
+        This is a long text that will be truncated, eli, Find out more. So based on the height and width the extra text that will be truncated.
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,26 @@
+@import '../../../styles/colours';
+
+.formContainer {
+  display: grid;
+  gap: 4px;
+
+  .formFooterQuest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 4px;
+
+    .text {
+      color: $color-neutral-600;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@import '../../../styles/breakpoints.scss';
+@import '../../../styles/colours.scss';
+
+.accordionBlockContainer {
+  background-color: var(--accordionBlockBackgroundColor);
+  padding: var(--spacing-5xl) 0px;
+  .accordionBlockInner {
+    max-width: 60.556%;
+    margin: 0 auto;
+    .accordionBlockInnerTitleWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .accordionBlockInnerTitle {
+        color: $color-neutral-950;
+        margin-bottom: var(--spacing-2xl);
+      }
+    }
+    .accordionGroupWrapper {
+      padding: var(--spacing-lg);
+      box-sizing: border-box;
+      border-radius: 16px;
+      background-color: var(--backgroundColor);
+    }
+  }
+}
+
+@media (max-width: $md-min) {
+  .accordionBlockContainer {
+    padding: var(--spacing-5xl) 0px;
+    .accordionBlockInner {
+      max-width: 60.938%;
+      .accordionBlockInnerTitleWrapper {
+        .accordionBlockInnerTitle {
+          margin-bottom: var(--spacing-lg);
+        }
+      }
+    }
+    .accordionGroupWrapper {
+      padding: var(--spacing-md) !important;
+    }
+  }
+}
+
+@media (max-width: $sm-min) {
+  .accordionBlockContainer {
+    padding: var(--spacing-2xl) 0px;
+    .accordionBlockInner {
+      max-width: 89.584%;
+      .accordionBlockInnerTitleWrapper {
+        .accordionBlockInnerTitle {
+          max-width: 65.989%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $xs-min) {
+  .accordionBlockContainer {
+    .accordionBlockInner {
+      max-width: 91.114%;
+      .accordionBlockInnerTitleWrapper {
+        .accordionBlockInnerTitle {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

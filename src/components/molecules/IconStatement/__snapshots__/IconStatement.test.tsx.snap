@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon Statement should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Flex rt-r-fd-row rt-r-cg-3 rt-r-rg-0 iconStatementWrapper"
+    >
+      <div
+        class="rt-Box iconStatementLeft"
+      >
+        <span
+          class="iconStatementLeftSpan"
+          style="background: rgb(232, 97, 0); border-radius: 0; display: grid; align-items: center; justify-content: center;"
+        >
+          <span
+            class="icon icon-poverty"
+          />
+        </span>
+      </div>
+      <div
+        class="rt-Box iconStatementRight"
+      >
+        <h4
+          class="rt-Heading rt-r-size-6 headingContainer mocked-class-name typography-font-family-default"
+          id=""
+        >
+          Be an agent of change
+        </h4>
+        <p
+          class="rt-Text mocked-class-name typography-font-family-default"
+          id=""
+        >
+          When you sponsor a child, you are helping to break the cycle of poverty.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

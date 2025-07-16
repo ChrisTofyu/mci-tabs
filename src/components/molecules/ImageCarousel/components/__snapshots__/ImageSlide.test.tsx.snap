@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageSlide should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class=""
+      id="slide-1"
+      style="--slide-image: url(image.png);"
+    />
+    <div>
+      <button
+        aria-label="Carousel Tooltip"
+        class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton sm-rounded inverse none undefined wvButtonRoundedIcon"
+        data-accent-color=""
+      >
+        <div
+          class="buttonContent iconLeft iconOnly"
+        >
+          <span
+            class="icon"
+            style="border-radius: 0;"
+          >
+            <span
+              class="icon icon-info"
+            />
+          </span>
+        </div>
+      </button>
+      <div>
+        <h5>
+          1
+        </h5>
+        <p>
+          image 1
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

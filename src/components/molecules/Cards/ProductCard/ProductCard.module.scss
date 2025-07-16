@@ -1,0 +1,142 @@
+@import '../../../../styles/colours';
+@import '../../../../styles/typography';
+
+/* Common styles */
+.cardContainer {
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  background-color: var(--Background-primary-inverse, #ffffff);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Compact Variant */
+.cardContainer {
+  width: 320px;
+  height: 416px;
+}
+
+.cardContainer .imageWrapper {
+  width: 100%;
+  height: 179.37px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.cardContainer .imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardContainer .content {
+  width: 100%;
+  height: 236.63px;
+  padding: var(--spacing-md);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardContainer .namePriceSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cardContainer .name {
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+  font-size: var(--typography-font-size-5);
+  line-height: var(--typography-line-height-5);
+  color: var(--Text-primary, #17191f);
+}
+
+.cardContainer .price {
+  font-family: var(--font-family-paragraph);
+  font-weight: 400;
+  font-size: var(--typography-font-size-2);
+  line-height: var(--typography-line-height-2);
+  color: var(--Text-secondary, #65676b);
+}
+
+.cardContainer .cta {
+  display: flex;
+  align-items: center;
+}
+
+/* Horizontal Variant */
+.cardContainer.horizontal {
+  flex-direction: row;
+  width: 784px;
+  height: 370px;
+  border-radius: 32px;
+}
+
+.cardContainer.horizontal .imageWrapper {
+  width: 370px;
+  height: 370px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.cardContainer.horizontal .content {
+  width: 414px;
+  height: 100%;
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.cardContainer.horizontal .namePriceSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-grow: 1;
+  padding-bottom: var(--spacing-md);
+}
+
+.cardContainer.horizontal .name {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  font-size: var(--typography-font-size-7);
+  line-height: var(--typography-line-height-7);
+  color: var(--Text-primary, #17191f);
+  margin: 0;
+}
+
+.cardContainer.horizontal .price {
+  font-family: var(--font-family-paragraph);
+  font-weight: 400;
+  font-size: var(--typography-font-size-6);
+  line-height: var(--typography-line-height-6);
+  color: var(--Text-secondary, #65676b);
+  margin: 0;
+}
+
+.cardContainer.horizontal .cta {
+  width: 100%;
+  margin-top: auto;
+  padding-top: var(--spacing-lg);
+}
+
+.buttonOverride {
+  justify-content: center;
+
+  &:not(.horizontal) {
+    min-width: 288px;
+    height: 44px;
+  }
+
+  .horizontal & {
+    width: 100%;
+    height: 56px;
+  }
+}

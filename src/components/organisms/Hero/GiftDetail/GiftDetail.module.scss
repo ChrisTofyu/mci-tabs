@@ -1,0 +1,143 @@
+@import '../../../../styles/breakpoints';
+@import '../../../../styles/colours';
+@import url('../../../../styles/_spacing.scss');
+
+.container {
+  padding: var(--spacing-2xl) calc(2 * var(--spacing-5xl) + 12px);
+  @media (max-width: $md-max) {
+    padding: var(--spacing-2xl);
+  }
+
+  @media (max-width: $xs-max) {
+    padding: 0px;
+  }
+
+  .childDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-md);
+
+    @media (max-width: $xs-max) {
+      gap: var(--spacing-lg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .imageContainer {
+      .imgStyle {
+        width: 536px !important;
+        height: 536px !important;
+
+        @media (max-width: $md-max) {
+          width: 464px !important;
+          height: 464px !important;
+        }
+
+        @media (max-width: $sm-max) {
+          width: 336px !important;
+          height: 336px !important;
+        }
+
+        @media (max-width: $xs-max) {
+          width: 100% !important;
+          height: 270px !important;
+        }
+      }
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: $xs-max) {
+        padding: 0px var(--spacing-md) var(--spacing-2xl) var(--spacing-md);
+      }
+
+      .personalDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        width: 544px;
+
+        @media (max-width: $md-max) {
+          width: auto;
+        }
+
+        @media (max-width: $sm-max) {
+          padding: 0px;
+        }
+
+        .names {
+          display: flex;
+          flex-direction: column;
+          gap: var(--spacing-xs);
+
+          @media (max-width: $xs-max) {
+            gap: var(--spacing-2xs);
+          }
+
+          .dollar {
+            color: $color-neutral-600;
+          }
+        }
+
+        .about {
+          display: flex;
+          flex-flow: wrap;
+          justify-content: center;
+          flex-direction: column;
+          padding: var(--spacing-lg);
+
+          @media (max-width: $xs-max) {
+            padding: var(--spacing-lg) 0px;
+          }
+
+          .content {
+            color: $color-neutral-600;
+            font-weight: var(--typography-font-weight-regular);
+            font-size: var(--typography-font-size-3);
+            line-height: var(--typography-line-height-3);
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-bottom: var(--spacing-xs);
+            width: 100%;
+
+            @media (max-width: $xs-max) {
+              font-size: var(--typography-font-size-2);
+              line-height: var(--typography-line-height-2);
+            }
+
+            @media (min-width: $lg-min) {
+              width: 500px;
+            }
+          }
+        }
+
+        .BuyGiftButton {
+          background: $color-blue-500;
+          width: 322px;
+          height: 56px !important;
+          color: $color-white;
+          line-height: var(--typography-line-height-4);
+
+          @media (max-width: $sm-max) {
+            width: 336px;
+            height: 44px !important;
+            font-size: var(--typography-font-size-3);
+            line-height: var(--typography-line-height-3);
+            padding: var(--spacing-sm) calc(var(--spacing-md) + 4px);
+          }
+
+          @media (max-width: $xs-max) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

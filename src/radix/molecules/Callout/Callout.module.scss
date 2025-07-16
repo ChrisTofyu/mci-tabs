@@ -1,0 +1,75 @@
+@import '../../../styles/colours';
+@import '../../../styles/breakpoints';
+
+.calloutRoot {
+  padding: var(--spacing-md);
+  background-color: unset;
+  border-radius: 12px;
+  justify-content: start;
+
+  &.showIcon {
+    padding-left: var(--spacing-sm);
+  }
+
+  &.success {
+    background-color: $color-green-50;
+  }
+
+  &.info {
+    background-color: $color-yellow-50;
+  }
+
+  &.error {
+    background-color: $color-red-50;
+  }
+  &.none {
+    background-color: $color-orange-50;
+  }
+
+  .callout {
+    font-family:
+      Hanken Grotesk,
+      Lato,
+      sans-serif;
+    font-style: normal;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 344px;
+    color: $color-neutral-950;
+    border-radius: 12px;
+
+    .closeIcon {
+      cursor: pointer;
+    }
+
+    .contentbox {
+      flex: 1;
+
+      .title {
+        padding-bottom: var(--spacing-2xs);
+        margin: 0;
+      }
+    }
+
+    &_footer {
+      width: 80%;
+      margin: 1rem auto 0;
+
+      .calloutBtn {
+        flex-basis: 40%;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  &.isToast {
+    //  It is used to remove the flex property in callout. It helps to load the toast as expected.
+    display: block;
+
+    .callout {
+      max-width: 720px;
+    }
+  }
+}

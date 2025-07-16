@@ -1,0 +1,14 @@
+@import '../../../styles/breakpoints';
+
+.quoteBlockContainer {
+  padding: 0 var(--spacing-2xl);
+  box-sizing: border-box;
+  border-left: 2px solid var(--borderColor);
+  color: var(--textColor);
+}
+
+@media (max-width: $xs-min) {
+  .quoteBlockContainer {
+    padding: 0 var(--spacing-lg);
+  }
+}

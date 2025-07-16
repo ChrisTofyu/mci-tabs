@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Container Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface card"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-fd-column templateContent"
+      >
+        Hi
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,57 @@
+@import '../../../styles/breakpoints';
+@import '../../../styles/colours';
+
+.quoteContainer {
+  background-image: url('../../../assets/images/QuoteCurve.svg');
+  background-color: $color-neutral-50;
+  padding: var(--spacing-2xl);
+  box-sizing: border-box;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0px 150px;
+  &.removeBackground {
+    background-image: none !important;
+  }
+
+  img {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .textCommonWidth {
+    max-width: 872px;
+    p {
+      margin: 0;
+    }
+  }
+
+  .signatureTextCls {
+    margin-top: var(--spacing-2xl);
+    .sourceUrlCls {
+      font-size: var(--typography-font-size-4);
+    }
+  }
+}
+
+@media (max-width: $sm-min) {
+  .quoteContainer {
+    background-position: 0px 80px;
+
+    img {
+      width: 96px;
+      height: 96px;
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .quoteTextCls {
+      font-size: var(--typography-font-size-6);
+    }
+
+    .signatureTextCls {
+      font-size: var(--typography-font-size-3);
+      margin-top: var(--spacing-lg);
+      .sourceUrlCls {
+        font-size: var(--typography-font-size-3);
+      }
+    }
+  }
+}

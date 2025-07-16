@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Truncate should render Image successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Box container size-undefined"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-fd-column rt-r-max-w rt-r-h cardContent"
+        style="--max-width: 100%; --height: 100%;"
+      >
+        <div
+          class="rt-Box textSection container"
+          style="--truncateBackgroundColor: white; --truncateLineLimit: 0;"
+        >
+          <div
+            class="rt-Box truncateContent"
+          >
+            <h1
+              class="rt-Heading rt-r-size-6 rt-r-ta-left headingContainer mocked-class-name typography-font-family-default heading"
+              id=""
+            >
+              Title Max 5 Lines
+            </h1>
+            <div
+              class="rt-Text rt-r-ta-left mocked-class-name typography-font-family-default description"
+              id=""
+            >
+              Description copy of no more than 5 lines
+            </div>
+          </div>
+        </div>
+        <span
+          class="rt-Box iconSection icon"
+          style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+        >
+          <span
+            class="icon icon-book"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Truncate should render Text & Icon successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Box container size-undefined"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-fd-column rt-r-max-w rt-r-h cardContent"
+        style="--max-width: 100%; --height: 100%;"
+      >
+        <div
+          class="rt-Box textSection container"
+          style="--truncateBackgroundColor: white; --truncateLineLimit: 0;"
+        >
+          <div
+            class="rt-Box truncateContent"
+          >
+            <h1
+              class="rt-Heading rt-r-size-6 rt-r-ta-left headingContainer mocked-class-name typography-font-family-default heading"
+              id=""
+            >
+              Title Max 5 Lines
+            </h1>
+            <div
+              class="rt-Text rt-r-ta-left mocked-class-name typography-font-family-default description"
+              id=""
+            >
+              Description copy of no more than 5 lines
+            </div>
+          </div>
+        </div>
+        <span
+          class="rt-Box iconSection icon"
+          style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+        >
+          <span
+            class="icon icon-book"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Truncate should render Text & Image successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Box container size-undefined"
+    >
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-fd-column rt-r-max-w rt-r-h cardContent"
+        style="--max-width: 100%; --height: 100%;"
+      >
+        <div
+          class="rt-Box textSection container"
+          style="--truncateBackgroundColor: white; --truncateLineLimit: 0;"
+        >
+          <div
+            class="rt-Box truncateContent"
+          >
+            <h1
+              class="rt-Heading rt-r-size-6 rt-r-ta-left headingContainer mocked-class-name typography-font-family-default heading"
+              id=""
+            >
+              Title Max 5 Lines
+            </h1>
+            <div
+              class="rt-Text rt-r-ta-left mocked-class-name typography-font-family-default description"
+              id=""
+            >
+              Description copy of no more than 5 lines
+            </div>
+          </div>
+        </div>
+        <span
+          class="rt-Box iconSection icon"
+          style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+        >
+          <span
+            class="icon icon-book"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;

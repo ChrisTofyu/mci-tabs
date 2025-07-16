@@ -1,0 +1,59 @@
+@import '../../../styles/colours';
+
+.tagComp {
+  @mixin button-mode(
+    $color,
+    $background-color,
+    $hover-background-color,
+    $active-background-color,
+    $active-color: #fff,
+    $border: none,
+    $shadow: 0px 0px 0px 4px #1049a94d
+  ) {
+    background-color: $background-color;
+    box-shadow: none;
+    border: $border;
+    color: $color;
+    font-family: var(--typography-default-font-family);
+    font-weight: 400;
+    font-size: 14px;
+
+    &:hover {
+      background-color: $hover-background-color;
+    }
+
+    &:focus:not(:hover) {
+      box-shadow: $shadow;
+    }
+
+    &:active {
+      background-color: $active-background-color;
+      color: $active-color;
+    }
+  }
+
+  .default {
+    @include button-mode(
+      $color-neutral-950,
+      $color-neutral-50,
+      $color-neutral-100,
+      $color-blue-500
+    );
+  }
+
+  .emergency {
+    @include button-mode(
+      $color-white,
+      $color-red-600,
+      $color-red-700,
+      $color-red-600
+    );
+  }
+
+  .tagText {
+    font-weight: 400;
+    color: $color-neutral-950;
+    font-size: var(--typography-font-size-1);
+    line-height: var(--typography-line-height-1);
+  }
+}

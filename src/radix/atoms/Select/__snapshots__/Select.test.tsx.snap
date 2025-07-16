@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Should Default Variant render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="select-wrapper size-2"
+      id="Service"
+    >
+      <button
+        aria-autocomplete="none"
+        aria-controls="radix-:r0:"
+        aria-expanded="false"
+        aria-label="Sample"
+        class="custom-select-trigger size-2"
+        data-state="closed"
+        dir="ltr"
+        role="combobox"
+        type="button"
+      >
+        <span
+          style="pointer-events: none;"
+        >
+          2023
+        </span>
+        <span
+          aria-hidden="true"
+          class="custom-select-icon"
+        >
+          <span
+            class="arrow-down size-2"
+            style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+          >
+            <span
+              class="icon icon-chevron-down"
+            />
+          </span>
+          <span
+            class="required-asterisk size-2"
+          >
+            *
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</body>
+`;

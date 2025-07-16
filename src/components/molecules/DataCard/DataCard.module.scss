@@ -1,0 +1,166 @@
+@import '../../../styles/colours';
+
+@mixin apply-size($fontSize, $fontWeight, $lineHeight, $lineClamp: 1) {
+  font-size: var($fontSize);
+  font-weight: $fontWeight;
+  line-height: var($lineHeight);
+  line-clamp: $lineClamp;
+  -webkit-line-clamp: $lineClamp;
+}
+
+@mixin apply-line-clamp {
+  display: -webkit-box;
+  overflow: hidden;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+.dataCardContainer {
+  display: flex;
+  width: 160px;
+  height: 213px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--spacing-md);
+  justify-content: space-between;
+  background-color: $color-white;
+  box-shadow: 0 1px 3px 0 $color-box-shadow;
+  font-family: var(--typography-default-font-family);
+
+  --card-border-width: 0px;
+  --card-border-radius: var(--spacing-md);
+  --card-background-color: unset;
+
+  &.surface {
+    border: 1px solid $color-neutral-100;
+  }
+
+  .headerContainer {
+    width: 100%;
+    display: grid;
+    gap: var(--spacing-xs);
+
+    .header {
+      display: grid;
+      gap: var(--spacing-2xs);
+
+      .heading {
+        @include apply-size(
+          --typography-font-size-5,
+          700,
+          --typography-line-height-5
+        );
+        @include apply-line-clamp();
+
+        color: $color-neutral-950;
+      }
+
+      .subHeading {
+        @include apply-size(
+          --typography-font-size-2,
+          600,
+          --typography-line-height-2,
+          2
+        );
+        @include apply-line-clamp();
+
+        color: $color-neutral-950;
+      }
+    }
+
+    .content {
+      @include apply-size(
+        --typography-font-size-1,
+        400,
+        --typography-line-height-1,
+        5
+      );
+      @include apply-line-clamp();
+
+      color: $color-neutral-600;
+    }
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  &.size {
+    &-2 {
+      width: 248px;
+      height: 331px;
+      padding: var(--spacing-2xl);
+      --card-border-radius: var(--spacing-xl);
+
+      .headerContainer {
+        .header {
+          .heading {
+            @include apply-size(
+              --typography-font-size-8,
+              600,
+              --typography-line-height-8
+            );
+          }
+
+          .subHeading {
+            @include apply-size(
+              --typography-font-size-4,
+              600,
+              --typography-line-height-4,
+              2
+            );
+          }
+        }
+
+        .content {
+          @include apply-size(
+            --typography-font-size-3,
+            400,
+            --typography-line-height-3,
+            7
+          );
+        }
+      }
+    }
+
+    &-3 {
+      width: 348px;
+      height: 464px;
+      padding: var(--spacing-2xl);
+      --card-border-radius: var(--spacing-xl);
+
+      .headerContainer {
+        gap: var(--spacing-md);
+
+        .header {
+          .heading {
+            @include apply-size(
+              --typography-font-size-10,
+              600,
+              --typography-line-height-10
+            );
+          }
+
+          .subHeading {
+            @include apply-size(
+              --typography-font-size-4,
+              600,
+              --typography-line-height-4,
+              2
+            );
+          }
+        }
+
+        .content {
+          @include apply-size(
+            --typography-font-size-4,
+            400,
+            --typography-line-height-4,
+            10
+          );
+        }
+      }
+    }
+  }
+}

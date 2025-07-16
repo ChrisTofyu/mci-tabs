@@ -1,0 +1,13 @@
+@import '../../../styles/colours';
+
+.textCaption {
+  margin: 0;
+
+  &.error {
+    color: $color-red-600;
+  }
+
+  &.success {
+    color: $color-green-800;
+  }
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormFooter Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Flex formContainer"
+    >
+      <div
+        class="rt-Flex formFooterQuest"
+      >
+        <span
+          class="rt-Text typography-font-size-3 typography-font-weight-regular typography-line-height-3 typography-font-family-default"
+        >
+          Don't have an account?
+        </span>
+        <a
+          class="rt-Text rt-reset rt-Link rt-underline-auto link body-md"
+          data-accent-color=""
+          tabindex="0"
+        >
+          Sign Up
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+`;

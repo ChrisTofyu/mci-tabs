@@ -1,0 +1,209 @@
+@import '../../../styles/colours';
+@import '../../../styles/typography';
+
+.donation-component {
+  background-color: $color-white;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  max-width: 328px;
+  box-shadow: 0px 4px 24px $color-box-shadow;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  box-sizing: border-box;
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 24px;
+  }
+
+  .title-container {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .title {
+    font-family: var(--typography-default-font-family);
+    font-weight: var(--typography-font-weight-semibold);
+    color: $color-neutral-950;
+    width: 100%;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .frequency-group,
+  .amount-group {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .toggle-item {
+    flex: 1;
+    min-width: 80px;
+    width: var(--toggle-width);
+    height: var(--toggle-height);
+    padding: var(--toggle-padding);
+
+    font-family: var(--typography-default-font-family);
+    font-weight: var(--typography-font-weight-regular);
+    font-size: var(--typography-font-size-4);
+    line-height: var(--typography-line-height-4);
+    text-align: center;
+
+    border-radius: 12px;
+    border: 0px solid $color-neutral-200;
+    background-color: var(--Background-secondary, #eaebee);
+    color: var(--Text-primary, #17191f);
+    cursor: pointer;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease;
+
+    &[data-state='on'] {
+      background-color: var(--Background-primary, #17191f);
+      color: var(--Text-primary-inverse, #ffffff);
+    }
+  }
+
+  .custom-input {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: var(--typography-font-size-3);
+    color: $color-neutral-900;
+
+    &::placeholder {
+      color: $color-neutral-500;
+    }
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .donate-button {
+    width: 100%;
+    border-radius: 60px;
+    background-color: var(--Button-Primary-default, #1049a9);
+    color: $color-white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    span {
+      font-family: var(--font-family-heading);
+      font-weight: 400;
+      letter-spacing: 0%;
+      color: var(--Text-primary-inverse, #ffffff);
+      white-space: nowrap;
+    }
+
+    &.sm-md {
+      span {
+        font-size: var(--font-size-heading-xs);
+        line-height: var(--line-height-heading-xs);
+      }
+    }
+
+    &.lg-xl {
+      span {
+        font-size: var(--font-size-heading-sm);
+        line-height: var(--line-height-heading-sm);
+      }
+    }
+  }
+
+  &.sm-md {
+    --toggle-width: 93.3333px;
+    --toggle-height: 44px;
+    --toggle-padding: 10px 16px;
+
+    max-width: 328px;
+    padding: 16px;
+    border-radius: 16px;
+
+    .content-container {
+      width: 100%;
+      gap: 24px;
+    }
+
+    .title-container,
+    .form-container,
+    .button-container {
+      width: 100%;
+    }
+
+    .title-container {
+      margin-bottom: 8px;
+
+      .title {
+        font-size: var(--typography-font-size-6);
+        line-height: var(--typography-line-height-6);
+      }
+    }
+
+    .form-container {
+      gap: 16px;
+    }
+  }
+
+  &.lg-xl {
+    --toggle-width: 111.3333px;
+    --toggle-height: 44px;
+    --toggle-padding: 10px 16px;
+
+    max-width: 430px;
+    padding: 40px;
+    border-radius: 32px;
+
+    .content-container {
+      width: 100%;
+      gap: 24px;
+    }
+
+    .title-container,
+    .form-container,
+    .button-container {
+      width: 100%;
+    }
+
+    .title-container {
+      margin-bottom: 8px;
+
+      .title {
+        max-width: 100%;
+        font-size: var(--typography-font-size-7);
+        line-height: var(--typography-line-height-7);
+      }
+    }
+
+    .form-container {
+      gap: 16px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.paymentFormContainer {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form {
+    width: 100%;
+  }
+  .donateBtnContainer {
+    margin: var(--spacing-xl) 0 0 0;
+    button {
+      &:first-child {
+        width: 56px !important;
+        height: 56px !important;
+      }
+      &:last-child {
+        height: 56px !important;
+      }
+    }
+  }
+}

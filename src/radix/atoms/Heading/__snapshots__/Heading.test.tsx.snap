@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should render successfully 1`] = `
+<body>
+  <div>
+    <h1
+      class="rt-Heading rt-r-size-6 headingContainer mocked-class-name typography-font-family-default"
+    />
+  </div>
+</body>
+`;

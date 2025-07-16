@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetailsForm Should render successfully 1`] = `
+<body>
+  <div>
+    <form
+      class="userDetailsForm"
+    >
+      <div
+        class="formInput"
+      >
+        <label
+          for="email"
+        >
+          Your email address
+        </label>
+        <input
+          id="email"
+          name="email"
+          placeholder=""
+          style="margin-bottom: 16px;"
+          type="email"
+        />
+      </div>
+      <div
+        class="formInput"
+      >
+        <label
+          for="firstName"
+        >
+          Fist Name
+        </label>
+        <input
+          id="firstName"
+          name="firstName"
+          placeholder=""
+          style="margin-bottom: 16px;"
+          type="text"
+        />
+      </div>
+      <div
+        class="formInput"
+      >
+        <label
+          for="lastName"
+        >
+          Last Name
+        </label>
+        <input
+          id="lastName"
+          name="lastName"
+          placeholder=""
+          style="margin-bottom: 16px;"
+          type="text"
+        />
+      </div>
+      <div
+        class="rt-Flex rt-r-display-flex rt-r-fd-row rt-r-gap-3 buttonGroupContainer nextBtnContainer"
+      >
+        <button
+          aria-label="icon-chevron-left"
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton lg outline none rt-Box buttonWrapper iconOnly"
+          data-accent-color=""
+        >
+          <div
+            class="buttonContent iconLeft iconOnly"
+          >
+            <span
+              class="icon"
+              style="border-radius: 0;"
+            >
+              <span
+                class="icon icon-chevron-left"
+              />
+            </span>
+          </div>
+        </button>
+        <button
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton lg primary none rt-Box buttonWrapper"
+          data-accent-color=""
+        />
+      </div>
+    </form>
+  </div>
+</body>
+`;

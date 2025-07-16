@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Grid rt-r-gtc-3 rt-r-gap-3 gridContainer gridContainer"
+    />
+  </div>
+</body>
+`;

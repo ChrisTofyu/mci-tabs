@@ -1,0 +1,48 @@
+@import '../../../styles/colours';
+@import '../UserProfile/UserProfile.scss';
+
+.form {
+  display: inline-grid;
+  gap: var(--spacing-lg, 24px);
+  width: 100%;
+
+  .btnGroup {
+    @extend .cancelAndSaveBtn;
+  }
+
+  .formLayout,
+  .formSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+
+  .formLayout,
+  .formSection {
+    gap: var(--spacing-sm, 12px);
+  }
+
+  .formSection {
+    .input {
+      width: 100%;
+    }
+  }
+
+  .headingSection {
+    font-weight: var(--typography-font-weight-semibold) !important;
+    font-size: var(--typography-font-size-4) !important;
+    line-height: var(--typography-line-height-4) !important;
+  }
+
+  .subHeadingSection {
+    font-weight: var(--typography-font-weight-regular) !important;
+    font-size: var(--typography-font-size-2) !important;
+    line-height: var(--typography-line-height-2) !important;
+    color: $color-neutral-600;
+  }
+
+  .editBtn {
+    @extend .userProfileEditBtn;
+  }
+}

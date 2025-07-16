@@ -1,0 +1,47 @@
+@import '../../../styles/breakpoints';
+
+.tinyContainer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Hanken Grotesk', 'Lato', sans-serif;
+  min-height: 144px;
+
+  .mainContainer {
+    background-color: #f4f5f7;
+    border-radius: 10px;
+    width: 521px;
+    padding-left: 3px;
+
+    @media (max-width: $sm-max) {
+      width: 384px;
+    }
+
+    @media (max-width: $xs-min) {
+      width: 100%;
+      border-radius: 0%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 3px;
+
+      .childFilter {
+        font-size: 14px;
+        line-height: 16px;
+        color: #65676b;
+      }
+    }
+
+    .slider {
+      .emptyMsg {
+        font-size: 14px;
+        line-height: 16px;
+        color: #65676b;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+    }
+  }
+}

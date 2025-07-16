@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollArea Component Should Horizontal Scroll render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="root"
+      dir="ltr"
+      style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px; height: 150px; width: 600px;"
+    >
+      <style>
+        [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+      </style>
+      <div
+        class="viewport"
+        data-radix-scroll-area-viewport=""
+        style="overflow-x: scroll; overflow-y: hidden;"
+        tabindex="0"
+      >
+        <div
+          style="min-width: 100%; display: table;"
+        >
+          <div
+            class="rt-Flex rt-r-gap-4 rt-r-p-2 rt-r-w"
+            style="--width: 700px;"
+          >
+            <p
+              class="rt-Text rt-r-lt-both mocked-class-name typography-font-family-default"
+              id=""
+            >
+              Three fundamental aspects of typography are legibility, readability, and
+                aesthetics. Although in a non-technical sense "legible" and "readable"
+                are often used synonymously, typographically they are separate but
+                related concepts.
+            </p>
+            <p
+              class="rt-Text rt-r-lt-both mocked-class-name typography-font-family-default"
+              id=""
+            >
+              Legibility describes how easily individual characters can be
+                distinguished from one another. It is described by Walter Tracy as "the
+                quality of being decipherable and recognisable". For instance, if a "b"
+                and an "h", or a "3" and an "8", are difficult to distinguish at small
+                sizes, this is a problem of legibility.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="scrollbar size-2"
+        data-orientation="horizontal"
+        style="position: absolute; bottom: 0px; left: 0px; --radix-scroll-area-thumb-width: 18px;"
+      />
+    </div>
+  </div>
+</body>
+`;

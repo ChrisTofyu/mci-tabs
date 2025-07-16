@@ -1,0 +1,80 @@
+/* Spacing Token Declaration */
+:root {
+  --spacing-2xs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 64px;
+  --spacing-5xl: 80px;
+}
+
+/**
+ * Selector Declaration
+ * Use the 2xs, xs, etc for when manually adding class for space (Recommended for custom spacing).
+ * Use 1, 2, 3 only for when need the scale based props for common components representations.
+ */
+.spacing {
+  &-2xs,
+  &-1 {
+    margin: var(--spacing-2xs);
+    padding: var(--spacing-2xs);
+  }
+
+  &-xs,
+  &-2 {
+    margin: var(--spacing-xs);
+    padding: var(--spacing-xs);
+  }
+
+  &-sm,
+  &-3 {
+    margin: var(--spacing-sm);
+    padding: var(--spacing-sm);
+  }
+
+  &-md,
+  &-4 {
+    margin: var(--spacing-md);
+    padding: var(--spacing-md);
+  }
+
+  &-lg,
+  &-5 {
+    margin: var(--spacing-lg);
+    padding: var(--spacing-lg);
+  }
+
+  &-xl,
+  &-6 {
+    margin: var(--spacing-xl);
+    padding: var(--spacing-xl);
+  }
+
+  &-2xl,
+  &-7 {
+    margin: var(--spacing-2xl);
+    padding: var(--spacing-2xl);
+  }
+
+  &-3xl,
+  &-8 {
+    margin: var(--spacing-3xl);
+    padding: var(--spacing-3xl);
+  }
+
+  &-4xl,
+  &-9 {
+    margin: var(--spacing-4xl);
+    padding: var(--spacing-4xl);
+  }
+
+  &-5xl,
+  &-10 {
+    margin: var(--spacing-5xl);
+    padding: var(--spacing-5xl);
+  }
+}

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoBlock should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-Box rt-r-px-7 rt-r-py-9 fixed videoContainer tertiary lg-layout"
+    >
+      <div
+        class="rt-Flex rt-r-fd-column rt-r-ai-center"
+      >
+        <div
+          class="rt-Flex rt-r-fd-column rt-r-ai-start"
+        >
+          <div
+            class="rt-Box rt-r-pb-5 videoTitleBox"
+          />
+          <div
+            class="rt-Box rt-r-w rt-r-h"
+            style="--width: 944px; --height: 532px;"
+          >
+            <div
+              class="videoContainer"
+            >
+              <div
+                class="imageContainer"
+              >
+                <button
+                  class="buttonContainer"
+                >
+                  <img
+                    alt="Play Button"
+                    aria-hidden="true"
+                    class="rt-Skeleton imgWrapper playButton button lg"
+                    inert=""
+                    src="SvgrURL"
+                    tabindex="-1"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

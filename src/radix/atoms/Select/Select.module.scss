@@ -1,0 +1,223 @@
+@import '../../../components/molecules/UserProfile/UserProfile.scss';
+@import '../../../styles/colours';
+
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+}
+
+.requiredAsterisk {
+  color: $color-red-600;
+  position: absolute;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  width: var(--spacing-xs);
+  height: var(--spacing-lg);
+  font-size: var(--typography-font-size-5);
+
+  &.size-1 {
+    margin-left: 18px;
+    margin-bottom: 5px;
+  }
+}
+
+.customSelectTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 var(--spacing-md);
+  border: 1px solid $color-neutral-300;
+  background-color: $color-white;
+  font-size: var(--typography-font-size-2);
+  cursor: pointer;
+  gap: var(--spacing-xs);
+  height: 60px;
+  border-radius: var(--spacing-sm);
+
+  // Prevent the trigger from overflowing its container
+  overflow: hidden;
+  white-space: nowrap;
+
+  &[data-placeholder] {
+    > span:first-of-type {
+      color: $color-neutral-600 !important;
+    }
+  }
+
+  &.size-1 {
+    height: 32px;
+    border-radius: var(--spacing-xs);
+
+    > span:first-of-type {
+      font-size: var(--typography-font-size-2) !important;
+      line-height: var(--typography-line-height-2) !important;
+    }
+  }
+
+  // Remove default overflow logic from here; delegate to children
+  > span:first-of-type {
+    @include apply-text-styles(
+      --typography-font-size-4,
+      --typography-line-height-4,
+      --typography-font-weight-regular,
+      $color-neutral-950
+    );
+
+    flex: 1;
+    min-width: 0 !important; // IMPORTANT: enables truncation with flex
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: start;
+    display: inline-block;
+    width: var(--radix-select-trigger-width);
+  }
+
+  &:not(:disabled) {
+    &:hover {
+      border: 1px solid $color-blue-400;
+    }
+
+    &:focus {
+      border: 1px solid $color-blue-500;
+      box-shadow: 0 0 0 4px $color-button-shadow;
+    }
+
+    &:active {
+      border: 1px solid $color-blue-500;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    &.error {
+      border: 1px solid $color-red-600;
+    }
+  }
+
+  &:disabled {
+    background-color: $color-neutral-50;
+    cursor: not-allowed;
+  }
+}
+
+.customSelectIcon {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2xs);
+  flex-shrink: 0;
+  color: $color-neutral-950;
+
+  .arrowDown {
+    &.size-1 {
+      span:first-of-type {
+        width: 16px !important;
+        height: 16px !important;
+      }
+    }
+
+    span:first-of-type {
+      width: 24px !important;
+      height: 24px !important;
+    }
+
+    &.opened {
+      rotate: 180deg;
+      transition: rotate ease 0.3s;
+    }
+  }
+}
+
+.customSelectContent {
+  width: var(--radix-select-trigger-width);
+  max-width: 100%;
+  background: $color-white;
+  border-radius: var(--spacing-sm);
+  padding: var(--spacing-xs);
+  box-shadow: 0px 2px 4px -2px $color-box-shadow;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 100;
+  margin: 0 !important;
+  max-height: var(--radix-popper-available-height);
+  height: 100%;
+}
+
+.customSelectViewport {
+  gap: var(--spacing-2xs);
+  display: grid;
+  padding-right: 5px;
+}
+
+.customSelectItem {
+  @include apply-text-styles(
+    --typography-font-size-2,
+    --typography-line-height-2,
+    --typography-font-weight-regular,
+    $color-neutral-950
+  );
+
+  padding: 0 var(--spacing-xs);
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 40px;
+  border-radius: var(--spacing-xs);
+  align-content: center;
+
+  &:hover {
+    background-color: $color-neutral-50;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:not([data-state='checked']):focus-visible {
+    background-color: $color-neutral-50;
+  }
+
+  &[data-state='checked'] {
+    background-color: $color-neutral-950;
+    color: $color-white !important;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2xs);
+  }
+
+  &[aria-disabled] {
+    color: $color-neutral-600 !important;
+
+    &:hover {
+      background-color: $color-white;
+      cursor: not-allowed;
+    }
+  }
+
+  span:first-of-type {
+    padding-left: 0;
+  }
+
+  &:not(:has(.itemIndicator)) span:first-of-type {
+    padding-left: 20px;
+  }
+
+  &.size-1 {
+    height: 32px;
+    font-size: var(--spacing-sm);
+    padding: 0 var(--spacing-2xs);
+  }
+}
+
+.scrollContainer {
+  > [data-radix-scroll-area-viewport] > div:first-of-type {
+    display: flex !important;
+  }
+}

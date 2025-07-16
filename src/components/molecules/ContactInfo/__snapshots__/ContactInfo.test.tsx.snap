@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInfo Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface container size-3 inverse"
+    >
+      <form
+        class="form"
+      >
+        <div
+          class="rt-Box formLayout"
+        >
+          <h1
+            class="rt-Heading rt-r-size-6 headingContainer mocked-class-name typography-font-family-default headingSection"
+            id=""
+          >
+            Contact
+          </h1>
+          <div
+            class="rt-Box formSection"
+          >
+            <span
+              class="rt-Text rt-r-ta-left mocked-class-name typography-font-family-default subHeadingSection"
+              id=""
+            >
+              Phone numbers
+            </span>
+            <div
+              class="formInput"
+            >
+              <label
+                for="primaryPhone"
+              >
+                Primary Phone
+              </label>
+              <input
+                id="primaryPhone"
+                name="primaryPhone"
+                placeholder=""
+                readonly=""
+                type="text"
+              />
+            </div>
+            <div
+              class="formInput"
+            >
+              <label
+                for="alternatePhone"
+              >
+                Alternate Phone
+              </label>
+              <input
+                id="alternatePhone"
+                name="alternatePhone"
+                placeholder=""
+                readonly=""
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          aria-label="Edit"
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl secondary none contactBtn"
+          data-accent-color=""
+          type="button"
+        >
+          <div
+            class="buttonContent iconLeft"
+          >
+            <span>
+              Edit
+            </span>
+            <span
+              class="icon"
+              style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+            >
+              <span
+                class="icon icon-edit"
+              />
+            </span>
+          </div>
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+`;

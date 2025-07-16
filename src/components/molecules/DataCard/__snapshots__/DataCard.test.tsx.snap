@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Data Card Should Default Variant render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface dataCardContainer size-1 default"
+    >
+      <div
+        class="rt-Box headerContainer"
+      >
+        <div
+          class="rt-Box header"
+        >
+          <p
+            class="rt-Text mocked-class-name typography-font-family-default heading"
+          >
+            4M+
+          </p>
+          <p
+            class="rt-Text mocked-class-name typography-font-family-default subHeading"
+          >
+            People served
+          </p>
+        </div>
+        <p
+          class="rt-Text mocked-class-name typography-font-family-default content"
+        >
+          Our livelihood improvement programs enable millions globally to reach better outcomes
+        </p>
+      </div>
+      <div
+        class="rt-Box footer"
+      >
+        <div
+          class="tagComp"
+          style="pointer-events: none;"
+        >
+          <span
+            class="rt-reset rt-Badge rt-r-size-1 rt-variant-soft default"
+            data-accent-color=""
+            style="padding: 4px 25px; border-radius: 20px; cursor: unset;"
+            tabindex="0"
+          >
+            <span
+              class="rt-reset rt-AvatarRoot rt-r-size-1 rt-variant-soft"
+              data-accent-color=""
+              data-radius="full"
+              style="margin-left: -19px;"
+            >
+              <span
+                class="rt-AvatarFallback"
+              />
+            </span>
+            Water
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Data Card Should Surface Variant render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface dataCardContainer size-1 surface"
+    >
+      <div
+        class="rt-Box headerContainer"
+      >
+        <div
+          class="rt-Box header"
+        >
+          <p
+            class="rt-Text mocked-class-name typography-font-family-default heading"
+          >
+            4M+
+          </p>
+          <p
+            class="rt-Text mocked-class-name typography-font-family-default subHeading"
+          >
+            People served
+          </p>
+        </div>
+        <p
+          class="rt-Text mocked-class-name typography-font-family-default content"
+        >
+          Our livelihood improvement programs enable millions globally to reach better outcomes
+        </p>
+      </div>
+      <div
+        class="rt-Box footer"
+      >
+        <div
+          class="tagComp"
+          style="pointer-events: none;"
+        >
+          <span
+            class="rt-reset rt-Badge rt-r-size-1 rt-variant-soft default"
+            data-accent-color=""
+            style="padding: 4px 25px; border-radius: 20px; cursor: unset;"
+            tabindex="0"
+          >
+            <span
+              class="rt-reset rt-AvatarRoot rt-r-size-1 rt-variant-soft"
+              data-accent-color=""
+              data-radius="full"
+              style="margin-left: -19px;"
+            >
+              <span
+                class="rt-AvatarFallback"
+              />
+            </span>
+            Food
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

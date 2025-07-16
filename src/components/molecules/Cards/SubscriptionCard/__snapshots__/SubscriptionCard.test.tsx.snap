@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subscription Card Should Child Sponsorship Variant render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface cardContainer"
+      tabindex="0"
+    >
+      <div
+        data-radix-aspect-ratio-wrapper=""
+        style="position: relative; width: 100%; padding-bottom: 66.66666666666667%;"
+      >
+        <div
+          style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px;"
+        >
+          <img
+            alt="Child avatar unavailable"
+            class="imgWrapper imageBlock"
+            src="/src/assets/images/childImage.svg"
+            style="--imgWidth: 100%; --imgHeight: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="rt-Box profileBlock"
+      >
+        <div
+          class="rt-Box head"
+        >
+          <h1
+            class="rt-Heading rt-r-size-6 headingContainer mocked-class-name typography-font-family-default childName"
+            id=""
+          >
+            Bryner James
+          </h1>
+          <span
+            class="rt-Text mocked-class-name typography-font-family-default since"
+            id=""
+          >
+            Sponsored since 2025
+          </span>
+        </div>
+        <div
+          class="rt-Box foot"
+        >
+          <div
+            class="rt-Box location"
+          >
+            <span
+              style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+            >
+              <span
+                class="icon icon-location"
+                style="width: 16px; height: 16px;"
+              />
+            </span>
+            <span
+              class="rt-Text mocked-class-name typography-font-family-default"
+              id=""
+            >
+              Guatemala
+            </span>
+          </div>
+          <div
+            class="rt-Box birthDate"
+          >
+            <span
+              style="border-radius: 0; display: grid; align-items: center; justify-content: center;"
+            >
+              <span
+                class="icon icon-gift"
+                style="width: 16px; height: 16px;"
+              />
+            </span>
+            <span
+              class="rt-Text mocked-class-name typography-font-family-default"
+              id=""
+            >
+              Oct 15, 2016
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Subscription Card Should Sponsor a child Variant render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface cardContainer enabledClick"
+      tabindex="0"
+    >
+      <div
+        data-radix-aspect-ratio-wrapper=""
+        style="position: relative; width: 100%; padding-bottom: 66.66666666666667%;"
+      >
+        <div
+          style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px;"
+        >
+          <img
+            alt="Add another sponsorship"
+            class="imgWrapper imageBlock"
+            src="SvgrURL"
+            style="--imgWidth: 100%; --imgHeight: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="rt-Box profileBlock"
+      >
+        <div
+          class="rt-Box head"
+        >
+          <h1
+            class="rt-Heading rt-r-size-6 headingContainer mocked-class-name typography-font-family-default childName"
+            id=""
+          >
+            Bryner James
+          </h1>
+          <span
+            class="rt-Text mocked-class-name typography-font-family-default since"
+            id=""
+          >
+            Sponsored since 2025
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

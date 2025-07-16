@@ -1,0 +1,114 @@
+@import '../../../styles/breakpoints';
+
+.videoContainer {
+  width: inherit;
+  height: inherit;
+
+  .imageContainer {
+    padding: 0;
+    width: inherit;
+    height: inherit;
+
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 0;
+      border: 0;
+      background-color: transparent;
+      width: inherit;
+      height: inherit;
+
+      &:disabled {
+        cursor: default;
+      }
+    }
+
+    .videoPlaceholder {
+      position: relative;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      border-radius: 20px;
+      color: #fff;
+      background-color: #0f0f0f;
+    }
+
+    .playButton {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      z-index: 2000;
+
+      @media (max-width: $lg-min) {
+        width: 80px;
+        height: 80px;
+      }
+
+      @media (max-width: $md-min) {
+        width: 69px;
+        height: 69px;
+      }
+
+      @media (max-width: $xs-min) {
+        width: 44px;
+        height: 44px;
+      }
+
+      &.sm {
+        width: 44px;
+        height: 44px;
+      }
+
+      &.md {
+        width: 69px;
+        height: 69px;
+      }
+
+      &.lg {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+
+  .embedContainer {
+    padding: 0;
+    width: inherit;
+    height: inherit;
+
+    iframe {
+      position: relative;
+      top: 0;
+      left: 0;
+      border-radius: 20px;
+      border: none;
+    }
+  }
+
+  .imageContainer .videoPlaceholder,
+  .embedContainer iframe {
+    max-width: 96vw;
+
+    &.none {
+      width: var(--videoWidth, 100vw);
+      height: var(--videoHeight, 100vh);
+    }
+
+    &.lg {
+      width: 1096px;
+      height: 618px;
+    }
+
+    &.md {
+      width: 944px;
+      height: 532px;
+    }
+
+    &.sm {
+      width: 352px;
+      height: 198px;
+    }
+  }
+}

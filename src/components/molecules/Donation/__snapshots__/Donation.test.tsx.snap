@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Donation Component Snapshot matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="donation-component sm-md"
+  >
+    <div
+      class="content-container"
+    >
+      <div
+        class="title-container"
+      >
+        <p
+          class="rt-Text mocked-class-name typography-font-family-default title"
+          id=""
+          text="Support Our Mission"
+        >
+          Support Our Mission
+        </p>
+      </div>
+      <div
+        class="form-container"
+      >
+        <div
+          class="frequency-group"
+          dir="ltr"
+          role="group"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <button
+            aria-checked="true"
+            class="toggle-item"
+            data-radix-collection-item=""
+            data-state="on"
+            role="radio"
+            tabindex="-1"
+            type="button"
+          >
+            One-time
+          </button>
+          <button
+            aria-checked="false"
+            class="toggle-item"
+            data-radix-collection-item=""
+            data-state="off"
+            role="radio"
+            tabindex="-1"
+            type="button"
+          >
+            Monthly
+          </button>
+        </div>
+        <div
+          class="amount-group"
+          dir="ltr"
+          role="group"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <button
+            aria-checked="true"
+            class="toggle-item"
+            data-radix-collection-item=""
+            data-state="on"
+            role="radio"
+            tabindex="-1"
+            type="button"
+          >
+            $500
+          </button>
+          <button
+            aria-checked="false"
+            class="toggle-item"
+            data-radix-collection-item=""
+            data-state="off"
+            role="radio"
+            tabindex="-1"
+            type="button"
+          >
+            $1000
+          </button>
+          <button
+            aria-checked="false"
+            class="toggle-item"
+            data-radix-collection-item=""
+            data-state="off"
+            role="radio"
+            tabindex="-1"
+            type="button"
+          >
+            $1500
+          </button>
+        </div>
+        <div
+          class="formInput custom-input"
+        >
+          <input
+            id="customAmount"
+            min="0"
+            placeholder="Custom amount"
+            step="1"
+            type="number"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="button-container"
+      >
+        <button
+          aria-label="Donate Now"
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button wvButton xl primary special donate-button sm-md"
+          data-accent-color=""
+        >
+          <div
+            class="buttonContent textOnly"
+          >
+            <span>
+              Donate Now
+            </span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

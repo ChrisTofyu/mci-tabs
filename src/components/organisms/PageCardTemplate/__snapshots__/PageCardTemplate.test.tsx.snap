@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page Should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="radix-themes"
+      data-accent-color="indigo"
+      data-gray-color="slate"
+      data-has-background="true"
+      data-is-root-theme="true"
+      data-panel-background="translucent"
+      data-radius="medium"
+      data-scaling="100%"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="imageContainer"
+          style="--background-image: url('SvgrURL');"
+        >
+          <div
+            class="frame"
+          >
+            <div
+              class="formContainer"
+            >
+              <div
+                class="rt-reset rt-BaseCard rt-Card rt-r-size-1 rt-variant-surface card"
+              >
+                <div
+                  class="rt-Flex rt-r-display-flex rt-r-fd-column templateContent"
+                >
+                  Hi
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

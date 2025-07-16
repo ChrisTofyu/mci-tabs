@@ -1,0 +1,245 @@
+.transparent-box {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  width: 25vw;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 3vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-color 0.3s;
+  box-shadow: 2px 4px #888888;
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+
+  &:active {
+    background-color: gray;
+  }
+
+  &-second {
+    margin-top: 1rem;
+  }
+
+  .visit-count-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    flex-direction: row;
+    gap: 1vw;
+  }
+
+  .visit-count {
+    color: black;
+    font-weight: 500;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    display: block;
+    max-width: 400px;
+  }
+
+  .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .raised-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+
+    .raised-amount {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .raised-label {
+      font-size: 1rem;
+      font-weight: 400;
+      color: black;
+    }
+  }
+}
+
+.hud-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start;
+  gap: 0; /* No space between stacked items */
+  position: relative;
+  z-index: 1; /* Make sure it sits above background */
+  margin-left: -10vw;
+}
+
+/*-----------------------------------------/*-----------------------------------------*/
+
+.hud-box {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 32vw;
+  min-height: 150px; // or whatever works visually
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.hud-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 0.25vw;
+  width: 100%;
+  min-height: 100px;
+}
+
+.hud-stat {
+  transform: scale(0.8);
+  flex: 1;
+  min-width: 0; // ensures overflow is handled
+  max-width: 10vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  word-break: break-word;
+  height: 100%;
+}
+.hud-stars-available-wrapper {
+  display: flex;
+  flex-direction: column; // stack number+icon and label vertically
+  align-items: center;
+  justify-content: center;
+  gap: -100vh;
+}
+
+.number-and-star {
+  display: flex;
+  flex-direction: row; // number and star icon side by side
+  align-items: center;
+  gap: 0.25vw;
+}
+
+.hud-stars-available {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.hud-stat-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hud-value {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.hud-label {
+  font-size: 1vw;
+  color: black;
+  white-space: nowrap;
+  margin-top: 0rem;
+}
+
+.divider {
+  border-right: 2px solid black;
+  height: 100%;
+  align-self: stretch;
+  margin: 0 0.5vw;
+  z-index: 9999;
+}
+
+.star-icon {
+  width: 1em;
+  height: auto;
+}
+
+.hud-visit-count {
+  color: black;
+  position: static;
+  margin-left: 0px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 200px;
+}
+
+.hud-donate-btn {
+  width: 8vw;
+  height: 7vh;
+  background-color: #1049a9;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: black;
+  cursor: pointer;
+}
+
+#donate-btn:hover {
+  background-color: #406dba;
+}
+
+#donate-btn:active {
+  background-color: #406dba;
+}
+
+.transparent-box-second {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: black;
+  position: relative;
+  border-radius: 20px;
+  width: 32vw;
+  height: 28vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 2rem auto; // centers horizontally
+}
